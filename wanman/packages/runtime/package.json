@@ -1,0 +1,27 @@
+{
+  "name": "@wanman/runtime",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/entrypoint.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@wanman/core": "workspace:*",
+    "better-sqlite3": "^11.7.0",
+    "ws": "^8.19.0"
+  },
+  "optionalDependencies": {
+    "@sandbank.dev/db9": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.18.1",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.0"
+  }
+}

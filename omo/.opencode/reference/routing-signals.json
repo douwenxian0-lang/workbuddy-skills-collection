@@ -1,0 +1,68 @@
+{
+  "schema_version": "v1",
+  "matrix_path": ".opencode/reference/routing-matrix.md",
+  "routes": [
+    {
+      "route_id": "architecture_integration",
+      "bucket": "architecture/integration",
+      "primary_pack_ids": ["architecture-integration"],
+      "default_category": "deep",
+      "helper_ids": ["review-work", "Prometheus", "Oracle", "Librarian", "Explore", "git-master"],
+      "adjacent_pack_ids": ["developer-experience"],
+      "posture": "none",
+      "source_anchor": "#ZY"
+    },
+    {
+      "route_id": "web_mobile_ui",
+      "bucket": "web/mobile UI",
+      "primary_pack_ids": ["frontend-web", "mobile-app"],
+      "default_category": "visual-engineering",
+      "helper_ids": ["frontend-ui-ux", "review-work", "Prometheus", "Oracle", "Explore"],
+      "browser_helper_ids": ["agent-browser", "dev-browser"],
+      "adjacent_pack_ids": [],
+      "posture": "supplementary",
+      "source_anchor": "#NV"
+    },
+    {
+      "route_id": "backend_api",
+      "bucket": "backend/API",
+      "primary_pack_ids": ["backend-node", "backend-python", "backend-jvm", "backend-dotnet", "backend-go"],
+      "default_category": "quick",
+      "helper_ids": ["review-work", "Prometheus", "Oracle", "Context7", "Librarian", "Explore", "git-master"],
+      "adjacent_pack_ids": ["documentation-sdk"],
+      "posture": "none",
+      "source_anchor": "#SJ"
+    },
+    {
+      "route_id": "systems_performance",
+      "bucket": "systems/performance",
+      "primary_pack_ids": ["systems-rust", "systems-c-cpp", "functional-platform", "php-ruby-platform"],
+      "default_category": "deep",
+      "helper_ids": ["review-work", "Prometheus", "Oracle", "Explore", "Librarian", "git-master"],
+      "adjacent_pack_ids": [],
+      "posture": "none",
+      "source_anchor": "#QZ"
+    },
+    {
+      "route_id": "data_security",
+      "bucket": "data/security",
+      "primary_pack_ids": ["data-ml-platform", "database-engineering", "security-engineering"],
+      "default_category": "deep",
+      "helper_ids": ["review-work", "Prometheus", "Oracle", "Context7", "Librarian", "Explore", "git-master"],
+      "adjacent_pack_ids": [],
+      "posture": "none",
+      "source_anchor": "#RQ"
+    },
+    {
+      "route_id": "qa_deployment",
+      "bucket": "QA/deployment",
+      "primary_pack_ids": ["qa-validation", "devops-platform"],
+      "default_category": "quick",
+      "helper_ids": ["review-work", "git-master", "Prometheus", "Oracle", "Explore", "Context7"],
+      "browser_helper_ids": ["agent-browser", "dev-browser"],
+      "adjacent_pack_ids": ["release-engineering"],
+      "posture": "none",
+      "source_anchor": "#HJ"
+    }
+  ]
+}

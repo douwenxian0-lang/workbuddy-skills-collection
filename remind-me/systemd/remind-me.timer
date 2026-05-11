@@ -1,0 +1,11 @@
+[Unit]
+Description=Remind Me Skill Timer
+
+[Timer]
+OnBootSec=30
+OnUnitActiveSec=60
+OnActiveSec=30
+Unit=remind-me.service
+
+[Install]
+WantedBy=default.target

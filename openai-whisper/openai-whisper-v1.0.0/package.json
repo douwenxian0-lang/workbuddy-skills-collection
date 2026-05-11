@@ -1,0 +1,14 @@
+{
+  "name": "openai-whisper",
+  "version": "1.0.0",
+  "description": "Local speech-to-text with the Whisper CLI (no API key).",
+  "author": "OpenClaw Team",
+  "license": "MIT",
+  "created": "2026-02-23T11:46:00.707613",
+  "type": "system-skill",
+  "files": [
+    "SKILL.md"
+  ],
+  "file_count": 1,
+  "source": "OpenClaw Official"
+}
