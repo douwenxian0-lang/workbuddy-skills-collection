@@ -46,16 +46,59 @@ chmod 600 "$TMP/gh_creds"
 ## 标准推送命令（可直接抄）
 ```bash
 cd <repo>
-env -u http_proxy -u https_proxy -u HTTP_PROXY -u HTTPS_PROXY \
-  GIT_TERMINAL_PROMPT=0 \
-  git -c credential.helper="store --file=$TMP/gh_creds" \
-      -c http.proxy= -c https.proxy= \
-      -c http.version=HTTP/1.1 \
-      -c http.lowSpeedLimit=0 -c http.lowSpeedTime=999999 \
-      push --force --progress origin main
+timeout --foreground 120 \
+  env -u http_proxy -u https_proxy -u HTTP_PROXY -u HTTPS_PROXY \
+    GIT_TERMINAL_PROMPT=0 \
+    git -c credential.helper="store --file=$TMP/gh_creds" \
+        -c http.proxy= -c https.proxy= \
+        -c http.version=HTTP/1.1 \
+        -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=30 \
+        push --force --progress origin main
 ```
 
-大仓库务必包一层**重试循环**（见 `scripts/push_retry.sh`）。单次 80 MiB 上传实测约 20 秒，失败点几乎都在收尾的第二次连接（`curl 28 Failed to connect` / `remote end hung up unexpectedly`），重试 1~3 次基本必成。
+### ⚠️ 必须给单次尝试套 `timeout`（最关键的教训）
+连接被 GitHub 掐断后，git **不会退出，而是无限期挂起**：进程还活着、CPU 恒 0.1s、连接停在 `CLOSE_WAIT`、日志不再增长。实测挂过 **15 分钟以上**。
+
+**绝对不要用 `-c http.lowSpeedLimit=0 -c http.lowSpeedTime=999999` 去"防止超时"——那恰好关掉了唯一的自动脱困机制。** 正确做法是反过来：
+- 设一个真实的低速阈值 `lowSpeedLimit=1000` + `lowSpeedTime=30`（30 秒低于 1 KiB/s 就自己断）
+- 外层再套硬超时 `timeout --foreground 120`
+- `--foreground` 不能省，否则 git 收不到中断信号
+
+正常一次上传 80 MiB 只要 20 秒左右，所以 120 秒超时绰绰有余；跑满 120 秒 = 已经卡死，杀掉重试。
+
+失败点几乎都在收尾的第二次连接（`curl 28 Failed to connect` / `curl 35 Recv failure` / `remote end hung up unexpectedly`），**此时前 15 个对象其实已经写进远程了，重试会很快**。用重试循环（见 `scripts/push_retry.sh`）跑 3~8 次基本必成。
+
+## 备用通道：git 协议彻底不通时走 REST API（`scripts/api_push.py`）
+
+如果 `api.github.com`（或 `gh api`）通、但 `git push` 连续 5 次以上都失败，**不要再死磕重试**——直接用 GitHub REST API 发布提交，完全绕开 git 传输协议。
+
+原理：手动构造 `blob → tree(base_tree + 变更) → commit(parents=[远程sha]) → PATCH ref`。
+只需要传输**变更的文件**，比推整个 pack 还省。
+
+```bash
+python scripts/api_push.py <仓库绝对路径> <owner> <repo> [分支=main]
+```
+
+实测：8 轮 git push 全败（含 3 次 120 秒超时）的场景下，API 通道一次通过。
+
+### 让远程 SHA 和本地完全一致的小技巧
+GitHub 会**原样保留**你传的作者/提交者日期（含 `+0800` 时区）和提交信息，所以只要元数据一致，它算出的 SHA 就和本地一模一样。
+
+唯一的坑是**提交信息结尾的换行**：`git log --format=%B` 会多带一个换行，直接用它会算出不同 SHA。正确做法是从 `git cat-file commit <sha>` 里取第一个空行之后的**精确字节**：
+
+```python
+header, message = subprocess.run(["git","cat-file","commit",sha],
+                                 capture_output=True).stdout.decode().split("\n\n", 1)
+```
+
+用这份 message 建提交，实测 SHA 与本地 `HEAD` 逐位相符 → 本地/远程 0/0 同步，不需要事后 `--force`。
+若仍不一致，内容也一定正确（那只是分支引用指向另一个等值提交），下次推送用 `--force` 即可。
+
+### API 通道收尾
+- API 创建的是**等值提交**，远程历史干净，不需要额外清理
+- 校验方式与 git 推送相同：拉远程 tree 逐条比对 blob 集合，差集必须为 0
+- 本地 `refs/remotes/origin/main` 不会自动更新，SHA 一致时用
+  `git update-ref refs/remotes/origin/main <sha>` 手动对齐
 
 ## 判断"真卡住"还是"在算"
 ```bash
@@ -90,11 +133,12 @@ for g in $(find . -mindepth 2 -maxdepth 3 -name ".git.__hold"); do mv "$g" "${g%
 
 ### 坑 2：`git add` 被超长路径生成的非法文件名卡死
 Windows MAX_PATH 截断会产生**结尾带点号**的文件名，`git add` 直接 `fatal: adding files failed`。
-用容错模式跳过，坏文件会留在 `git status` 里但不阻塞：
+先用容错模式跳过，坏文件会留在 `git status` 里但不阻塞：
 ```bash
 git add -A --ignore-errors 2> add_err.txt
 grep -c "^error:" add_err.txt          # 看跳过了几个
 ```
+**但不要就此放过**——这些文件其实能修好并纳管：用 `\\?\` 扩展路径重命名即可（`os.path.abspath` 会把结尾点号吃掉，必须手工拼路径）。完整做法见 `repair-mangled-filenames` 技能。
 
 ### 坑 3：`core.quotepath` 导致路径比对全错
 对比文件清单时中文路径会被引号+八进制转义，务必加 `-c core.quotepath=false`：
