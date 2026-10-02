@@ -1,0 +1,9 @@
+skill-manifest-version: 1
+skill-id: 7c3e595324f745bb2fa29f660d9bc91fd5f6e6af3b66d2d4a63c7c901d096729
+
+files:
+  0e0664cf32b325b43443fe8bc3861615f2aee62c26fdc8f5c4e16ea10cb182ac  SKILL.md
+  54c632a23b1e2ad39f8337d774481327c84ad7a44730602d29aac73336f9fac8  reference.md
+  a8d3f515698087c48f402219aabeed044fa5388eecdfdb80986b722f360fdce7  scripts/install.sh
+  284b0b5dedd72b2f7fd13693facae53060d6e5fe1a4d8ea3c47654e07761e464  scripts/mtuser-pt-passport-1.0.5.tgz
+  ea2eaa15bb480a3cb6d46fe9a0bcf3d09c600d78ef744622624eefcf0138fbda  scripts/qrcode-image.sh

@@ -1,0 +1,9 @@
+{
+  "name": "wechat-article-search",
+  "installedAt": 1778133008141,
+  "source": "marketplace",
+  "iconSource": "wechat-article-search",
+  "version": "0.1.1",
+  "skillId": "skill_2053083784548929536",
+  "installedContentHash": "sha256:1588c137f03079ac274d594026d4ef7b024651b103c9e86f165d9c075050bc37"
+}

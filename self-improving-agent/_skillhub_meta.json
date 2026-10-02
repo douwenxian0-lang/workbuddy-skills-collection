@@ -1,7 +1,9 @@
 {
   "slug": "self-improving-agent",
-  "name": "Self-Improving Agent",
-  "version": "3.0.21",
-  "installedAt": 1778123974183,
-  "source": "skillhub"
+  "name": "self-improving-agent",
+  "version": "3.0.24",
+  "installedAt": 1782659751008,
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779730,
+  "installedContentHash": "sha256:704d5870c5f1620028cdf99d7f457dcecd3cf19c30a209d6b6de168648a1ee13"
 }

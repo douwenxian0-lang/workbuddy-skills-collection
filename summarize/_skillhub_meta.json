@@ -3,5 +3,7 @@
   "name": "Summarize",
   "version": "1.0.0",
   "installedAt": 1778123970691,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779732,
+  "installedContentHash": "sha256:f95715d506e7b6e41638b3313ae07ddf178f255af06b4bb38c40f81e2d23d82d"
 }

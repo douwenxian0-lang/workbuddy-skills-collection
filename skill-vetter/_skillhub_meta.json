@@ -3,5 +3,7 @@
   "name": "Skill Vetter",
   "version": "1.0.0",
   "installedAt": 1778123986708,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779731,
+  "installedContentHash": "sha256:aa98ec05023b529b0ea25954f13e4be0f5f553178522a1f3f65190d00a62b3a1"
 }

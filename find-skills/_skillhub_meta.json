@@ -1,7 +1,9 @@
 {
   "slug": "find-skills",
-  "name": "Find Skills",
-  "version": "0.1.0",
-  "installedAt": 1778123982888,
-  "source": "skillhub"
+  "name": "find-skills",
+  "version": "1.0.0",
+  "installedAt": 1781961855563,
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779723,
+  "installedContentHash": "sha256:74cf5f813dc15dcec466035f8bfb03ba73a93ee98d886b44c1b873afe9175d9f"
 }

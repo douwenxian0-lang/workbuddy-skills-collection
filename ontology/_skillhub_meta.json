@@ -3,5 +3,7 @@
   "name": "ontology",
   "version": "1.0.4",
   "installedAt": 1778123992206,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779729,
+  "installedContentHash": "sha256:b7dd3637d3036f3c84655708766db17970feb507b2c2a231308a9f249a33e741"
 }

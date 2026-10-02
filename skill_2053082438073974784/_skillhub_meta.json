@@ -1,0 +1,9 @@
+{
+  "name": "新闻摘要",
+  "installedAt": 1778133114234,
+  "source": "marketplace",
+  "iconSource": "news-summary",
+  "version": "1.0.1",
+  "skillId": "skill_2053082438073974784",
+  "installedContentHash": "sha256:1ef51a9a70fc45cc0f32ca7c9a5926acb7e2d83fb7498e3ddf0fa1c17b558783"
+}

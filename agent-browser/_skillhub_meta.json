@@ -1,7 +1,9 @@
 {
   "slug": "agent-browser",
-  "name": "Agent Browser",
-  "version": "0.2.0",
-  "installedAt": 1778123996642,
-  "source": "skillhub"
+  "name": "agent-browser",
+  "version": "1.0.0",
+  "installedAt": 1781877469458,
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779720,
+  "installedContentHash": "sha256:9513346c4b67ae26ba5580df5df59294feca8c3bce4adc1bd4204cdc384eb181"
 }

@@ -1,0 +1,3086 @@
+{
+  "8-bit-orbit-video-template": {
+    "name": "8-bit-orbit-video-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\8-bit-orbit-video-template",
+    "source": "workbuddy_home",
+    "display_name": "8-bit-orbit-video-template",
+    "description": "Hyperframes-based video template for retro pixel deck motion design.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "after-hours-editorial-template": {
+    "name": "after-hours-editorial-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\after-hours-editorial-template",
+    "source": "workbuddy_home",
+    "display_name": "after-hours-editorial-template",
+    "description": "Luxury dark-editorial HyperFrames template for three-page cinematic storyboards,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "Agency": {
+    "name": "agency",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\agency",
+    "source": "workbuddy_home",
+    "display_name": "Agency",
+    "description": "Build and operate a service agency with client management, project tracking, pricing, and team coordination.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程"
+    ]
+  },
+  "agency-agents-zh": {
+    "name": "agency-agents-zh",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\agency-agents-zh",
+    "source": "workbuddy_home",
+    "display_name": "agency-agents-zh",
+    "description": "AI 专家角色库框架 - 提供加载专家角色的能力。实际角色文件需单独安装。",
+    "user_invocable": true,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "Agent Browser": {
+    "name": "agent-browser",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\agent-browser",
+    "source": "workbuddy_home",
+    "display_name": "Agent Browser",
+    "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "agent-memory": {
+    "name": "agent-memory",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\agent-memory",
+    "source": "workbuddy_home",
+    "display_name": "agent-memory",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "agent-reach": {
+    "name": "agent-reach",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\agent-reach",
+    "source": "workbuddy_home",
+    "display_name": "agent-reach",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [
+      "sync-upstream.sh"
+    ],
+    "categories": [
+      "开发编程"
+    ]
+  },
+  "api-gateway": {
+    "name": "api-gateway",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\api-gateway",
+    "source": "workbuddy_home",
+    "display_name": "api-gateway",
+    "description": "Connect to external services through Maton-managed API routes.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "开发编程"
+    ]
+  },
+  "audio-jingle": {
+    "name": "audio-jingle",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\audio-jingle",
+    "source": "workbuddy_home",
+    "display_name": "audio-jingle",
+    "description": "Audio generation skill — jingles, beds, voiceover, and sound effects.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "auto-updater": {
+    "name": "auto-updater",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\auto-updater",
+    "source": "workbuddy_home",
+    "display_name": "auto-updater",
+    "description": "Automatically update Clawdbot and all installed skills once daily. Runs via cron, checks for updates, applies them, and messages the user with a summary of what changed.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "blog-post": {
+    "name": "blog-post",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\blog-post",
+    "source": "workbuddy_home",
+    "display_name": "blog-post",
+    "description": "A long-form article / blog post — masthead, hero image placeholder,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "system-architect": {
+    "name": "bmad-architect",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\bmad-architect",
+    "source": "workbuddy_home",
+    "display_name": "system-architect",
+    "description": "Designs system architecture, selects tech stacks, defines components and interfaces, addresses non-functional requirements. Trigger words - architecture, system design, tech stack, components, scalability, security, API design, data model, NFR, patterns, microservices, monolith",
+    "user_invocable": false,
+    "scripts": [
+      "nfr-checklist.sh",
+      "validate-architecture.sh"
+    ],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "开发编程"
+    ]
+  },
+  "bmad-developer": {
+    "name": "bmad-developer",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\bmad-developer",
+    "source": "workbuddy_home",
+    "display_name": "bmad-developer",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程"
+    ]
+  },
+  "bmad-orchestrator": {
+    "name": "bmad-orchestrator",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\bmad-orchestrator",
+    "source": "workbuddy_home",
+    "display_name": "bmad-orchestrator",
+    "description": "Orchestrates BMAD workflows for structured AI-driven development. Use when initializing BMAD in projects, checking workflow status, or routing between 4 phases (Analysis, Planning, Solutioning, Implementation). Manages project configs, tracks progress through project levels 0-4, and coordinates with specialized workflows. Trigger on /workflow-init, /workflow-status, or when users need BMAD setup.",
+    "user_invocable": false,
+    "scripts": [
+      "check-status.sh",
+      "init-project.sh",
+      "validate-config.sh"
+    ],
+    "categories": [
+      "数据分析",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "bmad-product-manager": {
+    "name": "bmad-product-manager",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\bmad-product-manager",
+    "source": "workbuddy_home",
+    "display_name": "bmad-product-manager",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "scrum-master": {
+    "name": "bmad-scrum-master",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\bmad-scrum-master",
+    "source": "workbuddy_home",
+    "display_name": "scrum-master",
+    "description": "Sprint planning and agile workflow specialist. Breaks epics into user stories, estimates complexity using story points, plans sprint iterations, and tracks velocity. Trigger keywords - sprint planning, user story, story points, velocity, backlog, sprint, epic breakdown, estimation, burndown, agile planning.",
+    "user_invocable": false,
+    "scripts": [
+      "calculate-velocity.py",
+      "generate-story-id.sh",
+      "sprint-burndown.py"
+    ],
+    "categories": [
+      "办公效率"
+    ]
+  },
+  "ux-designer": {
+    "name": "bmad-ux-designer",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\bmad-ux-designer",
+    "source": "workbuddy_home",
+    "display_name": "ux-designer",
+    "description": "Designs user experiences, creates wireframes, defines user flows, ensures accessibility. Trigger keywords - UX design, wireframe, user flow, accessibility, WCAG, mobile-first, responsive, UI design, user journey, interface design, user experience, design system, component design, interaction design",
+    "user_invocable": false,
+    "scripts": [
+      "contrast-check.py",
+      "responsive-breakpoints.sh",
+      "wcag-checklist.sh"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "caveman": {
+    "name": "caveman",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\caveman",
+    "source": "workbuddy_home",
+    "display_name": "caveman",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "clinical-case-report": {
+    "name": "clinical-case-report",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\clinical-case-report",
+    "source": "workbuddy_home",
+    "display_name": "clinical-case-report",
+    "description": "Structured medical case presentation for clinical rounds, conferences,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "codeconductor": {
+    "name": "codeconductor",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\codeconductor",
+    "source": "workbuddy_home",
+    "display_name": "codeconductor",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程"
+    ]
+  },
+  "critique": {
+    "name": "critique",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\critique",
+    "source": "workbuddy_home",
+    "display_name": "critique",
+    "description": "Run a 5-dimension expert design review on any HTML artifact in the",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "darcygb": {
+    "name": "darcygb",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\darcygb",
+    "source": "workbuddy_home",
+    "display_name": "darcygb",
+    "description": "Claude Code Agents 集合 - 6个专业代理（Jenny验证器、合规检查器、代码质量专家、现实检查、任务完成验证器、UI测试器）",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "dashboard": {
+    "name": "dashboard",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\dashboard",
+    "source": "workbuddy_home",
+    "display_name": "dashboard",
+    "description": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "dating-web": {
+    "name": "dating-web",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\dating-web",
+    "source": "workbuddy_home",
+    "display_name": "dating-web",
+    "description": "A consumer-feeling dating / matchmaking dashboard — left rail navigation,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "dcf-valuation": {
+    "name": "dcf-valuation",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\dcf-valuation",
+    "source": "workbuddy_home",
+    "display_name": "dcf-valuation",
+    "description": "Discounted cash flow valuation and intrinsic value analysis for public",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析"
+    ]
+  },
+  "Design": {
+    "name": "design",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\design",
+    "source": "workbuddy_home",
+    "display_name": "Design",
+    "description": "Auto-learns your visual preferences. Adapts to UI, graphics, video, and any creative work.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "design-brief": {
+    "name": "design-brief",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\design-brief",
+    "source": "workbuddy_home",
+    "display_name": "design-brief",
+    "description": "I-Lang formatted design brief or natural language description",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "digital-eguide": {
+    "name": "digital-eguide",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\digital-eguide",
+    "source": "workbuddy_home",
+    "display_name": "digital-eguide",
+    "description": "A two-spread digital e-guide preview — page 1 is a cover (display title,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程"
+    ]
+  },
+  "digits-fintech-swiss-template": {
+    "name": "digits-fintech-swiss-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\digits-fintech-swiss-template",
+    "source": "workbuddy_home",
+    "display_name": "digits-fintech-swiss-template",
+    "description": "Swiss-grid fintech deck template in black / warm paper / neon-lime contrast.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程"
+    ]
+  },
+  "docs-page": {
+    "name": "docs-page",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\docs-page",
+    "source": "workbuddy_home",
+    "display_name": "docs-page",
+    "description": "A documentation page — inline-start nav, scrollable article body,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索"
+    ]
+  },
+  "editorial-burgundy-principles-template": {
+    "name": "editorial-burgundy-principles-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\editorial-burgundy-principles-template",
+    "source": "workbuddy_home",
+    "display_name": "editorial-burgundy-principles-template",
+    "description": "Editorial studio deck template in burgundy / blush / muted-gold palette.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "email-marketing": {
+    "name": "email-marketing",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\email-marketing",
+    "source": "workbuddy_home",
+    "display_name": "email-marketing",
+    "description": "A brand product-launch email — masthead with wordmark, hero image block,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "eng-runbook": {
+    "name": "eng-runbook",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\eng-runbook",
+    "source": "workbuddy_home",
+    "display_name": "eng-runbook",
+    "description": "An engineering runbook — service overview, alerts table, dashboards",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率"
+    ]
+  },
+  "excalidraw-diagram": {
+    "name": "excalidraw-diagram-skill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\excalidraw-diagram-skill",
+    "source": "workbuddy_home",
+    "display_name": "excalidraw-diagram",
+    "description": "Create Excalidraw diagram JSON files that make visual arguments. Use when the user wants to visualize workflows, architectures, or concepts.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "feishu-integration": {
+    "name": "feishu-toolkit",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\feishu-toolkit",
+    "source": "workbuddy_home",
+    "display_name": "feishu-integration",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "field-notes-editorial-template": {
+    "name": "field-notes-editorial-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\field-notes-editorial-template",
+    "source": "workbuddy_home",
+    "display_name": "field-notes-editorial-template",
+    "description": "Editorial \"Field Notes\" report template with soft paper background, serif hero",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "finance-report": {
+    "name": "finance-report",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\finance-report",
+    "source": "workbuddy_home",
+    "display_name": "finance-report",
+    "description": "Quarterly / monthly financial report — masthead with KPIs, revenue and",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "find-skills": {
+    "name": "find-skills",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\find-skills",
+    "source": "workbuddy_home",
+    "display_name": "find-skills",
+    "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "flowai-live-dashboard-template": {
+    "name": "flowai-live-dashboard-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\flowai-live-dashboard-template",
+    "source": "workbuddy_home",
+    "display_name": "flowai-live-dashboard-template",
+    "description": "Team-management dashboard skill in the FlowAI aesthetic — three tabs",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "freeride": {
+    "name": "free-ride",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\free-ride",
+    "source": "workbuddy_home",
+    "display_name": "freeride",
+    "description": "OpenRouter API key — get a free one at openrouter.ai/keys",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "gamified-app": {
+    "name": "gamified-app",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\gamified-app",
+    "source": "workbuddy_home",
+    "display_name": "gamified-app",
+    "description": "A multi-frame gamified mobile-app prototype — three phone frames on a dark",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "github": {
+    "name": "github",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\github",
+    "source": "workbuddy_home",
+    "display_name": "github",
+    "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程"
+    ]
+  },
+  "github-dashboard": {
+    "name": "github-dashboard",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\github-dashboard",
+    "source": "workbuddy_home",
+    "display_name": "github-dashboard",
+    "description": "GitHub repository analytics dashboard — stars, forks, contributors,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程"
+    ]
+  },
+  "gog": {
+    "name": "gog",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\gog",
+    "source": "workbuddy_home",
+    "display_name": "gog",
+    "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "gstack": {
+    "name": "gstack",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\gstack",
+    "source": "workbuddy_home",
+    "display_name": "gstack",
+    "description": "Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with",
+    "user_invocable": false,
+    "scripts": [
+      "analytics.ts",
+      "archetypes.ts",
+      "build-app.sh",
+      "compare-pr-version.ts",
+      "detect-bump.ts",
+      "dev-skill.ts",
+      "discover-skills.ts",
+      "eval-compare.ts",
+      "eval-list.ts",
+      "eval-select.ts",
+      "eval-summary.ts",
+      "eval-watch.ts",
+      "garry-output-comparison.ts",
+      "gen-llms-txt.ts",
+      "gen-skill-docs.ts",
+      "host-config-export.ts",
+      "host-config.ts",
+      "models.ts",
+      "one-way-doors.ts",
+      "preflight-agent-sdk.ts",
+      "psychographic-signals.ts",
+      "question-registry.ts",
+      "setup-scc.sh",
+      "skill-check.ts",
+      "slop-diff.ts",
+      "test-free-shards.ts",
+      "update-readme-throughput.ts"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能",
+      "生活娱乐"
+    ]
+  },
+  "magazine-web-ppt": {
+    "name": "guizang-ppt",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\guizang-ppt",
+    "source": "workbuddy_home",
+    "display_name": "magazine-web-ppt",
+    "description": "生成\"电子杂志 × 电子墨水\"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到\"杂志风 PPT\"、\"horizontal swipe deck\"、\"editorial magazine\"、\"e-ink presentation\"时使用。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "hatch-pet": {
+    "name": "hatch-pet",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\hatch-pet",
+    "source": "workbuddy_home",
+    "display_name": "hatch-pet",
+    "description": "Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual references. Use when a user wants to hatch a Codex pet, create a custom animated pet, or build a built-in pet asset with an 8x9 atlas, transparent unused cells, row-by-row animation prompts, QA contact sheets, preview videos, and pet.json packaging. This skill composes the installed $imagegen system skill for visual generation and uses bundled scripts for deterministic spritesheet assembly.",
+    "user_invocable": false,
+    "scripts": [
+      "compose_atlas.py",
+      "derive_running_left_from_running_right.py",
+      "extract_strip_frames.py",
+      "finalize_pet_run.py",
+      "generate_pet_images.py",
+      "inspect_frames.py",
+      "make_contact_sheet.py",
+      "package_custom_pet.py",
+      "pet_job_status.py",
+      "prepare_pet_run.py",
+      "queue_pet_repairs.py",
+      "record_imagegen_result.py",
+      "render_animation_videos.py",
+      "render_animation_videos.sh",
+      "validate_atlas.py"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "hr-onboarding": {
+    "name": "hr-onboarding",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\hr-onboarding",
+    "source": "workbuddy_home",
+    "display_name": "hr-onboarding",
+    "description": "A new-hire onboarding plan as a single page — first week schedule,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt": {
+    "name": "html-ppt",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt",
+    "description": "HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user asks for a presentation, PPT, slides, keynote, deck, slideshow, \"幻灯片\", \"演讲稿\", \"做一份 PPT\", \"做一份 slides\", a reveal-style HTML deck, a 小红书 图文, or any kind of multi-slide pitch/report/sharing document that should look tasteful and be usable with keyboard navigation. Triggers include keywords like \"presentation\", \"ppt\", \"slides\", \"deck\", \"keynote\", \"reveal\", \"slideshow\", \"幻灯片\", \"演讲稿\", \"分享稿\", \"小红书图文\", \"talk slides\", \"pitch deck\", \"tech sharing\", \"technical presentation\".",
+    "user_invocable": false,
+    "scripts": [
+      "new-deck.sh",
+      "render.sh"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "html-ppt-course-module": {
+    "name": "html-ppt-course-module",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-course-module",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-course-module",
+    "description": "Online-course / workshop module deck — warm paper background + Playfair serif, persistent left sidebar of learning objectives, MCQ self-check page. Use for teaching modules, training materials, workshop slides.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-dir-key-nav-minimal": {
+    "name": "html-ppt-dir-key-nav-minimal",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-dir-key-nav-minimal",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-dir-key-nav-minimal",
+    "description": "8 页极简方向键 keynote — 每页一个独立单色背景（靛 / 奶 / 绛 / 翠 / 灰 / 紫 / 白 / 炭），各自配色，160px display 标题 + 4px 短粗 accent 线分隔、箭头 → 前缀的 Mono 列表、左下 ← → kbd 提示 + 右下页码、巨大呼吸留白。适合\"有话要说但没什么可看\"的 keynote、launch、公开演讲。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt-graphify-dark-graph": {
+    "name": "html-ppt-graphify-dark-graph",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-graphify-dark-graph",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-graphify-dark-graph",
+    "description": "暗底知识图谱 deck — #06060c→#0e1020 深夜渐变 + 漂浮 blur orbs、封面 SVG 力导向图谱、彩虹渐变标题、JetBrains Mono 命令行高亮、glass-morphism 卡片。适合 dev-tool / CLI / 知识图谱 / 数据可视化的发布会，\"AI-native + 科幻 + 暖色\" 调子。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-hermes-cyber-terminal": {
+    "name": "html-ppt-hermes-cyber-terminal",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-hermes-cyber-terminal",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-hermes-cyber-terminal",
+    "description": "暗终端 honest-review deck — #0a0c10 黑底 + 56px 赛博网格 + CRT 暗角 + 扫描线、窗口红绿灯 chrome、`$ prompt` 命令行标题、薄荷绿 #7ed3a4 大字、JetBrains Mono、stroke-only 柱状图、blinking 光标、琥珀/绿/红三档 tag、暗色代码块。适合 CLI / agent / dev tool 测评（含 trace、diff、benchmark）。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-knowledge-arch-blueprint": {
+    "name": "html-ppt-knowledge-arch-blueprint",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-knowledge-arch-blueprint",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-knowledge-arch-blueprint",
+    "description": "奶油蓝图架构 deck — 奶油纸 #F0EAE0 底色 + 单一锈红 #B5392A 高亮、48px 蓝图网格 mask、2px 黑边硬卡片、pipeline 步骤盒（其中一个抬高）、右侧锈红 insight callout、Playfair 衬线大字、SVG 虚线反馈环。零渐变零软阴影，认真且印刷友好。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-obsidian-claude-gradient": {
+    "name": "html-ppt-obsidian-claude-gradient",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-obsidian-claude-gradient",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-obsidian-claude-gradient",
+    "description": "GitHub 暗紫渐变 deck — GitHub-dark #0d1117 + 紫蓝 radial 环境光 + 60px 网格 mask、居中布局、紫色 pill 标签、三色渐变标题（#a855f7→#60a5fa→#34d399）、GitHub 风代码 palette、紫色左边框高亮块。适合开发者工作流 / MCP / Agent / dev tool 教程，类似 GitHub Blog / Linear Changelog。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-pitch-deck": {
+    "name": "html-ppt-pitch-deck",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-pitch-deck",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-pitch-deck",
+    "description": "Investor-ready 10-slide HTML pitch deck — white + blue→purple gradient hero, big numbers, traction bar chart, $4.5M-style ask page. Use when the user wants a fundraising deck, seed-round pitch, or VC meeting slides.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "html-ppt-presenter-mode": {
+    "name": "html-ppt-presenter-mode-reveal",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-presenter-mode-reveal",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-presenter-mode",
+    "description": "演讲者模式专用 deck — tokyo-night 默认主题，5 套主题 T 键切换，每页带 150-300 字逐字稿示例（<aside class=\"notes\">），按 S 打开 popup（CURRENT / NEXT / SCRIPT / TIMER 四张磁吸卡片）。用于技术分享、公开演讲、课程讲解，怕忘词或要提词器的场景。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt-product-launch": {
+    "name": "html-ppt-product-launch",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-product-launch",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-product-launch",
+    "description": "Launch keynote deck — dark hero + light content, warm orange→peach accent, feature cards, pricing tiers, CTA. Use when announcing a product, launching a feature, or doing a keynote-style reveal.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt-retro-quarterly-review": {
+    "name": "html-ppt-retro-quarterly-review",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-retro-quarterly-review",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-retro-quarterly-review",
+    "description": "Retro Quarterly Review presentation template in a bold blue + orange editorial",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-taste-brutalist": {
+    "name": "html-ppt-taste-brutalist",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-taste-brutalist",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-taste-brutalist",
+    "description": "16:9 HTML deck in tactical-telemetry / CRT-terminal taste. Deactivated-CRT charcoal slides, white-phosphor monospace, hazard-red accent, scanline overlay, ASCII syntax, density over decoration. Distilled from Leonxlnx/taste-skill `brutalist-skill` (Tactical Telemetry mode).",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-taste-editorial": {
+    "name": "html-ppt-taste-editorial",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-taste-editorial",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-taste-editorial",
+    "description": "16:9 HTML deck in editorial-minimalist taste. Warm cream slides, serif display + grotesque body, hairline rules, monospace meta, generous macro-whitespace, one accent. Distilled from Leonxlnx/taste-skill `minimalist-skill`.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-tech-sharing": {
+    "name": "html-ppt-tech-sharing",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-tech-sharing",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-tech-sharing",
+    "description": "Conference / internal tech-talk deck — GitHub-dark, JetBrains Mono, terminal code blocks, agenda + Q&A pages. Use for engineering presentations, internal sharing sessions, conference talks, and code-heavy walkthroughs.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-testing-safety-alert": {
+    "name": "html-ppt-testing-safety-alert",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-testing-safety-alert",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-testing-safety-alert",
+    "description": "红琥珀警示 deck — 顶/底 45° 红黑 hazard 条纹、红色删除线否定标题、L1/L2/L3 绿/琥珀/红 tier 卡片、圆点状态 alert box、policy-yaml 代码块（红左边框 + bad 关键词高亮）、红绿 checklist、Q1 事故堆叠柱状图。适合安全 / 风险 / 事故复盘 / 红队 / 上线前 AI 评审 / policy-as-code。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-weekly-report": {
+    "name": "html-ppt-weekly-report",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-weekly-report",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-weekly-report",
+    "description": "Team weekly / status-update deck — corporate clarity, 8-cell KPI grid, shipped list, 8-week bar chart, next-week table. Use for 周报, business reviews, team status updates, and exec dashboards.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "html-ppt-xhs-pastel-card": {
+    "name": "html-ppt-xhs-pastel-card",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-xhs-pastel-card",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-xhs-pastel-card",
+    "description": "柔和马卡龙慢生活 deck — 奶油 #fef8f1 底 + 三个柔光 blob、Playfair 斜体衬线 display 标题混 sans 正文、28px 圆角马卡龙卡片（桃 / 薄荷 / 天 / 紫 / 柠 / 玫）、Playfair 斜体 01-04 序号、SVG donut 图、chip+page 顶栏。适合生活方式 / 个人成长 / 慢生活 / 情绪类内容，\"杂志、手作、不太科技\"的感觉。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-xhs-post": {
+    "name": "html-ppt-xhs-post",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-xhs-post",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-xhs-post",
+    "description": "小红书 / Instagram 风 9 页 3:4 竖版图文（810×1080）— 暖色 pastel、虚线 sticker 卡片、底部页码点点。用于发小红书图文、Instagram carousel、品牌种草内容。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-xhs-white-editorial": {
+    "name": "html-ppt-xhs-white-editorial",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-xhs-white-editorial",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-xhs-white-editorial",
+    "description": "白底杂志风 deck — 纯白背景 + 顶部 10 色彩虹 bar、80-110px display 标题、紫→蓝→绿→橙→粉渐变文字、马卡龙软卡片组（粉/紫/蓝/绿/橙）、黑底白字 .focus pill、引用大块。同时适合发小红书图文 + 横版 PPT 双用。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-8-bit-orbit": {
+    "name": "html-ppt-zhangzara-8-bit-orbit",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-8-bit-orbit",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-8-bit-orbit",
+    "description": "8-Bit Orbit — Pixel-art neon arcade aesthetic on a deep navy void. Anything that should feel like a CRT screen at 2am: cyberpunk, gaming, web3, indie dev tools, hackathon demos.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "html-ppt-zhangzara-biennale-yellow": {
+    "name": "html-ppt-zhangzara-biennale-yellow",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-biennale-yellow",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-biennale-yellow",
+    "description": "Biennale Yellow — Solar yellow on warm parchment with deep indigo serif and atmospheric sun-glow gradients. Anything that should feel like an art-biennale poster or a museum's annual programme: exhibition decks, arts-institution announcements, design conference brochures, curatorial pitches, literary publications, studio retrospectives.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索"
+    ]
+  },
+  "html-ppt-zhangzara-block-frame": {
+    "name": "html-ppt-zhangzara-block-frame",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-block-frame",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-block-frame",
+    "description": "BlockFrame — Neobrutalist deck with pastel-neon color blocks and chunky black borders. Anything that should feel pop-graphic and design-led: indie SaaS launches, agency credentials, creative reviews, brand redesigns.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-blue-professional": {
+    "name": "html-ppt-zhangzara-blue-professional",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-blue-professional",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-blue-professional",
+    "description": "Blue Professional — Cream paper background with electric cobalt blue accents; clean modern professional. Anything that should feel modern-considered and lightly authoritative: B2B SaaS pitches, consulting deliverables, advisory updates, investor reports.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "html-ppt-zhangzara-bold-poster": {
+    "name": "html-ppt-zhangzara-bold-poster",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-bold-poster",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-bold-poster",
+    "description": "Bold Poster — Editorial poster aesthetic with massive Shrikhand display and a single fire-engine red accent. Anything that should land like a magazine cover: brand manifestos, founder vision decks, editorial / cultural pitches, creative reviews.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt-zhangzara-broadside": {
+    "name": "html-ppt-zhangzara-broadside",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-broadside",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-broadside",
+    "description": "Broadside — Dark editorial canvas with a single fire orange accent and bilingual Latin/Chinese type stack. Anything that should land like a broadside newspaper headline: brand manifestos, magazine and cultural pitches, design talks, bilingual EN/CN decks, founder vision statements.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "html-ppt-zhangzara-capsule": {
+    "name": "html-ppt-zhangzara-capsule",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-capsule",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-capsule",
+    "description": "Capsule — Modular pill-shaped cards on warm bone with a full pastel-pop palette. Anything that should feel modular, modern, and a little Y2K: lifestyle brands, creator portfolios, DTC launches, beauty / wellness, agency credentials.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-cartesian": {
+    "name": "html-ppt-zhangzara-cartesian",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-cartesian",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-cartesian",
+    "description": "Cartesian — Quiet warm-neutral palette with classical Playfair serifs; tasteful and unhurried. Anything that should feel quiet, considered, and grown-up: investment theses, white papers, advisory work, longform research, gallery / cultural decks.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-cobalt-grid": {
+    "name": "html-ppt-zhangzara-cobalt-grid",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-cobalt-grid",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-cobalt-grid",
+    "description": "Cobalt Grid — Electric cobalt italic serifs on a graph-paper canvas, anchored by stair-stepped pixel-glitch decorations and slim hairline rules. Anything that should feel like a quietly serious design / research bulletin, art publication, or curated trend report.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-coral": {
+    "name": "html-ppt-zhangzara-coral",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-coral",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-coral",
+    "description": "Coral — Cream and coral on near-black, set in oversized Bebas Neue. Anything that should feel warm-graphic and editorial: fashion, beauty, fitness, F&B, lifestyle brands, agency credentials.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "生活娱乐"
+    ]
+  },
+  "html-ppt-zhangzara-creative-mode": {
+    "name": "html-ppt-zhangzara-creative-mode",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-creative-mode",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-creative-mode",
+    "description": "Creative Mode — Cream paper canvas with confident multi-color (green, pink, orange, yellow) accents and Archivo Black display. Anything that should feel design-led and confident: creative agency pitches, design studio decks, ad shop credentials, brand creative reviews, art-direction reviews.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-daisy-days": {
+    "name": "html-ppt-zhangzara-daisy-days",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-daisy-days",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-daisy-days",
+    "description": "Daisy Days — Cheerful pastel deck with hand-drawn daisies, stars, and rainbows. Friendly, soft, and warm. Anything that should feel friendly, soft, and joyful: educational content, kids and family, wellness programs, community workshops, creator portfolios for craft / illustration.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-editorial-tri-tone": {
+    "name": "html-ppt-zhangzara-editorial-tri-tone",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-editorial-tri-tone",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-editorial-tri-tone",
+    "description": "Editorial Tri-Tone — Three-color editorial system: dusty pink, mustard cream, and deep burgundy, set in Bricolage + Instrument Serif. Anything that should feel like a fashion-magazine spread: editorial pitches, fashion brand decks, lifestyle media, art direction reviews.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索"
+    ]
+  },
+  "html-ppt-zhangzara-grove": {
+    "name": "html-ppt-zhangzara-grove",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-grove",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-grove",
+    "description": "Grove — Forest-green canvas with cream type, classical Playfair serifs, and a single rust accent. Anything that should feel organic, considered, and grown-up: sustainability and wellness brands, outdoor / nature products, wineries and restaurants, literary or arts decks, advisory deliverables, bilingual EN/CN reports.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-long-table": {
+    "name": "html-ppt-zhangzara-long-table",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-long-table",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-long-table",
+    "description": "Long Table — Warm cream and rust-red supper-club aesthetic with bold uppercase grotesk headlines, italic Fraunces, and pill-shaped outlined buttons. Anything that should feel like a warm, intimate, modern hospitality / community brand: supper clubs, dinner series, small restaurants, creative-studio events, membership pitches, lifestyle and wine brands.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-mat": {
+    "name": "html-ppt-zhangzara-mat",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-mat",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-mat",
+    "description": "Mat — Dark sage canvas with bone paper and burnt-orange accent; mid-century modern with wood undertones. Anything that should feel mid-century, tactile, and intentional: design studio credentials, architecture / interior brands, ceramics / craft / furniture, advisory decks.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-monochrome": {
+    "name": "html-ppt-zhangzara-monochrome",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-monochrome",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-monochrome",
+    "description": "Monochrome — Ivory ledger paper with all-black type; Lora serif headlines, Jost body, no color at all. Anything that should feel like a hand-typeset ledger: user research synthesis, white papers, longform reports, academic and policy briefs, advisory deliverables, bilingual EN/CN reports.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "html-ppt-zhangzara-neo-grid-bold": {
+    "name": "html-ppt-zhangzara-neo-grid-bold",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-neo-grid-bold",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-neo-grid-bold",
+    "description": "Neo-Grid Bold — Editorial neo-brutalism with a single neon yellow accent on off-white paper. Anything that should feel confident and editorial-graphic: design-led pitches, brand work, founder talks, conference keynotes.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt-zhangzara-peoples-platform": {
+    "name": "html-ppt-zhangzara-peoples-platform",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-peoples-platform",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-peoples-platform",
+    "description": "People's Platform (Block & Bold) — Activist poster energy: blue, orange, red on cream, with Alfa Slab + Caveat Brush. Anything that should feel honest, loud, and graphic: cultural commentary, manifestos, civic and community decks, design talks, campaign pitches.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-pin-and-paper": {
+    "name": "html-ppt-zhangzara-pin-and-paper",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-pin-and-paper",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-pin-and-paper",
+    "description": "Pin & Paper — Yellow paper with safety-pin illustrations, ink-blue handwritten Caveat, paper-grain texture. Anything that should feel hand-crafted, warm, and literary: qualitative research findings, founder reflections, longform brand stories, workshop debriefs.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-pink-script": {
+    "name": "html-ppt-zhangzara-pink-script",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-pink-script",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-pink-script",
+    "description": "Pink Script — After Hours — Black canvas, hot pink accent, pearl-cream paper, Instrument Serif headlines: late-night editorial luxury. Anything that should feel nocturnal, intentional, and a little luxe: fashion brand decks, creator personal brands, after-hours / nightlife / spirits launches, luxury product reveals, editorial features.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-playful": {
+    "name": "html-ppt-zhangzara-playful",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-playful",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-playful",
+    "description": "Playful — Sun-warm peach background with Syne display: a friendly indie launch deck. Anything that should feel warm, indie, and approachable: creator portfolios, indie product launches, lifestyle brands, small-business pitches, newsletter / community decks.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "html-ppt-zhangzara-raw-grid": {
+    "name": "html-ppt-zhangzara-raw-grid",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-raw-grid",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-raw-grid",
+    "description": "Raw Grid — Neo-brutalist deck with thick borders, offset shadows, and a pink/sage/ink palette. Anything that should feel direct and graphic-confident: founder pitches, accelerator demos, brand decks, indie launches, creator portfolios.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-retro-windows": {
+    "name": "html-ppt-zhangzara-retro-windows",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-retro-windows",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-retro-windows",
+    "description": "Retro Windows — Windows 95 chrome: gray title bars, MS Sans Serif, pixel typography, full nostalgia. Anything that should feel knowingly nostalgic: retro gaming, Y2K-aesthetic brands, creator portfolios with a 90s vibe, tech-history talks, deliberately tongue-in-cheek decks.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "html-ppt-zhangzara-retro-zine": {
+    "name": "html-ppt-zhangzara-retro-zine",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-retro-zine",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-retro-zine",
+    "description": "Retro Zine — Beige paper with green accent and Bebas Neue + Caveat: a riso-printed zine in HTML form. Anything that should feel printed, lo-fi, and crafted: indie zines and publications, music / arts brands, creator portfolios, small-batch craft launches, community decks.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "生活娱乐"
+    ]
+  },
+  "html-ppt-zhangzara-sakura-chroma": {
+    "name": "html-ppt-zhangzara-sakura-chroma",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-sakura-chroma",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-sakura-chroma",
+    "description": "Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. Anything that should feel like a vintage Japanese cassette package or a TDK / Sony / Sakura Color product catalogue: indie hardware brand decks, music-label release schedules, analog studio retrospectives, zine and magazine pitches, kawaii-tech product launches, creative-studio annual reports.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能",
+      "生活娱乐"
+    ]
+  },
+  "html-ppt-zhangzara-scatterbrain": {
+    "name": "html-ppt-zhangzara-scatterbrain",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-scatterbrain",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-scatterbrain",
+    "description": "Scatterbrain — Post-it inspired: pastel sticky notes, Caveat handwriting, Shrikhand and Zilla Slab type stack. Anything that should feel like a designer's whiteboard: brainstorms, workshops, creative-agency credentials, design-thinking sessions, ideation pitches, art-direction reviews.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "html-ppt-zhangzara-signal": {
+    "name": "html-ppt-zhangzara-signal",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-signal",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-signal",
+    "description": "Signal — Deep navy canvas with bone paper and a single muted-gold accent; institutional with quiet weight. Anything that should feel weighty, considered, and credibly institutional: investor decks, board presentations, consulting deliverables, legal / policy briefs, advisory pitches.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "html-ppt-zhangzara-soft-editorial": {
+    "name": "html-ppt-zhangzara-soft-editorial",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-soft-editorial",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-soft-editorial",
+    "description": "Soft Editorial — Cormorant Garamond serif on warm paper with sage, blush, and lemon accents. Anything that should feel literary, elegant, and unhurried: editorial features, longform brand stories, gallery / museum decks, advisory deliverables, wedding / lifestyle media, founder essays.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-stencil-tablet": {
+    "name": "html-ppt-zhangzara-stencil-tablet",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-stencil-tablet",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-stencil-tablet",
+    "description": "Stencil & Tablet — Bone paper with stencil-cut headlines and a six-color earth palette: archaeology meets brand. Anything that should feel archival, tactile, and weighty-graphic: museum and cultural-institution decks, art / architecture brands, longform research, heritage and craft brands, manifestos.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "html-ppt-zhangzara-studio": {
+    "name": "html-ppt-zhangzara-studio",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-studio",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-studio",
+    "description": "Studio — Black canvas with electric-yellow type; high-voltage design studio aesthetic. Anything that should feel electric and design-led: studio credentials, creative agency pitches, brand showcases, art-direction reviews, fashion / sneaker brand work.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "html-ppt-zhangzara-vellum": {
+    "name": "html-ppt-zhangzara-vellum",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\html-ppt-zhangzara-vellum",
+    "source": "workbuddy_home",
+    "display_name": "html-ppt-zhangzara-vellum",
+    "description": "Vellum — Deep navy canvas with warm-yellow italic Cormorant serifs and a single dusty teal accent. A quiet, scholarly aesthetic. Anything that should feel scholarly, literary, and quietly intelligent: research synthesis, white papers, academic and policy briefs, advisory deliverables, longform editorial pieces, founder reflections.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "humanizer": {
+    "name": "humanizer",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\humanizer",
+    "source": "workbuddy_home",
+    "display_name": "humanizer",
+    "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "hyperframes": {
+    "name": "hyperframes",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\hyperframes",
+    "source": "workbuddy_home",
+    "display_name": "hyperframes",
+    "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程",
+      "AI智能",
+      "生活娱乐"
+    ]
+  },
+  "ib-pitch-book": {
+    "name": "ib-pitch-book",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\ib-pitch-book",
+    "source": "workbuddy_home",
+    "display_name": "ib-pitch-book",
+    "description": "Investment-banking pitch book for strategic alternatives — trading comps,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析"
+    ]
+  },
+  "ima-skill": {
+    "name": "ima-skills",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\ima-skills",
+    "source": "workbuddy_home",
+    "display_name": "ima-skill",
+    "description": "统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "image-poster": {
+    "name": "image-poster",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\image-poster",
+    "source": "workbuddy_home",
+    "display_name": "image-poster",
+    "description": "Single-image generation skill for posters, key art, and editorial",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "invoice": {
+    "name": "invoice",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\invoice",
+    "source": "workbuddy_home",
+    "display_name": "invoice",
+    "description": "A printable invoice page — sender + recipient block, line items table,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "kami-deck": {
+    "name": "kami-deck",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\kami-deck",
+    "source": "workbuddy_home",
+    "display_name": "kami-deck",
+    "description": "Self-contained kami deck with horizontal swipe pagination.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "kami-landing": {
+    "name": "kami-landing",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\kami-landing",
+    "source": "workbuddy_home",
+    "display_name": "kami-landing",
+    "description": "Self-contained HTML, kami CSS inlined, zero JS, zero external dependencies beyond Google Fonts.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "kanban-board": {
+    "name": "kanban-board",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\kanban-board",
+    "source": "workbuddy_home",
+    "display_name": "kanban-board",
+    "description": "Kanban / task board with columns (To do / In progress / In review / Done),",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率"
+    ]
+  },
+  "karpathy-guidelines": {
+    "name": "karpathy-guidelines",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\karpathy-guidelines",
+    "source": "workbuddy_home",
+    "display_name": "karpathy-guidelines",
+    "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "khazix-writer": {
+    "name": "khazix-writerSkill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\khazix-writerSkill",
+    "source": "workbuddy_home",
+    "display_name": "khazix-writer",
+    "description": "数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说\"帮我把这个写成文章\"或\"用我的风格写一下\"，只要上下文涉及内容创作和公众号输出，都应该触发。也适用于用户丢过来一个PDF、brief、新闻链接、语音转文字或任何素材说\"帮我写篇文章\"的场景。不要用于短内容（小红书帖子、推特、朋友圈）或纯标题摘要生成（那个用wechat-title skill）。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "last30days": {
+    "name": "last30days",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\last30days",
+    "source": "workbuddy_home",
+    "display_name": "last30days",
+    "description": "Recent community and social trend research over the last 30 days. Use when",
+    "user_invocable": false,
+    "scripts": [
+      "briefing.py",
+      "last30days.py",
+      "store.py",
+      "watchlist.py"
+    ],
+    "categories": [
+      "研究搜索"
+    ]
+  },
+  "live-artifact": {
+    "name": "live-artifact",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\live-artifact",
+    "source": "workbuddy_home",
+    "display_name": "live-artifact",
+    "description": "Create refreshable, auditable Open Design artifacts backed by connector or local data.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作"
+    ]
+  },
+  "live-dashboard": {
+    "name": "live-dashboard",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\live-dashboard",
+    "source": "workbuddy_home",
+    "display_name": "live-dashboard",
+    "description": "Notion-style team dashboard rendered as a Live Artifact. A single-page,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "llm-wiki": {
+    "name": "llm-wiki",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\llm-wiki",
+    "source": "workbuddy_home",
+    "display_name": "llm-wiki",
+    "description": "Use this skill when the user wants to build, maintain, or query a personal knowledge base using LLM-assisted wiki management. Triggers include requests to organize information, create wiki structures, manage knowledge bases, or when the user mentions \"wiki\", \"knowledge base\", \"PKM\", \"personal knowledge management\", \"Obsidian\", or wants to implement a system for accumulating and connecting knowledge over time.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "llm-wiki-obsidian-blink": {
+    "name": "llm-wiki-obsidian-blink",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\llm-wiki-obsidian-blink",
+    "source": "workbuddy_home",
+    "display_name": "llm-wiki-obsidian-blink",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "magazine-poster": {
+    "name": "magazine-poster",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\magazine-poster",
+    "source": "workbuddy_home",
+    "display_name": "magazine-poster",
+    "description": "An editorial-style poster — newsprint paper, dateline, oversized serif",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索"
+    ]
+  },
+  "meeting-notes": {
+    "name": "meeting-notes",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\meeting-notes",
+    "source": "workbuddy_home",
+    "display_name": "meeting-notes",
+    "description": "Meeting notes page — title bar with attendees, agenda checklist, decisions",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "Memory": {
+    "name": "memory",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\memory",
+    "source": "workbuddy_home",
+    "display_name": "Memory",
+    "description": "Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "mobile-app": {
+    "name": "mobile-app",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\mobile-app",
+    "source": "workbuddy_home",
+    "display_name": "mobile-app",
+    "description": "A mobile-app screen rendered inside a pixel-accurate iPhone 15 Pro frame",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "mobile-onboarding": {
+    "name": "mobile-onboarding",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\mobile-onboarding",
+    "source": "workbuddy_home",
+    "display_name": "mobile-onboarding",
+    "description": "A multi-screen mobile onboarding flow rendered as three phone frames",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "motion-frames": {
+    "name": "motion-frames",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\motion-frames",
+    "source": "workbuddy_home",
+    "display_name": "motion-frames",
+    "description": "A single-frame motion-design composition with looping CSS animations —",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "motionsites-prompt": {
+    "name": "motionsites-prompt",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\motionsites-prompt",
+    "source": "workbuddy_home",
+    "display_name": "motionsites-prompt",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "multi-search-engine": {
+    "name": "multi-search-engine",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\multi-search-engine",
+    "source": "workbuddy_home",
+    "display_name": "multi-search-engine",
+    "description": "Multi search engine integration with 16 engines (7 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "multica": {
+    "name": "multica",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\multica",
+    "source": "workbuddy_home",
+    "display_name": "multica",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [
+      "check.sh",
+      "dev.sh",
+      "ensure-postgres.sh",
+      "init-worktree-env.sh",
+      "install.sh"
+    ],
+    "categories": [
+      "开发编程"
+    ]
+  },
+  "my-first-skill": {
+    "name": "my-first-skill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\my-first-skill",
+    "source": "workbuddy_home",
+    "display_name": "my-first-skill",
+    "description": "通过删除多余空格、修正大小写和纠正标点符号来格式化和清理文本内容",
+    "user_invocable": false,
+    "scripts": [
+      "process.py"
+    ],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "nano-banana-pro": {
+    "name": "nano-banana-pro",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\nano-banana-pro",
+    "source": "workbuddy_home",
+    "display_name": "nano-banana-pro",
+    "description": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
+    "user_invocable": false,
+    "scripts": [
+      "generate_image.py"
+    ],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "nano-pdf": {
+    "name": "nano-pdf",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\nano-pdf",
+    "source": "workbuddy_home",
+    "display_name": "nano-pdf",
+    "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程"
+    ]
+  },
+  "notion": {
+    "name": "notion",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\notion",
+    "source": "workbuddy_home",
+    "display_name": "notion",
+    "description": "Notion API for creating and managing pages, databases, and blocks.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "开发编程"
+    ]
+  },
+  "huashu-nuwa": {
+    "name": "nuwa-skill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\nuwa-skill",
+    "source": "workbuddy_home",
+    "display_name": "huashu-nuwa",
+    "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "obsidian": {
+    "name": "obsidian",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\obsidian",
+    "source": "workbuddy_home",
+    "display_name": "obsidian",
+    "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "impeccable": {
+    "name": "omo",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\omo",
+    "source": "workbuddy_home",
+    "display_name": "impeccable",
+    "description": "Distinctive anti-slop UI and UX umbrella skill for web and mobile work. Use for design direction, context gathering, anti-pattern avoidance, or to work across the full local 23-skill impeccable family, especially audit, critique, polish, typeset, colorize, and adapt.",
+    "user_invocable": true,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "ontology": {
+    "name": "ontology",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\ontology",
+    "source": "workbuddy_home",
+    "display_name": "ontology",
+    "description": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linking related objects, enforcing constraints, planning multi-step actions as graph transformations, or when skills need to share state. Trigger on \"remember\", \"what do I know about\", \"link X to Y\", \"show dependencies\", entity CRUD, or cross-skill data access.",
+    "user_invocable": false,
+    "scripts": [
+      "ontology.py"
+    ],
+    "categories": [
+      "数据分析",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "open-design-landing": {
+    "name": "open-design-landing",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\open-design-landing",
+    "source": "workbuddy_home",
+    "display_name": "open-design-landing",
+    "description": "Astro static tree mirroring apps/landing-page (folder name is historical).",
+    "user_invocable": false,
+    "scripts": [
+      "compose.ts",
+      "imagegen.ts",
+      "placeholder.ts"
+    ],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "open-design-landing-deck": {
+    "name": "open-design-landing-deck",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\open-design-landing-deck",
+    "source": "workbuddy_home",
+    "display_name": "open-design-landing-deck",
+    "description": "Self-contained HTML deck — Atelier Zero CSS inlined, runtime script inline, images relative.",
+    "user_invocable": false,
+    "scripts": [
+      "compose.ts"
+    ],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "openai-whisper": {
+    "name": "openai-whisper",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\openai-whisper",
+    "source": "workbuddy_home",
+    "display_name": "openai-whisper",
+    "description": "Local speech-to-text with the Whisper CLI (no API key).",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "orbit-general": {
+    "name": "orbit-general",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\orbit-general",
+    "source": "workbuddy_home",
+    "display_name": "orbit-general",
+    "description": "Open Orbit briefing skill — selected by the Orbit pipeline when the",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "orbit-github": {
+    "name": "orbit-github",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\orbit-github",
+    "source": "workbuddy_home",
+    "display_name": "orbit-github",
+    "description": "Open Orbit briefing skill — selected by the Orbit pipeline when",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "orbit-gmail": {
+    "name": "orbit-gmail",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\orbit-gmail",
+    "source": "workbuddy_home",
+    "display_name": "orbit-gmail",
+    "description": "Open Orbit briefing skill — selected by the Orbit pipeline when",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "orbit-linear": {
+    "name": "orbit-linear",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\orbit-linear",
+    "source": "workbuddy_home",
+    "display_name": "orbit-linear",
+    "description": "Open Orbit briefing skill — selected by the Orbit pipeline when",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "orbit-notion": {
+    "name": "orbit-notion",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\orbit-notion",
+    "source": "workbuddy_home",
+    "display_name": "orbit-notion",
+    "description": "Open Orbit briefing skill — selected by the Orbit pipeline when",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "picset-ai-automation": {
+    "name": "picset-ai-automation",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\picset-ai-automation",
+    "source": "workbuddy_home",
+    "display_name": "picset-ai-automation",
+    "description": "Picset AI 网页版自动化 - 上传产品图、选择风格、生成设计、下载结果。支持单张图片和批量处理。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "planning-with-files": {
+    "name": "planning-with-files",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\planning-with-files",
+    "source": "workbuddy_home",
+    "display_name": "planning-with-files",
+    "description": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+    "user_invocable": true,
+    "scripts": [
+      "attest-plan.sh",
+      "bump-version.py",
+      "check-complete.sh",
+      "check-continue.sh",
+      "init-session.sh",
+      "resolve-plan-dir.sh",
+      "session-catchup.py",
+      "set-active-plan.sh",
+      "sync-ide-folders.py"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "pm-spec": {
+    "name": "pm-spec",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\pm-spec",
+    "source": "workbuddy_home",
+    "display_name": "pm-spec",
+    "description": "Product spec / PRD as a single page — problem, success metrics, scope,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "pptx-html-fidelity-audit": {
+    "name": "pptx-html-fidelity-audit",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\pptx-html-fidelity-audit",
+    "source": "workbuddy_home",
+    "display_name": "pptx-html-fidelity-audit",
+    "description": "Audit a python-pptx export against its source HTML deck, identify layout/content drift (footer overflow, cropped content, missing italic/em, lost styling, off-rhythm spacing), and re-export with strict footer-rail + cursor-flow layout discipline. Use this skill whenever the user has a .pptx that was generated from an HTML slide deck and asks to compare/audit/verify/fix the export — including phrases like \"compare ppt with html\", \"fidelity audit\", \"fix the pptx\", \"ppt is cut off\", \"footer overlap\", \"italic missing in pptx\", \"re-export the deck\", \"pptx-html-fidelity-audit\", or any case where a python-pptx → HTML round-trip needs verification or repair. Also trigger when the user shows you a deck.html and a deck.pptx side by side and is debugging visual differences.",
+    "user_invocable": false,
+    "scripts": [
+      "extract_pptx.py",
+      "verify_layout.py"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "pricing-page": {
+    "name": "pricing-page",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\pricing-page",
+    "source": "workbuddy_home",
+    "display_name": "pricing-page",
+    "description": "A standalone pricing page — header, plan tiers, feature comparison table,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "ralph-loop": {
+    "name": "ralph-loop",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\ralph-loop",
+    "source": "workbuddy_home",
+    "display_name": "ralph-loop",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "release-notes-one-pager": {
+    "name": "release-notes-one-pager",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\release-notes-one-pager",
+    "source": "workbuddy_home",
+    "display_name": "release-notes-one-pager",
+    "description": "Release notes one-page HTML with highlights, Added, Fixed, Breaking changes,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "remind-me-skill": {
+    "name": "remind-me",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\remind-me",
+    "source": "workbuddy_home",
+    "display_name": "remind-me-skill",
+    "description": "创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户。支持 macOS、Windows 和 Linux，支持睡眠/锁屏后唤醒时的过期提醒确认。当用户需要设置定时提醒、倒计时、闹钟或需要在特定时间点（如\"5分钟后\"、\"下午3点\"、API限额重置时间等）收到系统通知时使用；记录型将提醒记录到系统应用如“提醒事项”。",
+    "user_invocable": false,
+    "scripts": [
+      "cancel_task.sh",
+      "cleanup_expired.sh",
+      "create_reminder.sh",
+      "install_agent.sh",
+      "list_tasks.sh",
+      "wakeup_handler.sh"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能",
+      "生活娱乐"
+    ]
+  },
+  "replit-deck": {
+    "name": "replit-deck",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\replit-deck",
+    "source": "workbuddy_home",
+    "display_name": "replit-deck",
+    "description": "Single-file horizontal-swipe HTML deck in the style of Replit Slides's",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "saas-landing": {
+    "name": "saas-landing",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\saas-landing",
+    "source": "workbuddy_home",
+    "display_name": "saas-landing",
+    "description": "Single-page SaaS landing with hero, features, social proof, pricing, and CTA.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "Self-Improving + Proactive Agent": {
+    "name": "self-improving",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\self-improving",
+    "source": "workbuddy_home",
+    "display_name": "Self-Improving + Proactive Agent",
+    "description": "Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. Use when (1) a command, tool, API, or operation fails; (2) the user corrects you or rejects your work; (3) you realize your knowledge is outdated or incorrect; (4) you discover a better approach; (5) the user explicitly installs or references the skill for the current task.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "self-improvement": {
+    "name": "self-improving-agent",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\self-improving-agent",
+    "source": "workbuddy_home",
+    "display_name": "self-improvement",
+    "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.",
+    "user_invocable": false,
+    "scripts": [
+      "activator.sh",
+      "error-detector.sh",
+      "extract-skill.sh"
+    ],
+    "categories": [
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "simple-deck": {
+    "name": "simple-deck",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\simple-deck",
+    "source": "workbuddy_home",
+    "display_name": "simple-deck",
+    "description": "Single-file horizontal-swipe HTML deck. Built by copying the seed",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "skill-accuracy-checker": {
+    "name": "skill-accuracy-checker",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill-accuracy-checker",
+    "source": "workbuddy_home",
+    "display_name": "skill-accuracy-checker",
+    "description": "Automatically verify skill description accuracy. Check numeric claims, feature lists, skill references, and fix false advertising before publishing. Use this skill after creating or modifying any skill to ensure descriptions match reality.",
+    "user_invocable": false,
+    "scripts": [
+      "verify_counts.py"
+    ],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "skill-dispatcher": {
+    "name": "skill-dispatcher",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill-dispatcher",
+    "source": "workbuddy_home",
+    "display_name": "skill-dispatcher",
+    "description": "Skill dispatcher that analyzes user tasks and routes them to the most appropriate skill(s). This skill should be used FIRST when the user asks a complex or multi-domain question - it identifies which skills can best handle each part of the task, then invokes them in the right order. Also used for skill management: listing, describing, and comparing installed skills.",
+    "user_invocable": false,
+    "scripts": [
+      "scan_skills.py"
+    ],
+    "categories": [
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "skill-install-and-publish": {
+    "name": "skill-install-and-publish",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill-install-and-publish",
+    "source": "workbuddy_home",
+    "display_name": "skill-install-and-publish",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "skill-vetter": {
+    "name": "skill-vetter",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill-vetter",
+    "source": "workbuddy_home",
+    "display_name": "skill-vetter",
+    "description": "Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "admapix": {
+    "name": "skill_2053078982015520769",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053078982015520769",
+    "source": "workbuddy_home",
+    "display_name": "admapix",
+    "description": "Optional bearer token for the AdMapix Deep Research service, if enabled for the account.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "arxiv-reader": {
+    "name": "skill_2053081352472563712",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081352472563712",
+    "source": "workbuddy_home",
+    "display_name": "arxiv-reader",
+    "description": "利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "arxiv-watcher": {
+    "name": "skill_2053081360459321344",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081360459321344",
+    "source": "workbuddy_home",
+    "display_name": "arxiv-watcher",
+    "description": "Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.",
+    "user_invocable": false,
+    "scripts": [
+      "search_arxiv.sh"
+    ],
+    "categories": [
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "baidu-drive": {
+    "name": "skill_2053081382993469440",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081382993469440",
+    "source": "workbuddy_home",
+    "display_name": "baidu-drive",
+    "description": "百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹。TRIGGER: 用户提及\\\"百度网盘/bdpan/网盘/云盘/baidu drive/Baidu Drive\\\"并涉及文件操作。DO NOT TRIGGER: 非文件存储操作，或使用其他云盘服务时。",
+    "user_invocable": false,
+    "scripts": [
+      "install.sh",
+      "login.sh",
+      "uninstall.sh",
+      "update.sh"
+    ],
+    "categories": [
+      "办公效率",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "brand-guidelines": {
+    "name": "skill_2053081407153020928",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081407153020928",
+    "source": "workbuddy_home",
+    "display_name": "brand-guidelines",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "cangjie-skill": {
+    "name": "skill_2053081431465295872",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081431465295872",
+    "source": "workbuddy_home",
+    "display_name": "cangjie-skill",
+    "description": "Distill a book into a coherent set of executable skills. Use when the user asks to \"拆书\" / \"蒸馏一本书\" / \"把 XX 书做成 skill\" / \"turn a book into skills\" — i.e. wants a book's frameworks, principles,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "citation-manager": {
+    "name": "skill_2053081456646492160",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081456646492160",
+    "source": "workbuddy_home",
+    "display_name": "citation-manager",
+    "description": "Add real references and standardize citations for research papers and theses. Supports CrossRef integration, multiple citation formats (APA/MLA/Chicago/GB-T), batch import, and auto-detection of citation needs.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索"
+    ]
+  },
+  "colleague-skill": {
+    "name": "skill_2053081490252660736",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081490252660736",
+    "source": "workbuddy_home",
+    "display_name": "colleague-skill",
+    "description": "Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user wants to create a digital colleague, distill coworker knowledge, or build team member skill profiles.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "darwin-skill": {
+    "name": "skill_2053081519859650560",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081519859650560",
+    "source": "workbuddy_home",
+    "display_name": "darwin-skill",
+    "description": "Darwin Skill (达尔文.skill): autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (structure + effectiveness), runs hill-climbing with git version control, validates improvements through test prompts, and generates visual result cards. Use when user mentions \\\"优化skill\\\", \\\"skill评分\\\", \\\"自动优化\\\", \\\"auto optimize\\\", \\\"skill质量检查\\\", \\\"达尔文\\\", \\\"darwin\\\", \\\"帮我改改skill\\\", \\\"skill怎么样\\\", \\\"提升skill质量\\\", \\\"skill review\\\", \\\"skill打分\\\".",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "cnb-skill": {
+    "name": "skill_2053081551970693120",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081551970693120",
+    "source": "workbuddy_home",
+    "display_name": "cnb-skill",
+    "description": "Interact with CNB (Cloud Native Build) platform via OpenAPI. Manage organizations, repositories, issues, PRs, merge requests, pipelines, releases, artifacts, workspaces, members, and more. Use `cnb` CLI for CRUD operations. Trigger when user mentions CNB, 云原生构建, or needs to manage CNB resources like repos, issues, PRs, pipelines, releases, or artifact registries.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "canvas-design": {
+    "name": "skill_2053081626394972160",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081626394972160",
+    "source": "workbuddy_home",
+    "display_name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "github-trending-cn": {
+    "name": "skill_2053082035554123776",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082035554123776",
+    "source": "workbuddy_home",
+    "display_name": "github-trending-cn",
+    "description": "GitHub Trending Monitor. Fetch GitHub trending repos by daily/weekly/monthly period using real GitHub Search API. Runs scripts/github_trending.py (no pip deps, stdlib only). Use when user asks for 今日热门, 本周热门, 本月热门, GitHub trending, 开源动态, or popular repos. Supports language filter (python/javascript/go/rust etc.) and GITHUB_TOKEN for higher rate limits. 触发词：GitHub、trending、开源、热门项目.",
+    "user_invocable": false,
+    "scripts": [
+      "github_trending.py"
+    ],
+    "categories": [
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "deep-research": {
+    "name": "skill_2053082035566706688",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082035566706688",
+    "source": "workbuddy_home",
+    "display_name": "deep-research",
+    "description": "Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search across items, /research-report to compile markdown reports. Supports academic research, benchmark research, technology selection, market analysis, and due diligence. Triggers: 'deep research', 'research topic', 'benchmark comparison', 'technology survey', 'market analysis'. Requires: WebSearch capability.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "goal-tracker": {
+    "name": "skill_2053082046839844864",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082046839844864",
+    "source": "workbuddy_home",
+    "display_name": "goal-tracker",
+    "description": "Track long-term goals with milestones, daily logging, and accountability. Use when users want to set goals, log daily progress, update milestones, generate weekly summaries, or view an HTML dashboard of their goal progress.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "idea-validator": {
+    "name": "skill_2053082102874447872",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082102874447872",
+    "source": "workbuddy_home",
+    "display_name": "idea-validator",
+    "description": "Validate startup ideas using Hexa's Opportunity Memo framework and Perceived Created Value (PCV) methodology. Assess problem-solution fit, market opportunity, and determine if an idea is worth pursuing.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "market-researcher": {
+    "name": "skill_2053082339107885056",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082339107885056",
+    "source": "workbuddy_home",
+    "display_name": "market-researcher",
+    "description": "Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market opportunity identification. Excels at quantitative market sizing (TAM/SAM/SOM), qualitative consumer research, and strategic market positioning analysis.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "办公效率",
+      "研究搜索"
+    ]
+  },
+  "news-summary": {
+    "name": "skill_2053082438073974784",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082438073974784",
+    "source": "workbuddy_home",
+    "display_name": "news-summary",
+    "description": "This skill should be used when the user asks for news updates, daily briefings, or what's happening in the world. Fetches news from trusted international RSS feeds and can create voice summaries.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "openclaw-assets-to-workbuddy": {
+    "name": "skill_2053082530668290048",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082530668290048",
+    "source": "workbuddy_home",
+    "display_name": "openclaw-assets-to-workbuddy",
+    "description": "将 OpenClaw 用户的个人资产迁移到 WorkBuddy 对应位置，重点覆盖 SOUL.md、IDENTITY.md、USER.md、memory、skills、MCP 配置、bot/channel 连接配置，以及 OpenClaw 的 cron job 定义。适用于把 ~/.openclaw 或 OpenClaw workspace 迁入 ~/.workbuddy、WorkBuddy IDE 配置和目标 WorkBuddy 工作区的场景。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "model-usage": {
+    "name": "skill_2053082590929702912",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082590929702912",
+    "source": "workbuddy_home",
+    "display_name": "model-usage",
+    "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
+    "user_invocable": false,
+    "scripts": [
+      "model_usage.py"
+    ],
+    "categories": [
+      "数据分析",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "mcp-builder": {
+    "name": "skill_2053082707118465024",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082707118465024",
+    "source": "workbuddy_home",
+    "display_name": "mcp-builder",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+    "user_invocable": false,
+    "scripts": [
+      "connections.py",
+      "evaluation.py"
+    ],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "skills-security-check": {
+    "name": "skill_2053082711420960768",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082711420960768",
+    "source": "workbuddy_home",
+    "display_name": "skills-security-check",
+    "description": "腾讯云鼎实验室出品，Skill安全审查工具。对用户指定的skill.md文件及其配套的文档、程序、脚本等进行全面安全审计，确保引用安全",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "notebooklm-studio": {
+    "name": "skill_2053083103859970048",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083103859970048",
+    "source": "workbuddy_home",
+    "display_name": "notebooklm-studio",
+    "description": "Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps, slide decks, infographics, data tables. Use when users want to study from web content, create learning materials from URLs or documents, generate quizzes from articles, or produce study aids.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "tdesign-miniprogram": {
+    "name": "skill_2053083513698443264",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083513698443264",
+    "source": "workbuddy_home",
+    "display_name": "tdesign-miniprogram",
+    "description": "TDesign WeChat Mini Program UI component library by Tencent. Use when building WeChat mini apps with TDesign components (Button, Dialog, Input, Tabs, Chat, etc.), implementing TDesign design system, customizing themes/dark mode, or building AI chat interfaces in mini programs.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "markitdown-skill": {
+    "name": "skill_2053083553754644480",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083553754644480",
+    "source": "workbuddy_home",
+    "display_name": "markitdown-skill",
+    "description": "Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcription), HTML, YouTube, and URLs. Use when a user wants to convert a file or URL to Markdown, extract text from PDFs/images, transcribe audio/video, or batch-convert documents.",
+    "user_invocable": false,
+    "scripts": [
+      "batch_convert.py"
+    ],
+    "categories": [
+      "数据分析",
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "tutor-skills": {
+    "name": "skill_2053083605843107840",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083605843107840",
+    "source": "workbuddy_home",
+    "display_name": "tutor-skills",
+    "description": "Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concept-level progress tracking. Use when users want to study documents, create study materials from files, generate practice questions, or track learning mastery.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "wechat-miniprogram": {
+    "name": "skill_2053083649073352704",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083649073352704",
+    "source": "workbuddy_home",
+    "display_name": "wechat-miniprogram",
+    "description": "WeChat Mini Program (微信小程序) development framework. Use when building WeChat mini apps with WXML templates, WXSS styles, WXS scripting, component development, WeChat API integration, cloud development (云开发), and Mini Program lifecycle/performance optimization.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程"
+    ]
+  },
+  "x-longform-post": {
+    "name": "skill_2053083654722506752",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083654722506752",
+    "source": "workbuddy_home",
+    "display_name": "x-longform-post",
+    "description": "Write long-form X (Twitter) posts and threads in a founder/CEO voice. Use when drafting X articles, long tweets, thought leadership threads, or viral content. Produces contrarian, data-backed posts with ASCII diagrams and code block visuals. Includes mandatory AI humanizer pass (24-pattern detector) before finalizing.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "yourself-skill": {
+    "name": "skill_2053083681353162752",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083681353162752",
+    "source": "workbuddy_home",
+    "display_name": "yourself-skill",
+    "description": "Distill yourself into an AI Skill. Deconstruct chat history, diaries, social media, and photos into a runnable digital self with persona and memory models. Use when user wants to create a digital twin, self-reflection mirror, or personal knowledge archive.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "wechat-article-search": {
+    "name": "skill_2053083784548929536",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083784548929536",
+    "source": "workbuddy_home",
+    "display_name": "wechat-article-search",
+    "description": "搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。",
+    "user_invocable": false,
+    "scripts": [
+      "search_wechat.js"
+    ],
+    "categories": [
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "skyline": {
+    "name": "skill_2053083877422833664",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053083877422833664",
+    "source": "workbuddy_home",
+    "display_name": "skyline",
+    "description": "WeChat Mini Program Skyline rendering engine. Use when developing with Skyline renderer, including components (scroll-view, swiper, draggable-sheet), WXSS styles, worklet animations, custom routes/transitions, scroll APIs, and Skyline configuration/migration. Trigger keywords: Skyline, Skyline渲染引擎, skyline renderer, worklet, custom-route, routeBuilder, draggable-sheet, SharedValue, applyAnimatedStyle.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "开发编程"
+    ]
+  },
+  "marketing-skills": {
+    "name": "skill_2053084540171059200",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053084540171059200",
+    "source": "workbuddy_home",
+    "display_name": "marketing-skills",
+    "description": "TL;DR: 23 marketing playbooks (CRO, SEO, copy, analytics, experiments, pricing, launches, ads, social). Use to get checklists + copy/paste deliverables fast.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "tencent-yuanbao-standard-search": {
+    "name": "skill_2053085047000309760",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053085047000309760",
+    "source": "workbuddy_home",
+    "display_name": "tencent-yuanbao-standard-search",
+    "description": "Search the web using TencentCloud Web Search API (WSA). Prioritize using it when you need to retrieve network information.",
+    "user_invocable": false,
+    "scripts": [
+      "websearch.py"
+    ],
+    "categories": [
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "slock": {
+    "name": "slock",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\slock",
+    "source": "workbuddy_home",
+    "display_name": "slock",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "social-carousel": {
+    "name": "social-carousel",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\social-carousel",
+    "source": "workbuddy_home",
+    "display_name": "social-carousel",
+    "description": "A three-card social-media carousel laid out as 1080×1080 squares —",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "AI智能"
+    ]
+  },
+  "social-media-dashboard": {
+    "name": "social-media-dashboard",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\social-media-dashboard",
+    "source": "workbuddy_home",
+    "display_name": "social-media-dashboard",
+    "description": "Creator-facing social media analytics dashboard in a single HTML file.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "social-media-matrix-tracker-template": {
+    "name": "social-media-matrix-tracker-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\social-media-matrix-tracker-template",
+    "source": "workbuddy_home",
+    "display_name": "social-media-matrix-tracker-template",
+    "description": "社媒矩阵数据追踪面板模板（Social Media Matrix Tracker）。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作"
+    ]
+  },
+  "sprite-animation": {
+    "name": "sprite-animation",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\sprite-animation",
+    "source": "workbuddy_home",
+    "display_name": "sprite-animation",
+    "description": "A pixel / sprite-style animated explainer slide — full-bleed cream stage,",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "summarize": {
+    "name": "summarize",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\summarize",
+    "source": "workbuddy_home",
+    "display_name": "summarize",
+    "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "super-human": {
+    "name": "super-human",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\super-human",
+    "source": "workbuddy_home",
+    "display_name": "super-human",
+    "description": "全能超人 v2.0 - 融合 BMAD敏捷开发 + Open Design快速原型 + superpowers + agency + design + memory。支持敏捷开发全流程、Open Design原型生成、专家角色库支持。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "superpowers": {
+    "name": "superpowers",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\superpowers",
+    "source": "workbuddy_home",
+    "display_name": "superpowers",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "superpowers-cn": {
+    "name": "superpowers-cn",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\superpowers-cn",
+    "source": "workbuddy_home",
+    "display_name": "superpowers-cn",
+    "description": "中文AI工作流框架 - 先理解需求再执行，让AI做事更有逻辑",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "AI智能"
+    ]
+  },
+  "swiss-creative-mode-template": {
+    "name": "swiss-creative-mode-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\swiss-creative-mode-template",
+    "source": "workbuddy_home",
+    "display_name": "swiss-creative-mode-template",
+    "description": "Swiss-inspired creative-mode presentation template skill with bold editorial",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "swiss-user-research-video-template": {
+    "name": "swiss-user-research-video-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\swiss-user-research-video-template",
+    "source": "workbuddy_home",
+    "display_name": "swiss-user-research-video-template",
+    "description": "Swiss-style user-research narrative template in warm-paper editorial aesthetics.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索"
+    ]
+  },
+  "tavily-search": {
+    "name": "tavily-search",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\tavily-search",
+    "source": "workbuddy_home",
+    "display_name": "tavily-search",
+    "description": "Search the web with LLM-optimized results via the Tavily CLI. Use this skill when the user wants to search the web, find articles, look up information, get recent news, discover sources, or says \"search for\", \"find me\", \"look up\", \"what's the latest on\", \"find articles about\", or needs current information from the internet. Returns relevant results with content snippets, relevance scores, and metadata — optimized for LLM consumption. Supports domain filtering, time ranges, and multiple search depths.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "tavily-skills": {
+    "name": "tavily-skills",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\tavily-skills",
+    "source": "workbuddy_home",
+    "display_name": "tavily-skills",
+    "description": "",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "team-okrs": {
+    "name": "team-okrs",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\team-okrs",
+    "source": "workbuddy_home",
+    "display_name": "team-okrs",
+    "description": "OKR tracker page — quarter banner, three objectives with their key",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "tencentmap-miniprogram-skill": {
+    "name": "tencentmap-miniprogram-skill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\tencentmap-miniprogram-skill",
+    "source": "workbuddy_home",
+    "display_name": "tencentmap-miniprogram-skill",
+    "description": "此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、圆形、弧线、定位、导航、路线规划、POI搜索、地理编码、点聚合、热力图、腾讯地图 SDK 等）时，应加载此技能。适用平台：微信小程序。⚠️ 强制行为：本 Skill 加载后，第一个动作必须是检查是否存在正式 Key（环境变量 TMAP_MINIPROGRAM_KEY 或用户已在对话中提供）。若已有正式 Key，直接继续处理用户请求。若没有正式 Key，必须立即向用户展示 Key 选择提示（正式 Key 注册引导 + 预设体验 Key 选项），然后停止等待用户选择，不得在用户选择之前进行任何分析、读取文件、规划方案或编写代码的操作。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "办公效率",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "test-skill": {
+    "name": "test-skill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\test-skill",
+    "source": "workbuddy_home",
+    "display_name": "test-skill",
+    "description": "测试技能 - 用于 Trace2Skill 管道测试",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "trace2skill": {
+    "name": "trace2skill",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\trace2skill",
+    "source": "workbuddy_home",
+    "display_name": "trace2skill",
+    "description": "Trace2Skill - 从真实轨迹中演化 Agent 技能。自动改进 SKILL.md，支持 Claude Code 和 WorkBuddy。",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "trading-analysis-dashboard-template": {
+    "name": "trading-analysis-dashboard-template",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\trading-analysis-dashboard-template",
+    "source": "workbuddy_home",
+    "display_name": "trading-analysis-dashboard-template",
+    "description": "Professional trading analysis dashboard template (single-file HTML) with",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "数据分析",
+      "设计创作"
+    ]
+  },
+  "tweaks": {
+    "name": "tweaks",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\tweaks",
+    "source": "workbuddy_home",
+    "display_name": "tweaks",
+    "description": "Wrap any HTML artifact with a side panel of live, parameterized",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "video-frames": {
+    "name": "video-frames",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\video-frames",
+    "source": "workbuddy_home",
+    "display_name": "video-frames",
+    "description": "Extract frames or short clips from videos using ffmpeg.",
+    "user_invocable": false,
+    "scripts": [
+      "frame.sh"
+    ],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程"
+    ]
+  },
+  "video-shortform": {
+    "name": "video-shortform",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\video-shortform",
+    "source": "workbuddy_home",
+    "display_name": "video-shortform",
+    "description": "Short-form video generation skill — 3-10 second clips for product",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "开发编程",
+      "AI智能"
+    ]
+  },
+  "waitlist-page": {
+    "name": "waitlist-page",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\waitlist-page",
+    "source": "workbuddy_home",
+    "display_name": "waitlist-page",
+    "description": "Body font name as it appears in CSS (e.g., 'DM Sans', 'IBM Plex Serif'). Already quoted if needed; no extra quotes in template.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "AI智能"
+    ]
+  },
+  "wanman": {
+    "name": "wanman",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\wanman",
+    "source": "workbuddy_home",
+    "display_name": "wanman",
+    "description": ">",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "通用工具"
+    ]
+  },
+  "web-prototype": {
+    "name": "web-prototype",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\web-prototype",
+    "source": "workbuddy_home",
+    "display_name": "web-prototype",
+    "description": "General-purpose desktop web prototype. Single self-contained HTML file built",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "web-prototype-taste-brutalist": {
+    "name": "web-prototype-taste-brutalist",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\web-prototype-taste-brutalist",
+    "source": "workbuddy_home",
+    "display_name": "web-prototype-taste-brutalist",
+    "description": "Swiss industrial-print web prototype. Newsprint canvas, monolithic black grotesque, viewport-bleeding numerals, hairline grid dividers, hazard-red accent, ASCII syntax decoration. Distilled from Leonxlnx/taste-skill `brutalist-skill` (Swiss Industrial Print mode).",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "web-prototype-taste-editorial": {
+    "name": "web-prototype-taste-editorial",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\web-prototype-taste-editorial",
+    "source": "workbuddy_home",
+    "display_name": "web-prototype-taste-editorial",
+    "description": "Editorial-minimalist web prototype. Warm monochrome canvas, serif display + grotesque body, 1px hairline borders, muted pastel chips, generous macro-whitespace, ambient micro-motion. Distilled from Leonxlnx/taste-skill `minimalist-skill`.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "web-prototype-taste-soft": {
+    "name": "web-prototype-taste-soft",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\web-prototype-taste-soft",
+    "source": "workbuddy_home",
+    "display_name": "web-prototype-taste-soft",
+    "description": "Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. Distilled from Leonxlnx/taste-skill `soft-skill` + sections 4–8 of `taste-skill`.",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "AI智能"
+    ]
+  },
+  "weekly-update": {
+    "name": "weekly-update",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\weekly-update",
+    "source": "workbuddy_home",
+    "display_name": "weekly-update",
+    "description": "Single-file horizontal-swipe slide deck for a weekly team update —",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "办公效率"
+    ]
+  },
+  "wireframe-sketch": {
+    "name": "wireframe-sketch",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\wireframe-sketch",
+    "source": "workbuddy_home",
+    "display_name": "wireframe-sketch",
+    "description": "A hand-drawn wireframe exploration — graph-paper background, marker /",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "设计创作"
+    ]
+  },
+  "x-research": {
+    "name": "x-research",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\x-research",
+    "source": "workbuddy_home",
+    "display_name": "x-research",
+    "description": "X/Twitter public sentiment research for recent market, company, product, or",
+    "user_invocable": false,
+    "scripts": [],
+    "categories": [
+      "研究搜索"
+    ]
+  },
+  "transcript": {
+    "name": "youtube-transcript",
+    "path": "C:\\Users\\Administrator\\.workbuddy\\skills\\youtube-transcript",
+    "source": "workbuddy_home",
+    "display_name": "transcript",
+    "description": "Use when the spoken content of a YouTube video is needed — even if not explicitly requested: pasted video links or IDs, requests to summarize, quote, transcribe, translate, fact-check, or extract anything from a video. Also use for research or learning when a video is the source. Not for uploads or account management.",
+    "user_invocable": true,
+    "scripts": [],
+    "categories": [
+      "设计创作",
+      "研究搜索",
+      "AI智能"
+    ]
+  }
+}

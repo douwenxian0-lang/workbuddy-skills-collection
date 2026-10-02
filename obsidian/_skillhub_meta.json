@@ -3,5 +3,7 @@
   "name": "Obsidian",
   "version": "1.0.0",
   "installedAt": 1778124103200,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779728,
+  "installedContentHash": "sha256:ecde6c2b47bfd6f7eeb1ee85d0c49d0f9a042a0babbad9a8379db1ceb372a4f0"
 }

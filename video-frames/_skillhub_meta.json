@@ -3,5 +3,7 @@
   "name": "Video Frames",
   "version": "1.0.0",
   "installedAt": 1778124075921,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779732,
+  "installedContentHash": "sha256:26b8ffbc2a0af2c480969671ad266d345db4b0e61607d2a35eda6f196d68ba2a"
 }

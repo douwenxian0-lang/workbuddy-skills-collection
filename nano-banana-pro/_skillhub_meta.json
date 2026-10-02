@@ -3,5 +3,7 @@
   "name": "Nano Banana Pro",
   "version": "1.0.1",
   "installedAt": 1778124104608,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779727,
+  "installedContentHash": "sha256:a569f240096db5df46bc26d858ef217d5e4cb1944c79f766e466d944ee393c4c"
 }

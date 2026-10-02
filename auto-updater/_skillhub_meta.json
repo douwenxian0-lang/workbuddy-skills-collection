@@ -3,5 +3,7 @@
   "name": "Auto-Updater Skill",
   "version": "1.0.0",
   "installedAt": 1778124101219,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779721,
+  "installedContentHash": "sha256:a92a7c25dfa66c951591be7086baf9d8403fb9e8cb56502843e4f87a5dfc7fe1"
 }

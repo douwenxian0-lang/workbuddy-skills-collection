@@ -1,7 +1,9 @@
 {
   "slug": "api-gateway",
-  "name": "API Gateway",
-  "version": "1.0.116",
-  "installedAt": 1778438416858,
-  "source": "skillhub"
+  "name": "api-gateway",
+  "version": "1.0.124",
+  "installedAt": 1780499316909,
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779721,
+  "installedContentHash": "sha256:4f015081cf9baac585d056453d2779a671e570d19e9827bf38cfb08cafb28d09"
 }

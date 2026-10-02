@@ -1,0 +1,11 @@
+{
+  "name": "cnb.cool",
+  "installedAt": 1778132851277,
+  "source": "marketplace",
+  "iconSource": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/cnb-skill.svg",
+  "version": "1.0.0",
+  "skillId": "skill_2053081551970693120",
+  "iconLocalPath": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081551970693120\\_icon.svg",
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/cnb-skill.svg",
+  "installedContentHash": "sha256:79db9e3ba1e7d578b715e846f0ee148cc913581da2f7c2d043230751b378601d"
+}

@@ -1,0 +1,9 @@
+[Unit]
+Description=Remind Me Skill Wakeup Handler
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/remind-me-skill/scripts/linux/wakeup_handler.sh
+StandardOutput=journal
+StandardError=journal

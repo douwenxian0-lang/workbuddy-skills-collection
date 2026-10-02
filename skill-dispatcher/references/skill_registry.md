@@ -1,0 +1,557 @@
+# Skill 注册表
+
+自动生成时间: 2026-06-05 01:18:33
+
+共 220 个 skill
+
+
+## 数据分析（23 个）
+
+- **bmad-orchestrator**: Orchestrates BMAD workflows for structured AI-driven development. Use when initializing BMAD in projects, checking workflow status, or routing between  `脚本: check-status.sh, init-project.sh, validate-config.sh`
+- **colleague-skill**: Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user   `脚本: —`
+- **dcf-valuation**: Discounted cash flow valuation and intrinsic value analysis for public  `脚本: —`
+- **deep-research**: Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search a  `脚本: —`
+- **finance-report**: Quarterly / monthly financial report — masthead with KPIs, revenue and  `脚本: —`
+- **html-ppt-graphify-dark-graph**: 暗底知识图谱 deck — #06060c→#0e1020 深夜渐变 + 漂浮 blur orbs、封面 SVG 力导向图谱、彩虹渐变标题、JetBrains Mono 命令行高亮、glass-morphism 卡片。适合 dev-tool / CLI / 知识图谱 / 数据可视化的发布会，"AI-  `脚本: —`
+- **html-ppt-pitch-deck**: Investor-ready 10-slide HTML pitch deck — white + blue→purple gradient hero, big numbers, traction bar chart, $4.5M-style ask page. Use when the user   `脚本: —`
+- **html-ppt-weekly-report**: Team weekly / status-update deck — corporate clarity, 8-cell KPI grid, shipped list, 8-week bar chart, next-week table. Use for 周报, business reviews,   `脚本: —`
+- **ib-pitch-book**: Investment-banking pitch book for strategic alternatives — trading comps,  `脚本: —`
+- **live-artifact**: Create refreshable, auditable Open Design artifacts backed by connector or local data.  `脚本: —`
+- **magazine-web-ppt**: 生成"电子杂志 × 电子墨水"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到"杂志风 PPT"、"horizontal swipe deck  `脚本: —`
+- **market-researcher**: Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market opportunity identification. Excels at quan  `脚本: —`
+- **markitdown-skill**: Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcripti  `脚本: batch_convert.py`
+- **model-usage**: Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdow  `脚本: model_usage.py`
+- **notebooklm-studio**: Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps,   `脚本: —`
+- **notion**: Notion API for creating and managing pages, databases, and blocks.  `脚本: —`
+- **ontology**: Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document),  `脚本: ontology.py`
+- **social-media-matrix-tracker-template**: 社媒矩阵数据追踪面板模板（Social Media Matrix Tracker）。  `脚本: —`
+- **system-architect**: Designs system architecture, selects tech stacks, defines components and interfaces, addresses non-functional requirements. Trigger words - architectu  `脚本: nfr-checklist.sh, validate-architecture.sh`
+- **tavily-search**: Search the web with LLM-optimized results via the Tavily CLI. Use this skill when the user wants to search the web, find articles, look up information  `脚本: —`
+- **tencentmap-miniprogram-skill**: 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、  `脚本: —`
+- **trading-analysis-dashboard-template**: Professional trading analysis dashboard template (single-file HTML) with  `脚本: —`
+- **x-longform-post**: Write long-form X (Twitter) posts and threads in a founder/CEO voice. Use when drafting X articles, long tweets, thought leadership threads, or viral   `脚本: —`
+
+## 设计创作（146 个）
+
+- **8-bit-orbit-video-template**: Hyperframes-based video template for retro pixel deck motion design.  `脚本: —`
+- **Agency**: Build and operate a service agency with client management, project tracking, pricing, and team coordination.  `脚本: —`
+- **Agent Browser**: A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via struct  `脚本: —`
+- **Design**: Auto-learns your visual preferences. Adapts to UI, graphics, video, and any creative work.  `脚本: —`
+- **Memory**: Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.  `脚本: —`
+- **after-hours-editorial-template**: Luxury dark-editorial HyperFrames template for three-page cinematic storyboards,  `脚本: —`
+- **blog-post**: A long-form article / blog post — masthead, hero image placeholder,  `脚本: —`
+- **brand-guidelines**: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when b  `脚本: —`
+- **cangjie-skill**: Distill a book into a coherent set of executable skills. Use when the user asks to "拆书" / "蒸馏一本书" / "把 XX 书做成 skill" / "turn a book into skills" — i.e  `脚本: —`
+- **canvas-design**: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece  `脚本: —`
+- **clinical-case-report**: Structured medical case presentation for clinical rounds, conferences,  `脚本: —`
+- **cnb-skill**: Interact with CNB (Cloud Native Build) platform via OpenAPI. Manage organizations, repositories, issues, PRs, merge requests, pipelines, releases, art  `脚本: —`
+- **colleague-skill**: Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user   `脚本: —`
+- **critique**: Run a 5-dimension expert design review on any HTML artifact in the  `脚本: —`
+- **darcygb**: Claude Code Agents 集合 - 6个专业代理（Jenny验证器、合规检查器、代码质量专家、现实检查、任务完成验证器、UI测试器）  `脚本: —`
+- **dashboard**: Admin / analytics dashboard in a single HTML file. Fixed left sidebar,  `脚本: —`
+- **deep-research**: Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search a  `脚本: —`
+- **design-brief**: I-Lang formatted design brief or natural language description  `脚本: —`
+- **digital-eguide**: A two-spread digital e-guide preview — page 1 is a cover (display title,  `脚本: —`
+- **digits-fintech-swiss-template**: Swiss-grid fintech deck template in black / warm paper / neon-lime contrast.  `脚本: —`
+- **docs-page**: A documentation page — inline-start nav, scrollable article body,  `脚本: —`
+- **editorial-burgundy-principles-template**: Editorial studio deck template in burgundy / blush / muted-gold palette.  `脚本: —`
+- **email-marketing**: A brand product-launch email — masthead with wordmark, hero image block,  `脚本: —`
+- **excalidraw-diagram**: Create Excalidraw diagram JSON files that make visual arguments. Use when the user wants to visualize workflows, architectures, or concepts.  `脚本: —`
+- **field-notes-editorial-template**: Editorial "Field Notes" report template with soft paper background, serif hero  `脚本: —`
+- **flowai-live-dashboard-template**: Team-management dashboard skill in the FlowAI aesthetic — three tabs  `脚本: —`
+- **gamified-app**: A multi-frame gamified mobile-app prototype — three phone frames on a dark  `脚本: —`
+- **goal-tracker**: Track long-term goals with milestones, daily logging, and accountability. Use when users want to set goals, log daily progress, update milestones, gen  `脚本: —`
+- **gstack**: Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with  `脚本: analytics.ts, archetypes.ts, build-app.sh, compare-pr-version.ts, detect-bump.ts, dev-skill.ts, discover-skills.ts, eval-compare.ts, eval-list.ts, eval-select.ts, eval-summary.ts, eval-watch.ts, garry-output-comparison.ts, gen-llms-txt.ts, gen-skill-docs.ts, host-config-export.ts, host-config.ts, models.ts, one-way-doors.ts, preflight-agent-sdk.ts, psychographic-signals.ts, question-registry.ts, setup-scc.sh, skill-check.ts, slop-diff.ts, test-free-shards.ts, update-readme-throughput.ts`
+- **hatch-pet**: Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual  `脚本: compose_atlas.py, derive_running_left_from_running_right.py, extract_strip_frames.py, finalize_pet_run.py, generate_pet_images.py, inspect_frames.py, make_contact_sheet.py, package_custom_pet.py, pet_job_status.py, prepare_pet_run.py, queue_pet_repairs.py, record_imagegen_result.py, render_animation_videos.py, render_animation_videos.sh, validate_atlas.py`
+- **hr-onboarding**: A new-hire onboarding plan as a single page — first week schedule,  `脚本: —`
+- **html-ppt**: HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user as  `脚本: new-deck.sh, render.sh`
+- **html-ppt-course-module**: Online-course / workshop module deck — warm paper background + Playfair serif, persistent left sidebar of learning objectives, MCQ self-check page. Us  `脚本: —`
+- **html-ppt-dir-key-nav-minimal**: 8 页极简方向键 keynote — 每页一个独立单色背景（靛 / 奶 / 绛 / 翠 / 灰 / 紫 / 白 / 炭），各自配色，160px display 标题 + 4px 短粗 accent 线分隔、箭头 → 前缀的 Mono 列表、左下 ← → kbd 提示 + 右下页码、巨大呼吸留白。适合  `脚本: —`
+- **html-ppt-graphify-dark-graph**: 暗底知识图谱 deck — #06060c→#0e1020 深夜渐变 + 漂浮 blur orbs、封面 SVG 力导向图谱、彩虹渐变标题、JetBrains Mono 命令行高亮、glass-morphism 卡片。适合 dev-tool / CLI / 知识图谱 / 数据可视化的发布会，"AI-  `脚本: —`
+- **html-ppt-hermes-cyber-terminal**: 暗终端 honest-review deck — #0a0c10 黑底 + 56px 赛博网格 + CRT 暗角 + 扫描线、窗口红绿灯 chrome、`$ prompt` 命令行标题、薄荷绿 #7ed3a4 大字、JetBrains Mono、stroke-only 柱状图、blinking 光标  `脚本: —`
+- **html-ppt-knowledge-arch-blueprint**: 奶油蓝图架构 deck — 奶油纸 #F0EAE0 底色 + 单一锈红 #B5392A 高亮、48px 蓝图网格 mask、2px 黑边硬卡片、pipeline 步骤盒（其中一个抬高）、右侧锈红 insight callout、Playfair 衬线大字、SVG 虚线反馈环。零渐变零软阴影，认真且印  `脚本: —`
+- **html-ppt-obsidian-claude-gradient**: GitHub 暗紫渐变 deck — GitHub-dark #0d1117 + 紫蓝 radial 环境光 + 60px 网格 mask、居中布局、紫色 pill 标签、三色渐变标题（#a855f7→#60a5fa→#34d399）、GitHub 风代码 palette、紫色左边框高亮块。适合开发  `脚本: —`
+- **html-ppt-pitch-deck**: Investor-ready 10-slide HTML pitch deck — white + blue→purple gradient hero, big numbers, traction bar chart, $4.5M-style ask page. Use when the user   `脚本: —`
+- **html-ppt-presenter-mode**: 演讲者模式专用 deck — tokyo-night 默认主题，5 套主题 T 键切换，每页带 150-300 字逐字稿示例（<aside class="notes">），按 S 打开 popup（CURRENT / NEXT / SCRIPT / TIMER 四张磁吸卡片）。用于技术分享、公开演讲  `脚本: —`
+- **html-ppt-product-launch**: Launch keynote deck — dark hero + light content, warm orange→peach accent, feature cards, pricing tiers, CTA. Use when announcing a product, launching  `脚本: —`
+- **html-ppt-retro-quarterly-review**: Retro Quarterly Review presentation template in a bold blue + orange editorial  `脚本: —`
+- **html-ppt-taste-brutalist**: 16:9 HTML deck in tactical-telemetry / CRT-terminal taste. Deactivated-CRT charcoal slides, white-phosphor monospace, hazard-red accent, scanline over  `脚本: —`
+- **html-ppt-taste-editorial**: 16:9 HTML deck in editorial-minimalist taste. Warm cream slides, serif display + grotesque body, hairline rules, monospace meta, generous macro-whites  `脚本: —`
+- **html-ppt-tech-sharing**: Conference / internal tech-talk deck — GitHub-dark, JetBrains Mono, terminal code blocks, agenda + Q&A pages. Use for engineering presentations, inter  `脚本: —`
+- **html-ppt-testing-safety-alert**: 红琥珀警示 deck — 顶/底 45° 红黑 hazard 条纹、红色删除线否定标题、L1/L2/L3 绿/琥珀/红 tier 卡片、圆点状态 alert box、policy-yaml 代码块（红左边框 + bad 关键词高亮）、红绿 checklist、Q1 事故堆叠柱状图。适合安全 / 风险  `脚本: —`
+- **html-ppt-weekly-report**: Team weekly / status-update deck — corporate clarity, 8-cell KPI grid, shipped list, 8-week bar chart, next-week table. Use for 周报, business reviews,   `脚本: —`
+- **html-ppt-xhs-pastel-card**: 柔和马卡龙慢生活 deck — 奶油 #fef8f1 底 + 三个柔光 blob、Playfair 斜体衬线 display 标题混 sans 正文、28px 圆角马卡龙卡片（桃 / 薄荷 / 天 / 紫 / 柠 / 玫）、Playfair 斜体 01-04 序号、SVG donut 图、chip+  `脚本: —`
+- **html-ppt-xhs-post**: 小红书 / Instagram 风 9 页 3:4 竖版图文（810×1080）— 暖色 pastel、虚线 sticker 卡片、底部页码点点。用于发小红书图文、Instagram carousel、品牌种草内容。  `脚本: —`
+- **html-ppt-xhs-white-editorial**: 白底杂志风 deck — 纯白背景 + 顶部 10 色彩虹 bar、80-110px display 标题、紫→蓝→绿→橙→粉渐变文字、马卡龙软卡片组（粉/紫/蓝/绿/橙）、黑底白字 .focus pill、引用大块。同时适合发小红书图文 + 横版 PPT 双用。  `脚本: —`
+- **html-ppt-zhangzara-8-bit-orbit**: 8-Bit Orbit — Pixel-art neon arcade aesthetic on a deep navy void. Anything that should feel like a CRT screen at 2am: cyberpunk, gaming, web3, indie   `脚本: —`
+- **html-ppt-zhangzara-biennale-yellow**: Biennale Yellow — Solar yellow on warm parchment with deep indigo serif and atmospheric sun-glow gradients. Anything that should feel like an art-bien  `脚本: —`
+- **html-ppt-zhangzara-block-frame**: BlockFrame — Neobrutalist deck with pastel-neon color blocks and chunky black borders. Anything that should feel pop-graphic and design-led: indie Saa  `脚本: —`
+- **html-ppt-zhangzara-blue-professional**: Blue Professional — Cream paper background with electric cobalt blue accents; clean modern professional. Anything that should feel modern-considered a  `脚本: —`
+- **html-ppt-zhangzara-bold-poster**: Bold Poster — Editorial poster aesthetic with massive Shrikhand display and a single fire-engine red accent. Anything that should land like a magazine  `脚本: —`
+- **html-ppt-zhangzara-broadside**: Broadside — Dark editorial canvas with a single fire orange accent and bilingual Latin/Chinese type stack. Anything that should land like a broadside   `脚本: —`
+- **html-ppt-zhangzara-capsule**: Capsule — Modular pill-shaped cards on warm bone with a full pastel-pop palette. Anything that should feel modular, modern, and a little Y2K: lifestyl  `脚本: —`
+- **html-ppt-zhangzara-cartesian**: Cartesian — Quiet warm-neutral palette with classical Playfair serifs; tasteful and unhurried. Anything that should feel quiet, considered, and grown-  `脚本: —`
+- **html-ppt-zhangzara-cobalt-grid**: Cobalt Grid — Electric cobalt italic serifs on a graph-paper canvas, anchored by stair-stepped pixel-glitch decorations and slim hairline rules. Anyth  `脚本: —`
+- **html-ppt-zhangzara-coral**: Coral — Cream and coral on near-black, set in oversized Bebas Neue. Anything that should feel warm-graphic and editorial: fashion, beauty, fitness, F&  `脚本: —`
+- **html-ppt-zhangzara-creative-mode**: Creative Mode — Cream paper canvas with confident multi-color (green, pink, orange, yellow) accents and Archivo Black display. Anything that should fe  `脚本: —`
+- **html-ppt-zhangzara-daisy-days**: Daisy Days — Cheerful pastel deck with hand-drawn daisies, stars, and rainbows. Friendly, soft, and warm. Anything that should feel friendly, soft, an  `脚本: —`
+- **html-ppt-zhangzara-editorial-tri-tone**: Editorial Tri-Tone — Three-color editorial system: dusty pink, mustard cream, and deep burgundy, set in Bricolage + Instrument Serif. Anything that sh  `脚本: —`
+- **html-ppt-zhangzara-grove**: Grove — Forest-green canvas with cream type, classical Playfair serifs, and a single rust accent. Anything that should feel organic, considered, and g  `脚本: —`
+- **html-ppt-zhangzara-long-table**: Long Table — Warm cream and rust-red supper-club aesthetic with bold uppercase grotesk headlines, italic Fraunces, and pill-shaped outlined buttons. A  `脚本: —`
+- **html-ppt-zhangzara-mat**: Mat — Dark sage canvas with bone paper and burnt-orange accent; mid-century modern with wood undertones. Anything that should feel mid-century, tactil  `脚本: —`
+- **html-ppt-zhangzara-monochrome**: Monochrome — Ivory ledger paper with all-black type; Lora serif headlines, Jost body, no color at all. Anything that should feel like a hand-typeset l  `脚本: —`
+- **html-ppt-zhangzara-neo-grid-bold**: Neo-Grid Bold — Editorial neo-brutalism with a single neon yellow accent on off-white paper. Anything that should feel confident and editorial-graphic  `脚本: —`
+- **html-ppt-zhangzara-peoples-platform**: People's Platform (Block & Bold) — Activist poster energy: blue, orange, red on cream, with Alfa Slab + Caveat Brush. Anything that should feel honest  `脚本: —`
+- **html-ppt-zhangzara-pin-and-paper**: Pin & Paper — Yellow paper with safety-pin illustrations, ink-blue handwritten Caveat, paper-grain texture. Anything that should feel hand-crafted, wa  `脚本: —`
+- **html-ppt-zhangzara-pink-script**: Pink Script — After Hours — Black canvas, hot pink accent, pearl-cream paper, Instrument Serif headlines: late-night editorial luxury. Anything that s  `脚本: —`
+- **html-ppt-zhangzara-playful**: Playful — Sun-warm peach background with Syne display: a friendly indie launch deck. Anything that should feel warm, indie, and approachable: creator   `脚本: —`
+- **html-ppt-zhangzara-raw-grid**: Raw Grid — Neo-brutalist deck with thick borders, offset shadows, and a pink/sage/ink palette. Anything that should feel direct and graphic-confident:  `脚本: —`
+- **html-ppt-zhangzara-retro-windows**: Retro Windows — Windows 95 chrome: gray title bars, MS Sans Serif, pixel typography, full nostalgia. Anything that should feel knowingly nostalgic: re  `脚本: —`
+- **html-ppt-zhangzara-retro-zine**: Retro Zine — Beige paper with green accent and Bebas Neue + Caveat: a riso-printed zine in HTML form. Anything that should feel printed, lo-fi, and cr  `脚本: —`
+- **html-ppt-zhangzara-sakura-chroma**: Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. An  `脚本: —`
+- **html-ppt-zhangzara-scatterbrain**: Scatterbrain — Post-it inspired: pastel sticky notes, Caveat handwriting, Shrikhand and Zilla Slab type stack. Anything that should feel like a design  `脚本: —`
+- **html-ppt-zhangzara-signal**: Signal — Deep navy canvas with bone paper and a single muted-gold accent; institutional with quiet weight. Anything that should feel weighty, consider  `脚本: —`
+- **html-ppt-zhangzara-soft-editorial**: Soft Editorial — Cormorant Garamond serif on warm paper with sage, blush, and lemon accents. Anything that should feel literary, elegant, and unhurrie  `脚本: —`
+- **html-ppt-zhangzara-stencil-tablet**: Stencil & Tablet — Bone paper with stencil-cut headlines and a six-color earth palette: archaeology meets brand. Anything that should feel archival, t  `脚本: —`
+- **html-ppt-zhangzara-studio**: Studio — Black canvas with electric-yellow type; high-voltage design studio aesthetic. Anything that should feel electric and design-led: studio crede  `脚本: —`
+- **html-ppt-zhangzara-vellum**: Vellum — Deep navy canvas with warm-yellow italic Cormorant serifs and a single dusty teal accent. A quiet, scholarly aesthetic. Anything that should   `脚本: —`
+- **hyperframes**: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML.  `脚本: —`
+- **idea-validator**: Validate startup ideas using Hexa's Opportunity Memo framework and Perceived Created Value (PCV) methodology. Assess problem-solution fit, market oppo  `脚本: —`
+- **image-poster**: Single-image generation skill for posters, key art, and editorial  `脚本: —`
+- **impeccable** [可调用]: Distinctive anti-slop UI and UX umbrella skill for web and mobile work. Use for design direction, context gathering, anti-pattern avoidance, or to wor  `脚本: —`
+- **invoice**: A printable invoice page — sender + recipient block, line items table,  `脚本: —`
+- **kami-deck**: Self-contained kami deck with horizontal swipe pagination.  `脚本: —`
+- **kami-landing**: Self-contained HTML, kami CSS inlined, zero JS, zero external dependencies beyond Google Fonts.  `脚本: —`
+- **karpathy-guidelines**: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical   `脚本: —`
+- **live-artifact**: Create refreshable, auditable Open Design artifacts backed by connector or local data.  `脚本: —`
+- **live-dashboard**: Notion-style team dashboard rendered as a Live Artifact. A single-page,  `脚本: —`
+- **llm-wiki**: Use this skill when the user wants to build, maintain, or query a personal knowledge base using LLM-assisted wiki management. Triggers include request  `脚本: —`
+- **magazine-poster**: An editorial-style poster — newsprint paper, dateline, oversized serif  `脚本: —`
+- **magazine-web-ppt**: 生成"电子杂志 × 电子墨水"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到"杂志风 PPT"、"horizontal swipe deck  `脚本: —`
+- **markitdown-skill**: Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcripti  `脚本: batch_convert.py`
+- **mcp-builder**: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.   `脚本: connections.py, evaluation.py`
+- **meeting-notes**: Meeting notes page — title bar with attendees, agenda checklist, decisions  `脚本: —`
+- **mobile-app**: A mobile-app screen rendered inside a pixel-accurate iPhone 15 Pro frame  `脚本: —`
+- **mobile-onboarding**: A multi-screen mobile onboarding flow rendered as three phone frames  `脚本: —`
+- **motion-frames**: A single-frame motion-design composition with looping CSS animations —  `脚本: —`
+- **motionsites-prompt**: >  `脚本: —`
+- **multi-search-engine**: Multi search engine integration with 16 engines (7 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and  `脚本: —`
+- **nano-banana-pro**: Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-im  `脚本: generate_image.py`
+- **nano-pdf**: Edit PDFs with natural-language instructions using the nano-pdf CLI.  `脚本: —`
+- **notebooklm-studio**: Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps,   `脚本: —`
+- **notion**: Notion API for creating and managing pages, databases, and blocks.  `脚本: —`
+- **open-design-landing**: Astro static tree mirroring apps/landing-page (folder name is historical).  `脚本: compose.ts, imagegen.ts, placeholder.ts`
+- **open-design-landing-deck**: Self-contained HTML deck — Atelier Zero CSS inlined, runtime script inline, images relative.  `脚本: compose.ts`
+- **picset-ai-automation**: Picset AI 网页版自动化 - 上传产品图、选择风格、生成设计、下载结果。支持单张图片和批量处理。  `脚本: —`
+- **planning-with-files** [可调用]: Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use wh  `脚本: attest-plan.sh, bump-version.py, check-complete.sh, check-continue.sh, init-session.sh, resolve-plan-dir.sh, session-catchup.py, set-active-plan.sh, sync-ide-folders.py`
+- **pm-spec**: Product spec / PRD as a single page — problem, success metrics, scope,  `脚本: —`
+- **pptx-html-fidelity-audit**: Audit a python-pptx export against its source HTML deck, identify layout/content drift (footer overflow, cropped content, missing italic/em, lost styl  `脚本: extract_pptx.py, verify_layout.py`
+- **pricing-page**: A standalone pricing page — header, plan tiers, feature comparison table,  `脚本: —`
+- **release-notes-one-pager**: Release notes one-page HTML with highlights, Added, Fixed, Breaking changes,  `脚本: —`
+- **remind-me-skill**: 创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户。支持 macOS、Windows 和 Linux，支持睡眠/锁屏后唤醒时的过期提醒确认。当用户需要设置定时提醒、倒计时、闹钟或需要在特定时间点（如"5分钟后"、"下午3点"、API限额重置时间等）收到系统通知时使用；  `脚本: cancel_task.sh, cleanup_expired.sh, create_reminder.sh, install_agent.sh, list_tasks.sh, wakeup_handler.sh`
+- **replit-deck**: Single-file horizontal-swipe HTML deck in the style of Replit Slides's  `脚本: —`
+- **saas-landing**: Single-page SaaS landing with hero, features, social proof, pricing, and CTA.  `脚本: —`
+- **simple-deck**: Single-file horizontal-swipe HTML deck. Built by copying the seed  `脚本: —`
+- **skyline**: WeChat Mini Program Skyline rendering engine. Use when developing with Skyline renderer, including components (scroll-view, swiper, draggable-sheet),   `脚本: —`
+- **social-carousel**: A three-card social-media carousel laid out as 1080×1080 squares —  `脚本: —`
+- **social-media-dashboard**: Creator-facing social media analytics dashboard in a single HTML file.  `脚本: —`
+- **social-media-matrix-tracker-template**: 社媒矩阵数据追踪面板模板（Social Media Matrix Tracker）。  `脚本: —`
+- **sprite-animation**: A pixel / sprite-style animated explainer slide — full-bleed cream stage,  `脚本: —`
+- **summarize**: Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).  `脚本: —`
+- **super-human**: 全能超人 v2.0 - 融合 BMAD敏捷开发 + Open Design快速原型 + superpowers + agency + design + memory。支持敏捷开发全流程、Open Design原型生成、专家角色库支持。  `脚本: —`
+- **swiss-creative-mode-template**: Swiss-inspired creative-mode presentation template skill with bold editorial  `脚本: —`
+- **swiss-user-research-video-template**: Swiss-style user-research narrative template in warm-paper editorial aesthetics.  `脚本: —`
+- **system-architect**: Designs system architecture, selects tech stacks, defines components and interfaces, addresses non-functional requirements. Trigger words - architectu  `脚本: nfr-checklist.sh, validate-architecture.sh`
+- **tdesign-miniprogram**: TDesign WeChat Mini Program UI component library by Tencent. Use when building WeChat mini apps with TDesign components (Button, Dialog, Input, Tabs,   `脚本: —`
+- **team-okrs**: OKR tracker page — quarter banner, three objectives with their key  `脚本: —`
+- **trading-analysis-dashboard-template**: Professional trading analysis dashboard template (single-file HTML) with  `脚本: —`
+- **transcript** [可调用]: Use when the spoken content of a YouTube video is needed — even if not explicitly requested: pasted video links or IDs, requests to summarize, quote,   `脚本: —`
+- **tutor-skills**: Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concept-level progress tracking. Use when user  `脚本: —`
+- **tweaks**: Wrap any HTML artifact with a side panel of live, parameterized  `脚本: —`
+- **ux-designer**: Designs user experiences, creates wireframes, defines user flows, ensures accessibility. Trigger keywords - UX design, wireframe, user flow, accessibi  `脚本: contrast-check.py, responsive-breakpoints.sh, wcag-checklist.sh`
+- **video-frames**: Extract frames or short clips from videos using ffmpeg.  `脚本: frame.sh`
+- **video-shortform**: Short-form video generation skill — 3-10 second clips for product  `脚本: —`
+- **waitlist-page**: Body font name as it appears in CSS (e.g., 'DM Sans', 'IBM Plex Serif'). Already quoted if needed; no extra quotes in template.  `脚本: —`
+- **web-prototype**: General-purpose desktop web prototype. Single self-contained HTML file built  `脚本: —`
+- **web-prototype-taste-brutalist**: Swiss industrial-print web prototype. Newsprint canvas, monolithic black grotesque, viewport-bleeding numerals, hairline grid dividers, hazard-red acc  `脚本: —`
+- **web-prototype-taste-editorial**: Editorial-minimalist web prototype. Warm monochrome canvas, serif display + grotesque body, 1px hairline borders, muted pastel chips, generous macro-w  `脚本: —`
+- **web-prototype-taste-soft**: Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. D  `脚本: —`
+- **wechat-miniprogram**: WeChat Mini Program (微信小程序) development framework. Use when building WeChat mini apps with WXML templates, WXSS styles, WXS scripting, component devel  `脚本: —`
+- **weekly-update**: Single-file horizontal-swipe slide deck for a weekly team update —  `脚本: —`
+- **wireframe-sketch**: A hand-drawn wireframe exploration — graph-paper background, marker /  `脚本: —`
+
+## 办公效率（88 个）
+
+- **Agency**: Build and operate a service agency with client management, project tracking, pricing, and team coordination.  `脚本: —`
+- **Self-Improving + Proactive Agent**: Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. U  `脚本: —`
+- **after-hours-editorial-template**: Luxury dark-editorial HyperFrames template for three-page cinematic storyboards,  `脚本: —`
+- **api-gateway**: Connect to external services through Maton-managed API routes.  `脚本: —`
+- **arxiv-reader**: 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记  `脚本: —`
+- **arxiv-watcher**: Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.  `脚本: search_arxiv.sh`
+- **baidu-drive**: 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹。TRIGGER: 用户提及\"百度网盘/bdpan/网盘/云盘/baidu drive/Baidu Drive\"并涉及文件操作。DO NOT TRIGGER: 非文件存储操作，或使用其他云  `脚本: install.sh, login.sh, uninstall.sh, update.sh`
+- **bmad-orchestrator**: Orchestrates BMAD workflows for structured AI-driven development. Use when initializing BMAD in projects, checking workflow status, or routing between  `脚本: check-status.sh, init-project.sh, validate-config.sh`
+- **brand-guidelines**: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when b  `脚本: —`
+- **canvas-design**: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece  `脚本: —`
+- **cnb-skill**: Interact with CNB (Cloud Native Build) platform via OpenAPI. Manage organizations, repositories, issues, PRs, merge requests, pipelines, releases, art  `脚本: —`
+- **colleague-skill**: Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user   `脚本: —`
+- **darwin-skill**: Darwin Skill (达尔文.skill): autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (struct  `脚本: —`
+- **deep-research**: Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search a  `脚本: —`
+- **docs-page**: A documentation page — inline-start nav, scrollable article body,  `脚本: —`
+- **email-marketing**: A brand product-launch email — masthead with wordmark, hero image block,  `脚本: —`
+- **eng-runbook**: An engineering runbook — service overview, alerts table, dashboards  `脚本: —`
+- **field-notes-editorial-template**: Editorial "Field Notes" report template with soft paper background, serif hero  `脚本: —`
+- **finance-report**: Quarterly / monthly financial report — masthead with KPIs, revenue and  `脚本: —`
+- **flowai-live-dashboard-template**: Team-management dashboard skill in the FlowAI aesthetic — three tabs  `脚本: —`
+- **gamified-app**: A multi-frame gamified mobile-app prototype — three phone frames on a dark  `脚本: —`
+- **github-trending-cn**: GitHub Trending Monitor. Fetch GitHub trending repos by daily/weekly/monthly period using real GitHub Search API. Runs scripts/github_trending.py (no   `脚本: github_trending.py`
+- **goal-tracker**: Track long-term goals with milestones, daily logging, and accountability. Use when users want to set goals, log daily progress, update milestones, gen  `脚本: —`
+- **gog**: Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.  `脚本: —`
+- **gstack**: Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with  `脚本: analytics.ts, archetypes.ts, build-app.sh, compare-pr-version.ts, detect-bump.ts, dev-skill.ts, discover-skills.ts, eval-compare.ts, eval-list.ts, eval-select.ts, eval-summary.ts, eval-watch.ts, garry-output-comparison.ts, gen-llms-txt.ts, gen-skill-docs.ts, host-config-export.ts, host-config.ts, models.ts, one-way-doors.ts, preflight-agent-sdk.ts, psychographic-signals.ts, question-registry.ts, setup-scc.sh, skill-check.ts, slop-diff.ts, test-free-shards.ts, update-readme-throughput.ts`
+- **hatch-pet**: Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual  `脚本: compose_atlas.py, derive_running_left_from_running_right.py, extract_strip_frames.py, finalize_pet_run.py, generate_pet_images.py, inspect_frames.py, make_contact_sheet.py, package_custom_pet.py, pet_job_status.py, prepare_pet_run.py, queue_pet_repairs.py, record_imagegen_result.py, render_animation_videos.py, render_animation_videos.sh, validate_atlas.py`
+- **hr-onboarding**: A new-hire onboarding plan as a single page — first week schedule,  `脚本: —`
+- **html-ppt**: HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user as  `脚本: new-deck.sh, render.sh`
+- **html-ppt-dir-key-nav-minimal**: 8 页极简方向键 keynote — 每页一个独立单色背景（靛 / 奶 / 绛 / 翠 / 灰 / 紫 / 白 / 炭），各自配色，160px display 标题 + 4px 短粗 accent 线分隔、箭头 → 前缀的 Mono 列表、左下 ← → kbd 提示 + 右下页码、巨大呼吸留白。适合  `脚本: —`
+- **html-ppt-hermes-cyber-terminal**: 暗终端 honest-review deck — #0a0c10 黑底 + 56px 赛博网格 + CRT 暗角 + 扫描线、窗口红绿灯 chrome、`$ prompt` 命令行标题、薄荷绿 #7ed3a4 大字、JetBrains Mono、stroke-only 柱状图、blinking 光标  `脚本: —`
+- **html-ppt-obsidian-claude-gradient**: GitHub 暗紫渐变 deck — GitHub-dark #0d1117 + 紫蓝 radial 环境光 + 60px 网格 mask、居中布局、紫色 pill 标签、三色渐变标题（#a855f7→#60a5fa→#34d399）、GitHub 风代码 palette、紫色左边框高亮块。适合开发  `脚本: —`
+- **html-ppt-pitch-deck**: Investor-ready 10-slide HTML pitch deck — white + blue→purple gradient hero, big numbers, traction bar chart, $4.5M-style ask page. Use when the user   `脚本: —`
+- **html-ppt-presenter-mode**: 演讲者模式专用 deck — tokyo-night 默认主题，5 套主题 T 键切换，每页带 150-300 字逐字稿示例（<aside class="notes">），按 S 打开 popup（CURRENT / NEXT / SCRIPT / TIMER 四张磁吸卡片）。用于技术分享、公开演讲  `脚本: —`
+- **html-ppt-product-launch**: Launch keynote deck — dark hero + light content, warm orange→peach accent, feature cards, pricing tiers, CTA. Use when announcing a product, launching  `脚本: —`
+- **html-ppt-tech-sharing**: Conference / internal tech-talk deck — GitHub-dark, JetBrains Mono, terminal code blocks, agenda + Q&A pages. Use for engineering presentations, inter  `脚本: —`
+- **html-ppt-weekly-report**: Team weekly / status-update deck — corporate clarity, 8-cell KPI grid, shipped list, 8-week bar chart, next-week table. Use for 周报, business reviews,   `脚本: —`
+- **html-ppt-zhangzara-biennale-yellow**: Biennale Yellow — Solar yellow on warm parchment with deep indigo serif and atmospheric sun-glow gradients. Anything that should feel like an art-bien  `脚本: —`
+- **html-ppt-zhangzara-bold-poster**: Bold Poster — Editorial poster aesthetic with massive Shrikhand display and a single fire-engine red accent. Anything that should land like a magazine  `脚本: —`
+- **html-ppt-zhangzara-editorial-tri-tone**: Editorial Tri-Tone — Three-color editorial system: dusty pink, mustard cream, and deep burgundy, set in Bricolage + Instrument Serif. Anything that sh  `脚本: —`
+- **html-ppt-zhangzara-monochrome**: Monochrome — Ivory ledger paper with all-black type; Lora serif headlines, Jost body, no color at all. Anything that should feel like a hand-typeset l  `脚本: —`
+- **html-ppt-zhangzara-neo-grid-bold**: Neo-Grid Bold — Editorial neo-brutalism with a single neon yellow accent on off-white paper. Anything that should feel confident and editorial-graphic  `脚本: —`
+- **html-ppt-zhangzara-retro-windows**: Retro Windows — Windows 95 chrome: gray title bars, MS Sans Serif, pixel typography, full nostalgia. Anything that should feel knowingly nostalgic: re  `脚本: —`
+- **html-ppt-zhangzara-sakura-chroma**: Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. An  `脚本: —`
+- **html-ppt-zhangzara-scatterbrain**: Scatterbrain — Post-it inspired: pastel sticky notes, Caveat handwriting, Shrikhand and Zilla Slab type stack. Anything that should feel like a design  `脚本: —`
+- **ima-skill**: 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作。  `脚本: —`
+- **impeccable** [可调用]: Distinctive anti-slop UI and UX umbrella skill for web and mobile work. Use for design direction, context gathering, anti-pattern avoidance, or to wor  `脚本: —`
+- **invoice**: A printable invoice page — sender + recipient block, line items table,  `脚本: —`
+- **kanban-board**: Kanban / task board with columns (To do / In progress / In review / Done),  `脚本: —`
+- **khazix-writer**: 数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说"帮我把这个写成文章"或"用我的风格写一下"，只要上下文涉及内容创  `脚本: —`
+- **live-dashboard**: Notion-style team dashboard rendered as a Live Artifact. A single-page,  `脚本: —`
+- **llm-wiki**: Use this skill when the user wants to build, maintain, or query a personal knowledge base using LLM-assisted wiki management. Triggers include request  `脚本: —`
+- **llm-wiki-obsidian-blink**:   `脚本: —`
+- **magazine-poster**: An editorial-style poster — newsprint paper, dateline, oversized serif  `脚本: —`
+- **market-researcher**: Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market opportunity identification. Excels at quan  `脚本: —`
+- **markitdown-skill**: Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcripti  `脚本: batch_convert.py`
+- **mcp-builder**: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.   `脚本: connections.py, evaluation.py`
+- **meeting-notes**: Meeting notes page — title bar with attendees, agenda checklist, decisions  `脚本: —`
+- **mobile-onboarding**: A multi-screen mobile onboarding flow rendered as three phone frames  `脚本: —`
+- **nano-pdf**: Edit PDFs with natural-language instructions using the nano-pdf CLI.  `脚本: —`
+- **notebooklm-studio**: Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps,   `脚本: —`
+- **notion**: Notion API for creating and managing pages, databases, and blocks.  `脚本: —`
+- **obsidian**: Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.  `脚本: —`
+- **ontology**: Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document),  `脚本: ontology.py`
+- **orbit-gmail**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **orbit-notion**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **picset-ai-automation**: Picset AI 网页版自动化 - 上传产品图、选择风格、生成设计、下载结果。支持单张图片和批量处理。  `脚本: —`
+- **planning-with-files** [可调用]: Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use wh  `脚本: attest-plan.sh, bump-version.py, check-complete.sh, check-continue.sh, init-session.sh, resolve-plan-dir.sh, session-catchup.py, set-active-plan.sh, sync-ide-folders.py`
+- **pm-spec**: Product spec / PRD as a single page — problem, success metrics, scope,  `脚本: —`
+- **pptx-html-fidelity-audit**: Audit a python-pptx export against its source HTML deck, identify layout/content drift (footer overflow, cropped content, missing italic/em, lost styl  `脚本: extract_pptx.py, verify_layout.py`
+- **pricing-page**: A standalone pricing page — header, plan tiers, feature comparison table,  `脚本: —`
+- **release-notes-one-pager**: Release notes one-page HTML with highlights, Added, Fixed, Breaking changes,  `脚本: —`
+- **remind-me-skill**: 创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户。支持 macOS、Windows 和 Linux，支持睡眠/锁屏后唤醒时的过期提醒确认。当用户需要设置定时提醒、倒计时、闹钟或需要在特定时间点（如"5分钟后"、"下午3点"、API限额重置时间等）收到系统通知时使用；  `脚本: cancel_task.sh, cleanup_expired.sh, create_reminder.sh, install_agent.sh, list_tasks.sh, wakeup_handler.sh`
+- **scrum-master**: Sprint planning and agile workflow specialist. Breaks epics into user stories, estimates complexity using story points, plans sprint iterations, and t  `脚本: calculate-velocity.py, generate-story-id.sh, sprint-burndown.py`
+- **self-improvement**: Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User correc  `脚本: activator.sh, error-detector.sh, extract-skill.sh`
+- **skill-dispatcher**: Skill dispatcher that analyzes user tasks and routes them to the most appropriate skill(s). This skill should be used FIRST when the user asks a compl  `脚本: scan_skills.py`
+- **skills-security-check**: 腾讯云鼎实验室出品，Skill安全审查工具。对用户指定的skill.md文件及其配套的文档、程序、脚本等进行全面安全审计，确保引用安全  `脚本: —`
+- **skyline**: WeChat Mini Program Skyline rendering engine. Use when developing with Skyline renderer, including components (scroll-view, swiper, draggable-sheet),   `脚本: —`
+- **social-carousel**: A three-card social-media carousel laid out as 1080×1080 squares —  `脚本: —`
+- **summarize**: Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).  `脚本: —`
+- **system-architect**: Designs system architecture, selects tech stacks, defines components and interfaces, addresses non-functional requirements. Trigger words - architectu  `脚本: nfr-checklist.sh, validate-architecture.sh`
+- **team-okrs**: OKR tracker page — quarter banner, three objectives with their key  `脚本: —`
+- **tencentmap-miniprogram-skill**: 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、  `脚本: —`
+- **tutor-skills**: Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concept-level progress tracking. Use when user  `脚本: —`
+- **ux-designer**: Designs user experiences, creates wireframes, defines user flows, ensures accessibility. Trigger keywords - UX design, wireframe, user flow, accessibi  `脚本: contrast-check.py, responsive-breakpoints.sh, wcag-checklist.sh`
+- **web-prototype-taste-brutalist**: Swiss industrial-print web prototype. Newsprint canvas, monolithic black grotesque, viewport-bleeding numerals, hairline grid dividers, hazard-red acc  `脚本: —`
+- **web-prototype-taste-editorial**: Editorial-minimalist web prototype. Warm monochrome canvas, serif display + grotesque body, 1px hairline borders, muted pastel chips, generous macro-w  `脚本: —`
+- **weekly-update**: Single-file horizontal-swipe slide deck for a weekly team update —  `脚本: —`
+- **x-longform-post**: Write long-form X (Twitter) posts and threads in a founder/CEO voice. Use when drafting X articles, long tweets, thought leadership threads, or viral   `脚本: —`
+
+## 研究搜索（67 个）
+
+- **8-bit-orbit-video-template**: Hyperframes-based video template for retro pixel deck motion design.  `脚本: —`
+- **Design**: Auto-learns your visual preferences. Adapts to UI, graphics, video, and any creative work.  `脚本: —`
+- **admapix**: Optional bearer token for the AdMapix Deep Research service, if enabled for the account.  `脚本: —`
+- **arxiv-reader**: 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记  `脚本: —`
+- **arxiv-watcher**: Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.  `脚本: search_arxiv.sh`
+- **auto-updater**: Automatically update Clawdbot and all installed skills once daily. Runs via cron, checks for updates, applies them, and messages the user with a summa  `脚本: —`
+- **baidu-drive**: 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹。TRIGGER: 用户提及\"百度网盘/bdpan/网盘/云盘/baidu drive/Baidu Drive\"并涉及文件操作。DO NOT TRIGGER: 非文件存储操作，或使用其他云  `脚本: install.sh, login.sh, uninstall.sh, update.sh`
+- **blog-post**: A long-form article / blog post — masthead, hero image placeholder,  `脚本: —`
+- **citation-manager**: Add real references and standardize citations for research papers and theses. Supports CrossRef integration, multiple citation formats (APA/MLA/Chicag  `脚本: —`
+- **clinical-case-report**: Structured medical case presentation for clinical rounds, conferences,  `脚本: —`
+- **darwin-skill**: Darwin Skill (达尔文.skill): autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (struct  `脚本: —`
+- **dating-web**: A consumer-feeling dating / matchmaking dashboard — left rail navigation,  `脚本: —`
+- **deep-research**: Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search a  `脚本: —`
+- **docs-page**: A documentation page — inline-start nav, scrollable article body,  `脚本: —`
+- **field-notes-editorial-template**: Editorial "Field Notes" report template with soft paper background, serif hero  `脚本: —`
+- **finance-report**: Quarterly / monthly financial report — masthead with KPIs, revenue and  `脚本: —`
+- **find-skills**: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or e  `脚本: —`
+- **github-trending-cn**: GitHub Trending Monitor. Fetch GitHub trending repos by daily/weekly/monthly period using real GitHub Search API. Runs scripts/github_trending.py (no   `脚本: github_trending.py`
+- **gstack**: Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with  `脚本: analytics.ts, archetypes.ts, build-app.sh, compare-pr-version.ts, detect-bump.ts, dev-skill.ts, discover-skills.ts, eval-compare.ts, eval-list.ts, eval-select.ts, eval-summary.ts, eval-watch.ts, garry-output-comparison.ts, gen-llms-txt.ts, gen-skill-docs.ts, host-config-export.ts, host-config.ts, models.ts, one-way-doors.ts, preflight-agent-sdk.ts, psychographic-signals.ts, question-registry.ts, setup-scc.sh, skill-check.ts, slop-diff.ts, test-free-shards.ts, update-readme-throughput.ts`
+- **hatch-pet**: Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual  `脚本: compose_atlas.py, derive_running_left_from_running_right.py, extract_strip_frames.py, finalize_pet_run.py, generate_pet_images.py, inspect_frames.py, make_contact_sheet.py, package_custom_pet.py, pet_job_status.py, prepare_pet_run.py, queue_pet_repairs.py, record_imagegen_result.py, render_animation_videos.py, render_animation_videos.sh, validate_atlas.py`
+- **html-ppt**: HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user as  `脚本: new-deck.sh, render.sh`
+- **html-ppt-weekly-report**: Team weekly / status-update deck — corporate clarity, 8-cell KPI grid, shipped list, 8-week bar chart, next-week table. Use for 周报, business reviews,   `脚本: —`
+- **html-ppt-zhangzara-8-bit-orbit**: 8-Bit Orbit — Pixel-art neon arcade aesthetic on a deep navy void. Anything that should feel like a CRT screen at 2am: cyberpunk, gaming, web3, indie   `脚本: —`
+- **html-ppt-zhangzara-biennale-yellow**: Biennale Yellow — Solar yellow on warm parchment with deep indigo serif and atmospheric sun-glow gradients. Anything that should feel like an art-bien  `脚本: —`
+- **html-ppt-zhangzara-blue-professional**: Blue Professional — Cream paper background with electric cobalt blue accents; clean modern professional. Anything that should feel modern-considered a  `脚本: —`
+- **html-ppt-zhangzara-broadside**: Broadside — Dark editorial canvas with a single fire orange accent and bilingual Latin/Chinese type stack. Anything that should land like a broadside   `脚本: —`
+- **html-ppt-zhangzara-cartesian**: Cartesian — Quiet warm-neutral palette with classical Playfair serifs; tasteful and unhurried. Anything that should feel quiet, considered, and grown-  `脚本: —`
+- **html-ppt-zhangzara-cobalt-grid**: Cobalt Grid — Electric cobalt italic serifs on a graph-paper canvas, anchored by stair-stepped pixel-glitch decorations and slim hairline rules. Anyth  `脚本: —`
+- **html-ppt-zhangzara-editorial-tri-tone**: Editorial Tri-Tone — Three-color editorial system: dusty pink, mustard cream, and deep burgundy, set in Bricolage + Instrument Serif. Anything that sh  `脚本: —`
+- **html-ppt-zhangzara-grove**: Grove — Forest-green canvas with cream type, classical Playfair serifs, and a single rust accent. Anything that should feel organic, considered, and g  `脚本: —`
+- **html-ppt-zhangzara-monochrome**: Monochrome — Ivory ledger paper with all-black type; Lora serif headlines, Jost body, no color at all. Anything that should feel like a hand-typeset l  `脚本: —`
+- **html-ppt-zhangzara-pin-and-paper**: Pin & Paper — Yellow paper with safety-pin illustrations, ink-blue handwritten Caveat, paper-grain texture. Anything that should feel hand-crafted, wa  `脚本: —`
+- **html-ppt-zhangzara-playful**: Playful — Sun-warm peach background with Syne display: a friendly indie launch deck. Anything that should feel warm, indie, and approachable: creator   `脚本: —`
+- **html-ppt-zhangzara-sakura-chroma**: Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. An  `脚本: —`
+- **html-ppt-zhangzara-signal**: Signal — Deep navy canvas with bone paper and a single muted-gold accent; institutional with quiet weight. Anything that should feel weighty, consider  `脚本: —`
+- **html-ppt-zhangzara-stencil-tablet**: Stencil & Tablet — Bone paper with stencil-cut headlines and a six-color earth palette: archaeology meets brand. Anything that should feel archival, t  `脚本: —`
+- **html-ppt-zhangzara-vellum**: Vellum — Deep navy canvas with warm-yellow italic Cormorant serifs and a single dusty teal accent. A quiet, scholarly aesthetic. Anything that should   `脚本: —`
+- **huashu-nuwa**: 女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。  `脚本: —`
+- **hyperframes**: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML.  `脚本: —`
+- **impeccable** [可调用]: Distinctive anti-slop UI and UX umbrella skill for web and mobile work. Use for design direction, context gathering, anti-pattern avoidance, or to wor  `脚本: —`
+- **khazix-writer**: 数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说"帮我把这个写成文章"或"用我的风格写一下"，只要上下文涉及内容创  `脚本: —`
+- **last30days**: Recent community and social trend research over the last 30 days. Use when  `脚本: briefing.py, last30days.py, store.py, watchlist.py`
+- **magazine-poster**: An editorial-style poster — newsprint paper, dateline, oversized serif  `脚本: —`
+- **magazine-web-ppt**: 生成"电子杂志 × 电子墨水"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到"杂志风 PPT"、"horizontal swipe deck  `脚本: —`
+- **market-researcher**: Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market opportunity identification. Excels at quan  `脚本: —`
+- **markitdown-skill**: Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcripti  `脚本: batch_convert.py`
+- **model-usage**: Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdow  `脚本: model_usage.py`
+- **multi-search-engine**: Multi search engine integration with 16 engines (7 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and  `脚本: —`
+- **news-summary**: This skill should be used when the user asks for news updates, daily briefings, or what's happening in the world. Fetches news from trusted internatio  `脚本: —`
+- **notebooklm-studio**: Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps,   `脚本: —`
+- **planning-with-files** [可调用]: Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use wh  `脚本: attest-plan.sh, bump-version.py, check-complete.sh, check-continue.sh, init-session.sh, resolve-plan-dir.sh, session-catchup.py, set-active-plan.sh, sync-ide-folders.py`
+- **summarize**: Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).  `脚本: —`
+- **swiss-user-research-video-template**: Swiss-style user-research narrative template in warm-paper editorial aesthetics.  `脚本: —`
+- **tavily-search**: Search the web with LLM-optimized results via the Tavily CLI. Use this skill when the user wants to search the web, find articles, look up information  `脚本: —`
+- **tavily-skills**:   `脚本: —`
+- **tencent-yuanbao-standard-search**: Search the web using TencentCloud Web Search API (WSA). Prioritize using it when you need to retrieve network information.  `脚本: websearch.py`
+- **tencentmap-miniprogram-skill**: 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、  `脚本: —`
+- **transcript** [可调用]: Use when the spoken content of a YouTube video is needed — even if not explicitly requested: pasted video links or IDs, requests to summarize, quote,   `脚本: —`
+- **video-frames**: Extract frames or short clips from videos using ffmpeg.  `脚本: frame.sh`
+- **video-shortform**: Short-form video generation skill — 3-10 second clips for product  `脚本: —`
+- **web-prototype**: General-purpose desktop web prototype. Single self-contained HTML file built  `脚本: —`
+- **web-prototype-taste-brutalist**: Swiss industrial-print web prototype. Newsprint canvas, monolithic black grotesque, viewport-bleeding numerals, hairline grid dividers, hazard-red acc  `脚本: —`
+- **web-prototype-taste-editorial**: Editorial-minimalist web prototype. Warm monochrome canvas, serif display + grotesque body, 1px hairline borders, muted pastel chips, generous macro-w  `脚本: —`
+- **web-prototype-taste-soft**: Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. D  `脚本: —`
+- **wechat-article-search**: 搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。  `脚本: search_wechat.js`
+- **x-longform-post**: Write long-form X (Twitter) posts and threads in a founder/CEO voice. Use when drafting X articles, long tweets, thought leadership threads, or viral   `脚本: —`
+- **x-research**: X/Twitter public sentiment research for recent market, company, product, or  `脚本: —`
+
+## 开发编程（83 个）
+
+- **Agency**: Build and operate a service agency with client management, project tracking, pricing, and team coordination.  `脚本: —`
+- **Agent Browser**: A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via struct  `脚本: —`
+- **Memory**: Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.  `脚本: —`
+- **Self-Improving + Proactive Agent**: Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. U  `脚本: —`
+- **admapix**: Optional bearer token for the AdMapix Deep Research service, if enabled for the account.  `脚本: —`
+- **agency-agents-zh** [可调用]: AI 专家角色库框架 - 提供加载专家角色的能力。实际角色文件需单独安装。  `脚本: —`
+- **agent-memory**:   `脚本: —`
+- **agent-reach**: >  `脚本: sync-upstream.sh`
+- **api-gateway**: Connect to external services through Maton-managed API routes.  `脚本: —`
+- **arxiv-reader**: 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记  `脚本: —`
+- **arxiv-watcher**: Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.  `脚本: search_arxiv.sh`
+- **bmad-developer**:   `脚本: —`
+- **bmad-orchestrator**: Orchestrates BMAD workflows for structured AI-driven development. Use when initializing BMAD in projects, checking workflow status, or routing between  `脚本: check-status.sh, init-project.sh, validate-config.sh`
+- **clinical-case-report**: Structured medical case presentation for clinical rounds, conferences,  `脚本: —`
+- **cnb-skill**: Interact with CNB (Cloud Native Build) platform via OpenAPI. Manage organizations, repositories, issues, PRs, merge requests, pipelines, releases, art  `脚本: —`
+- **codeconductor**:   `脚本: —`
+- **colleague-skill**: Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user   `脚本: —`
+- **darcygb**: Claude Code Agents 集合 - 6个专业代理（Jenny验证器、合规检查器、代码质量专家、现实检查、任务完成验证器、UI测试器）  `脚本: —`
+- **darwin-skill**: Darwin Skill (达尔文.skill): autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (struct  `脚本: —`
+- **deep-research**: Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search a  `脚本: —`
+- **digital-eguide**: A two-spread digital e-guide preview — page 1 is a cover (display title,  `脚本: —`
+- **digits-fintech-swiss-template**: Swiss-grid fintech deck template in black / warm paper / neon-lime contrast.  `脚本: —`
+- **field-notes-editorial-template**: Editorial "Field Notes" report template with soft paper background, serif hero  `脚本: —`
+- **finance-report**: Quarterly / monthly financial report — masthead with KPIs, revenue and  `脚本: —`
+- **find-skills**: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or e  `脚本: —`
+- **freeride**: OpenRouter API key — get a free one at openrouter.ai/keys  `脚本: —`
+- **github**: Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.  `脚本: —`
+- **github-dashboard**: GitHub repository analytics dashboard — stars, forks, contributors,  `脚本: —`
+- **github-trending-cn**: GitHub Trending Monitor. Fetch GitHub trending repos by daily/weekly/monthly period using real GitHub Search API. Runs scripts/github_trending.py (no   `脚本: github_trending.py`
+- **gog**: Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.  `脚本: —`
+- **gstack**: Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with  `脚本: analytics.ts, archetypes.ts, build-app.sh, compare-pr-version.ts, detect-bump.ts, dev-skill.ts, discover-skills.ts, eval-compare.ts, eval-list.ts, eval-select.ts, eval-summary.ts, eval-watch.ts, garry-output-comparison.ts, gen-llms-txt.ts, gen-skill-docs.ts, host-config-export.ts, host-config.ts, models.ts, one-way-doors.ts, preflight-agent-sdk.ts, psychographic-signals.ts, question-registry.ts, setup-scc.sh, skill-check.ts, slop-diff.ts, test-free-shards.ts, update-readme-throughput.ts`
+- **hatch-pet**: Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual  `脚本: compose_atlas.py, derive_running_left_from_running_right.py, extract_strip_frames.py, finalize_pet_run.py, generate_pet_images.py, inspect_frames.py, make_contact_sheet.py, package_custom_pet.py, pet_job_status.py, prepare_pet_run.py, queue_pet_repairs.py, record_imagegen_result.py, render_animation_videos.py, render_animation_videos.sh, validate_atlas.py`
+- **html-ppt**: HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user as  `脚本: new-deck.sh, render.sh`
+- **html-ppt-graphify-dark-graph**: 暗底知识图谱 deck — #06060c→#0e1020 深夜渐变 + 漂浮 blur orbs、封面 SVG 力导向图谱、彩虹渐变标题、JetBrains Mono 命令行高亮、glass-morphism 卡片。适合 dev-tool / CLI / 知识图谱 / 数据可视化的发布会，"AI-  `脚本: —`
+- **html-ppt-hermes-cyber-terminal**: 暗终端 honest-review deck — #0a0c10 黑底 + 56px 赛博网格 + CRT 暗角 + 扫描线、窗口红绿灯 chrome、`$ prompt` 命令行标题、薄荷绿 #7ed3a4 大字、JetBrains Mono、stroke-only 柱状图、blinking 光标  `脚本: —`
+- **html-ppt-obsidian-claude-gradient**: GitHub 暗紫渐变 deck — GitHub-dark #0d1117 + 紫蓝 radial 环境光 + 60px 网格 mask、居中布局、紫色 pill 标签、三色渐变标题（#a855f7→#60a5fa→#34d399）、GitHub 风代码 palette、紫色左边框高亮块。适合开发  `脚本: —`
+- **html-ppt-tech-sharing**: Conference / internal tech-talk deck — GitHub-dark, JetBrains Mono, terminal code blocks, agenda + Q&A pages. Use for engineering presentations, inter  `脚本: —`
+- **html-ppt-testing-safety-alert**: 红琥珀警示 deck — 顶/底 45° 红黑 hazard 条纹、红色删除线否定标题、L1/L2/L3 绿/琥珀/红 tier 卡片、圆点状态 alert box、policy-yaml 代码块（红左边框 + bad 关键词高亮）、红绿 checklist、Q1 事故堆叠柱状图。适合安全 / 风险  `脚本: —`
+- **html-ppt-weekly-report**: Team weekly / status-update deck — corporate clarity, 8-cell KPI grid, shipped list, 8-week bar chart, next-week table. Use for 周报, business reviews,   `脚本: —`
+- **html-ppt-zhangzara-8-bit-orbit**: 8-Bit Orbit — Pixel-art neon arcade aesthetic on a deep navy void. Anything that should feel like a CRT screen at 2am: cyberpunk, gaming, web3, indie   `脚本: —`
+- **html-ppt-zhangzara-blue-professional**: Blue Professional — Cream paper background with electric cobalt blue accents; clean modern professional. Anything that should feel modern-considered a  `脚本: —`
+- **html-ppt-zhangzara-cobalt-grid**: Cobalt Grid — Electric cobalt italic serifs on a graph-paper canvas, anchored by stair-stepped pixel-glitch decorations and slim hairline rules. Anyth  `脚本: —`
+- **html-ppt-zhangzara-grove**: Grove — Forest-green canvas with cream type, classical Playfair serifs, and a single rust accent. Anything that should feel organic, considered, and g  `脚本: —`
+- **html-ppt-zhangzara-monochrome**: Monochrome — Ivory ledger paper with all-black type; Lora serif headlines, Jost body, no color at all. Anything that should feel like a hand-typeset l  `脚本: —`
+- **html-ppt-zhangzara-sakura-chroma**: Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. An  `脚本: —`
+- **hyperframes**: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML.  `脚本: —`
+- **ima-skill**: 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作。  `脚本: —`
+- **karpathy-guidelines**: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical   `脚本: —`
+- **llm-wiki**: Use this skill when the user wants to build, maintain, or query a personal knowledge base using LLM-assisted wiki management. Triggers include request  `脚本: —`
+- **markitdown-skill**: Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcripti  `脚本: batch_convert.py`
+- **mcp-builder**: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.   `脚本: connections.py, evaluation.py`
+- **model-usage**: Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdow  `脚本: model_usage.py`
+- **multi-search-engine**: Multi search engine integration with 16 engines (7 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and  `脚本: —`
+- **multica**: >  `脚本: check.sh, dev.sh, ensure-postgres.sh, init-worktree-env.sh, install.sh`
+- **nano-pdf**: Edit PDFs with natural-language instructions using the nano-pdf CLI.  `脚本: —`
+- **notebooklm-studio**: Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps,   `脚本: —`
+- **notion**: Notion API for creating and managing pages, databases, and blocks.  `脚本: —`
+- **obsidian**: Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.  `脚本: —`
+- **ontology**: Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document),  `脚本: ontology.py`
+- **openai-whisper**: Local speech-to-text with the Whisper CLI (no API key).  `脚本: —`
+- **openclaw-assets-to-workbuddy**: 将 OpenClaw 用户的个人资产迁移到 WorkBuddy 对应位置，重点覆盖 SOUL.md、IDENTITY.md、USER.md、memory、skills、MCP 配置、bot/channel 连接配置，以及 OpenClaw 的 cron job 定义。适用于把 ~/.openclaw  `脚本: —`
+- **orbit-github**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **planning-with-files** [可调用]: Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use wh  `脚本: attest-plan.sh, bump-version.py, check-complete.sh, check-continue.sh, init-session.sh, resolve-plan-dir.sh, session-catchup.py, set-active-plan.sh, sync-ide-folders.py`
+- **pptx-html-fidelity-audit**: Audit a python-pptx export against its source HTML deck, identify layout/content drift (footer overflow, cropped content, missing italic/em, lost styl  `脚本: extract_pptx.py, verify_layout.py`
+- **remind-me-skill**: 创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户。支持 macOS、Windows 和 Linux，支持睡眠/锁屏后唤醒时的过期提醒确认。当用户需要设置定时提醒、倒计时、闹钟或需要在特定时间点（如"5分钟后"、"下午3点"、API限额重置时间等）收到系统通知时使用；  `脚本: cancel_task.sh, cleanup_expired.sh, create_reminder.sh, install_agent.sh, list_tasks.sh, wakeup_handler.sh`
+- **self-improvement**: Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User correc  `脚本: activator.sh, error-detector.sh, extract-skill.sh`
+- **skill-vetter**: Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission   `脚本: —`
+- **skyline**: WeChat Mini Program Skyline rendering engine. Use when developing with Skyline renderer, including components (scroll-view, swiper, draggable-sheet),   `脚本: —`
+- **summarize**: Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).  `脚本: —`
+- **super-human**: 全能超人 v2.0 - 融合 BMAD敏捷开发 + Open Design快速原型 + superpowers + agency + design + memory。支持敏捷开发全流程、Open Design原型生成、专家角色库支持。  `脚本: —`
+- **system-architect**: Designs system architecture, selects tech stacks, defines components and interfaces, addresses non-functional requirements. Trigger words - architectu  `脚本: nfr-checklist.sh, validate-architecture.sh`
+- **tavily-search**: Search the web with LLM-optimized results via the Tavily CLI. Use this skill when the user wants to search the web, find articles, look up information  `脚本: —`
+- **tdesign-miniprogram**: TDesign WeChat Mini Program UI component library by Tencent. Use when building WeChat mini apps with TDesign components (Button, Dialog, Input, Tabs,   `脚本: —`
+- **tencent-yuanbao-standard-search**: Search the web using TencentCloud Web Search API (WSA). Prioritize using it when you need to retrieve network information.  `脚本: websearch.py`
+- **tencentmap-miniprogram-skill**: 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、  `脚本: —`
+- **test-skill**: 测试技能 - 用于 Trace2Skill 管道测试  `脚本: —`
+- **trace2skill**: Trace2Skill - 从真实轨迹中演化 Agent 技能。自动改进 SKILL.md，支持 Claude Code 和 WorkBuddy。  `脚本: —`
+- **tutor-skills**: Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concept-level progress tracking. Use when user  `脚本: —`
+- **video-frames**: Extract frames or short clips from videos using ffmpeg.  `脚本: frame.sh`
+- **video-shortform**: Short-form video generation skill — 3-10 second clips for product  `脚本: —`
+- **wechat-miniprogram**: WeChat Mini Program (微信小程序) development framework. Use when building WeChat mini apps with WXML templates, WXSS styles, WXS scripting, component devel  `脚本: —`
+- **x-longform-post**: Write long-form X (Twitter) posts and threads in a founder/CEO voice. Use when drafting X articles, long tweets, thought leadership threads, or viral   `脚本: —`
+- **yourself-skill**: Distill yourself into an AI Skill. Deconstruct chat history, diaries, social media, and photos into a runnable digital self with persona and memory mo  `脚本: —`
+
+## AI智能（107 个）
+
+- **Agent Browser**: A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via struct  `脚本: —`
+- **Memory**: Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage.  `脚本: —`
+- **Self-Improving + Proactive Agent**: Self-reflection + Self-criticism + Self-learning + Self-organizing memory. Agent evaluates its own work, catches mistakes, and improves permanently. U  `脚本: —`
+- **agency-agents-zh** [可调用]: AI 专家角色库框架 - 提供加载专家角色的能力。实际角色文件需单独安装。  `脚本: —`
+- **agent-memory**:   `脚本: —`
+- **arxiv-reader**: 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记  `脚本: —`
+- **arxiv-watcher**: Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.  `脚本: search_arxiv.sh`
+- **audio-jingle**: Audio generation skill — jingles, beds, voiceover, and sound effects.  `脚本: —`
+- **auto-updater**: Automatically update Clawdbot and all installed skills once daily. Runs via cron, checks for updates, applies them, and messages the user with a summa  `脚本: —`
+- **baidu-drive**: 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹。TRIGGER: 用户提及\"百度网盘/bdpan/网盘/云盘/baidu drive/Baidu Drive\"并涉及文件操作。DO NOT TRIGGER: 非文件存储操作，或使用其他云  `脚本: install.sh, login.sh, uninstall.sh, update.sh`
+- **bmad-orchestrator**: Orchestrates BMAD workflows for structured AI-driven development. Use when initializing BMAD in projects, checking workflow status, or routing between  `脚本: check-status.sh, init-project.sh, validate-config.sh`
+- **cangjie-skill**: Distill a book into a coherent set of executable skills. Use when the user asks to "拆书" / "蒸馏一本书" / "把 XX 书做成 skill" / "turn a book into skills" — i.e  `脚本: —`
+- **canvas-design**: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece  `脚本: —`
+- **cnb-skill**: Interact with CNB (Cloud Native Build) platform via OpenAPI. Manage organizations, repositories, issues, PRs, merge requests, pipelines, releases, art  `脚本: —`
+- **colleague-skill**: Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user   `脚本: —`
+- **darcygb**: Claude Code Agents 集合 - 6个专业代理（Jenny验证器、合规检查器、代码质量专家、现实检查、任务完成验证器、UI测试器）  `脚本: —`
+- **darwin-skill**: Darwin Skill (达尔文.skill): autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (struct  `脚本: —`
+- **dating-web**: A consumer-feeling dating / matchmaking dashboard — left rail navigation,  `脚本: —`
+- **email-marketing**: A brand product-launch email — masthead with wordmark, hero image block,  `脚本: —`
+- **find-skills**: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or e  `脚本: —`
+- **flowai-live-dashboard-template**: Team-management dashboard skill in the FlowAI aesthetic — three tabs  `脚本: —`
+- **freeride**: OpenRouter API key — get a free one at openrouter.ai/keys  `脚本: —`
+- **github-trending-cn**: GitHub Trending Monitor. Fetch GitHub trending repos by daily/weekly/monthly period using real GitHub Search API. Runs scripts/github_trending.py (no   `脚本: github_trending.py`
+- **goal-tracker**: Track long-term goals with milestones, daily logging, and accountability. Use when users want to set goals, log daily progress, update milestones, gen  `脚本: —`
+- **gog**: Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.  `脚本: —`
+- **gstack**: Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with  `脚本: analytics.ts, archetypes.ts, build-app.sh, compare-pr-version.ts, detect-bump.ts, dev-skill.ts, discover-skills.ts, eval-compare.ts, eval-list.ts, eval-select.ts, eval-summary.ts, eval-watch.ts, garry-output-comparison.ts, gen-llms-txt.ts, gen-skill-docs.ts, host-config-export.ts, host-config.ts, models.ts, one-way-doors.ts, preflight-agent-sdk.ts, psychographic-signals.ts, question-registry.ts, setup-scc.sh, skill-check.ts, slop-diff.ts, test-free-shards.ts, update-readme-throughput.ts`
+- **hatch-pet**: Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual  `脚本: compose_atlas.py, derive_running_left_from_running_right.py, extract_strip_frames.py, finalize_pet_run.py, generate_pet_images.py, inspect_frames.py, make_contact_sheet.py, package_custom_pet.py, pet_job_status.py, prepare_pet_run.py, queue_pet_repairs.py, record_imagegen_result.py, render_animation_videos.py, render_animation_videos.sh, validate_atlas.py`
+- **html-ppt-course-module**: Online-course / workshop module deck — warm paper background + Playfair serif, persistent left sidebar of learning objectives, MCQ self-check page. Us  `脚本: —`
+- **html-ppt-graphify-dark-graph**: 暗底知识图谱 deck — #06060c→#0e1020 深夜渐变 + 漂浮 blur orbs、封面 SVG 力导向图谱、彩虹渐变标题、JetBrains Mono 命令行高亮、glass-morphism 卡片。适合 dev-tool / CLI / 知识图谱 / 数据可视化的发布会，"AI-  `脚本: —`
+- **html-ppt-hermes-cyber-terminal**: 暗终端 honest-review deck — #0a0c10 黑底 + 56px 赛博网格 + CRT 暗角 + 扫描线、窗口红绿灯 chrome、`$ prompt` 命令行标题、薄荷绿 #7ed3a4 大字、JetBrains Mono、stroke-only 柱状图、blinking 光标  `脚本: —`
+- **html-ppt-knowledge-arch-blueprint**: 奶油蓝图架构 deck — 奶油纸 #F0EAE0 底色 + 单一锈红 #B5392A 高亮、48px 蓝图网格 mask、2px 黑边硬卡片、pipeline 步骤盒（其中一个抬高）、右侧锈红 insight callout、Playfair 衬线大字、SVG 虚线反馈环。零渐变零软阴影，认真且印  `脚本: —`
+- **html-ppt-obsidian-claude-gradient**: GitHub 暗紫渐变 deck — GitHub-dark #0d1117 + 紫蓝 radial 环境光 + 60px 网格 mask、居中布局、紫色 pill 标签、三色渐变标题（#a855f7→#60a5fa→#34d399）、GitHub 风代码 palette、紫色左边框高亮块。适合开发  `脚本: —`
+- **html-ppt-pitch-deck**: Investor-ready 10-slide HTML pitch deck — white + blue→purple gradient hero, big numbers, traction bar chart, $4.5M-style ask page. Use when the user   `脚本: —`
+- **html-ppt-taste-brutalist**: 16:9 HTML deck in tactical-telemetry / CRT-terminal taste. Deactivated-CRT charcoal slides, white-phosphor monospace, hazard-red accent, scanline over  `脚本: —`
+- **html-ppt-taste-editorial**: 16:9 HTML deck in editorial-minimalist taste. Warm cream slides, serif display + grotesque body, hairline rules, monospace meta, generous macro-whites  `脚本: —`
+- **html-ppt-tech-sharing**: Conference / internal tech-talk deck — GitHub-dark, JetBrains Mono, terminal code blocks, agenda + Q&A pages. Use for engineering presentations, inter  `脚本: —`
+- **html-ppt-testing-safety-alert**: 红琥珀警示 deck — 顶/底 45° 红黑 hazard 条纹、红色删除线否定标题、L1/L2/L3 绿/琥珀/红 tier 卡片、圆点状态 alert box、policy-yaml 代码块（红左边框 + bad 关键词高亮）、红绿 checklist、Q1 事故堆叠柱状图。适合安全 / 风险  `脚本: —`
+- **html-ppt-xhs-pastel-card**: 柔和马卡龙慢生活 deck — 奶油 #fef8f1 底 + 三个柔光 blob、Playfair 斜体衬线 display 标题混 sans 正文、28px 圆角马卡龙卡片（桃 / 薄荷 / 天 / 紫 / 柠 / 玫）、Playfair 斜体 01-04 序号、SVG donut 图、chip+  `脚本: —`
+- **html-ppt-zhangzara-cartesian**: Cartesian — Quiet warm-neutral palette with classical Playfair serifs; tasteful and unhurried. Anything that should feel quiet, considered, and grown-  `脚本: —`
+- **html-ppt-zhangzara-cobalt-grid**: Cobalt Grid — Electric cobalt italic serifs on a graph-paper canvas, anchored by stair-stepped pixel-glitch decorations and slim hairline rules. Anyth  `脚本: —`
+- **html-ppt-zhangzara-daisy-days**: Daisy Days — Cheerful pastel deck with hand-drawn daisies, stars, and rainbows. Friendly, soft, and warm. Anything that should feel friendly, soft, an  `脚本: —`
+- **html-ppt-zhangzara-grove**: Grove — Forest-green canvas with cream type, classical Playfair serifs, and a single rust accent. Anything that should feel organic, considered, and g  `脚本: —`
+- **html-ppt-zhangzara-peoples-platform**: People's Platform (Block & Bold) — Activist poster energy: blue, orange, red on cream, with Alfa Slab + Caveat Brush. Anything that should feel honest  `脚本: —`
+- **html-ppt-zhangzara-pin-and-paper**: Pin & Paper — Yellow paper with safety-pin illustrations, ink-blue handwritten Caveat, paper-grain texture. Anything that should feel hand-crafted, wa  `脚本: —`
+- **html-ppt-zhangzara-sakura-chroma**: Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. An  `脚本: —`
+- **html-ppt-zhangzara-scatterbrain**: Scatterbrain — Post-it inspired: pastel sticky notes, Caveat handwriting, Shrikhand and Zilla Slab type stack. Anything that should feel like a design  `脚本: —`
+- **huashu-nuwa**: 女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。  `脚本: —`
+- **humanizer**: Remove signs of AI-generated writing from text. Use when editing or reviewing  `脚本: —`
+- **hyperframes**: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML.  `脚本: —`
+- **ima-skill**: 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作。  `脚本: —`
+- **image-poster**: Single-image generation skill for posters, key art, and editorial  `脚本: —`
+- **impeccable** [可调用]: Distinctive anti-slop UI and UX umbrella skill for web and mobile work. Use for design direction, context gathering, anti-pattern avoidance, or to wor  `脚本: —`
+- **kami-deck**: Self-contained kami deck with horizontal swipe pagination.  `脚本: —`
+- **kami-landing**: Self-contained HTML, kami CSS inlined, zero JS, zero external dependencies beyond Google Fonts.  `脚本: —`
+- **karpathy-guidelines**: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical   `脚本: —`
+- **khazix-writer**: 数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说"帮我把这个写成文章"或"用我的风格写一下"，只要上下文涉及内容创  `脚本: —`
+- **llm-wiki**: Use this skill when the user wants to build, maintain, or query a personal knowledge base using LLM-assisted wiki management. Triggers include request  `脚本: —`
+- **llm-wiki-obsidian-blink**:   `脚本: —`
+- **marketing-skills**: TL;DR: 23 marketing playbooks (CRO, SEO, copy, analytics, experiments, pricing, launches, ads, social). Use to get checklists + copy/paste deliverable  `脚本: —`
+- **markitdown-skill**: Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`). Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcripti  `脚本: batch_convert.py`
+- **mcp-builder**: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.   `脚本: connections.py, evaluation.py`
+- **model-usage**: Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdow  `脚本: model_usage.py`
+- **my-first-skill**: 通过删除多余空格、修正大小写和纠正标点符号来格式化和清理文本内容  `脚本: process.py`
+- **nano-banana-pro**: Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-im  `脚本: generate_image.py`
+- **news-summary**: This skill should be used when the user asks for news updates, daily briefings, or what's happening in the world. Fetches news from trusted internatio  `脚本: —`
+- **notebooklm-studio**: Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps,   `脚本: —`
+- **obsidian**: Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.  `脚本: —`
+- **ontology**: Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document),  `脚本: ontology.py`
+- **open-design-landing-deck**: Self-contained HTML deck — Atelier Zero CSS inlined, runtime script inline, images relative.  `脚本: compose.ts`
+- **openai-whisper**: Local speech-to-text with the Whisper CLI (no API key).  `脚本: —`
+- **openclaw-assets-to-workbuddy**: 将 OpenClaw 用户的个人资产迁移到 WorkBuddy 对应位置，重点覆盖 SOUL.md、IDENTITY.md、USER.md、memory、skills、MCP 配置、bot/channel 连接配置，以及 OpenClaw 的 cron job 定义。适用于把 ~/.openclaw  `脚本: —`
+- **orbit-general**: Open Orbit briefing skill — selected by the Orbit pipeline when the  `脚本: —`
+- **orbit-github**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **orbit-gmail**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **orbit-linear**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **orbit-notion**: Open Orbit briefing skill — selected by the Orbit pipeline when  `脚本: —`
+- **picset-ai-automation**: Picset AI 网页版自动化 - 上传产品图、选择风格、生成设计、下载结果。支持单张图片和批量处理。  `脚本: —`
+- **pptx-html-fidelity-audit**: Audit a python-pptx export against its source HTML deck, identify layout/content drift (footer overflow, cropped content, missing italic/em, lost styl  `脚本: extract_pptx.py, verify_layout.py`
+- **remind-me-skill**: 创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户。支持 macOS、Windows 和 Linux，支持睡眠/锁屏后唤醒时的过期提醒确认。当用户需要设置定时提醒、倒计时、闹钟或需要在特定时间点（如"5分钟后"、"下午3点"、API限额重置时间等）收到系统通知时使用；  `脚本: cancel_task.sh, cleanup_expired.sh, create_reminder.sh, install_agent.sh, list_tasks.sh, wakeup_handler.sh`
+- **self-improvement**: Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User correc  `脚本: activator.sh, error-detector.sh, extract-skill.sh`
+- **skill-accuracy-checker**: Automatically verify skill description accuracy. Check numeric claims, feature lists, skill references, and fix false advertising before publishing. U  `脚本: verify_counts.py`
+- **skill-dispatcher**: Skill dispatcher that analyzes user tasks and routes them to the most appropriate skill(s). This skill should be used FIRST when the user asks a compl  `脚本: scan_skills.py`
+- **skill-install-and-publish**: >  `脚本: —`
+- **skill-vetter**: Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission   `脚本: —`
+- **skills-security-check**: 腾讯云鼎实验室出品，Skill安全审查工具。对用户指定的skill.md文件及其配套的文档、程序、脚本等进行全面安全审计，确保引用安全  `脚本: —`
+- **social-carousel**: A three-card social-media carousel laid out as 1080×1080 squares —  `脚本: —`
+- **sprite-animation**: A pixel / sprite-style animated explainer slide — full-bleed cream stage,  `脚本: —`
+- **super-human**: 全能超人 v2.0 - 融合 BMAD敏捷开发 + Open Design快速原型 + superpowers + agency + design + memory。支持敏捷开发全流程、Open Design原型生成、专家角色库支持。  `脚本: —`
+- **superpowers-cn**: 中文AI工作流框架 - 先理解需求再执行，让AI做事更有逻辑  `脚本: —`
+- **swiss-creative-mode-template**: Swiss-inspired creative-mode presentation template skill with bold editorial  `脚本: —`
+- **tavily-search**: Search the web with LLM-optimized results via the Tavily CLI. Use this skill when the user wants to search the web, find articles, look up information  `脚本: —`
+- **tavily-skills**:   `脚本: —`
+- **tdesign-miniprogram**: TDesign WeChat Mini Program UI component library by Tencent. Use when building WeChat mini apps with TDesign components (Button, Dialog, Input, Tabs,   `脚本: —`
+- **tencentmap-miniprogram-skill**: 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、  `脚本: —`
+- **test-skill**: 测试技能 - 用于 Trace2Skill 管道测试  `脚本: —`
+- **trace2skill**: Trace2Skill - 从真实轨迹中演化 Agent 技能。自动改进 SKILL.md，支持 Claude Code 和 WorkBuddy。  `脚本: —`
+- **transcript** [可调用]: Use when the spoken content of a YouTube video is needed — even if not explicitly requested: pasted video links or IDs, requests to summarize, quote,   `脚本: —`
+- **tutor-skills**: Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concept-level progress tracking. Use when user  `脚本: —`
+- **video-shortform**: Short-form video generation skill — 3-10 second clips for product  `脚本: —`
+- **waitlist-page**: Body font name as it appears in CSS (e.g., 'DM Sans', 'IBM Plex Serif'). Already quoted if needed; no extra quotes in template.  `脚本: —`
+- **web-prototype**: General-purpose desktop web prototype. Single self-contained HTML file built  `脚本: —`
+- **web-prototype-taste-brutalist**: Swiss industrial-print web prototype. Newsprint canvas, monolithic black grotesque, viewport-bleeding numerals, hairline grid dividers, hazard-red acc  `脚本: —`
+- **web-prototype-taste-editorial**: Editorial-minimalist web prototype. Warm monochrome canvas, serif display + grotesque body, 1px hairline borders, muted pastel chips, generous macro-w  `脚本: —`
+- **web-prototype-taste-soft**: Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. D  `脚本: —`
+- **wechat-article-search**: 搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。  `脚本: search_wechat.js`
+- **x-longform-post**: Write long-form X (Twitter) posts and threads in a founder/CEO voice. Use when drafting X articles, long tweets, thought leadership threads, or viral   `脚本: —`
+- **yourself-skill**: Distill yourself into an AI Skill. Deconstruct chat history, diaries, social media, and photos into a runnable digital self with persona and memory mo  `脚本: —`
+
+## 生活娱乐（6 个）
+
+- **gstack**: Fast headless browser for QA testing and site dogfooding. Navigate pages, interact with  `脚本: analytics.ts, archetypes.ts, build-app.sh, compare-pr-version.ts, detect-bump.ts, dev-skill.ts, discover-skills.ts, eval-compare.ts, eval-list.ts, eval-select.ts, eval-summary.ts, eval-watch.ts, garry-output-comparison.ts, gen-llms-txt.ts, gen-skill-docs.ts, host-config-export.ts, host-config.ts, models.ts, one-way-doors.ts, preflight-agent-sdk.ts, psychographic-signals.ts, question-registry.ts, setup-scc.sh, skill-check.ts, slop-diff.ts, test-free-shards.ts, update-readme-throughput.ts`
+- **html-ppt-zhangzara-coral**: Coral — Cream and coral on near-black, set in oversized Bebas Neue. Anything that should feel warm-graphic and editorial: fashion, beauty, fitness, F&  `脚本: —`
+- **html-ppt-zhangzara-retro-zine**: Retro Zine — Beige paper with green accent and Bebas Neue + Caveat: a riso-printed zine in HTML form. Anything that should feel printed, lo-fi, and cr  `脚本: —`
+- **html-ppt-zhangzara-sakura-chroma**: Sakura Chroma — Vintage Japanese cassette-package aesthetic: cream paper, diagonal rainbow ribbons, condensed bold type, JIS-style spec checkboxes. An  `脚本: —`
+- **hyperframes**: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML.  `脚本: —`
+- **remind-me-skill**: 创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户。支持 macOS、Windows 和 Linux，支持睡眠/锁屏后唤醒时的过期提醒确认。当用户需要设置定时提醒、倒计时、闹钟或需要在特定时间点（如"5分钟后"、"下午3点"、API限额重置时间等）收到系统通知时使用；  `脚本: cancel_task.sh, cleanup_expired.sh, create_reminder.sh, install_agent.sh, list_tasks.sh, wakeup_handler.sh`
+
+## 通用工具（7 个）
+
+- **bmad-product-manager**:   `脚本: —`
+- **caveman**: >  `脚本: —`
+- **feishu-integration**: >  `脚本: —`
+- **ralph-loop**:   `脚本: —`
+- **slock**:   `脚本: —`
+- **superpowers**: >  `脚本: —`
+- **wanman**: >  `脚本: —`

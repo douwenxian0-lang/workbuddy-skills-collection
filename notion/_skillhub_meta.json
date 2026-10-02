@@ -3,5 +3,7 @@
   "name": "Notion",
   "version": "1.0.0",
   "installedAt": 1778124094674,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779728,
+  "installedContentHash": "sha256:29fadc155391c4f2977c45386b34db808cdb29e8ab0981e0ca7a5a1231d5b1a7"
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>XB Test Form</title>
+</head>
+<body>
+<h1>表单测试</h1>
+<form action="/result.html" method="get" id="test-form">
+  <div>
+    <label for="name">姓名:</label>
+    <input type="text" id="name" name="name" placeholder="请输入姓名">
+  </div>
+  <div>
+    <label for="email">邮箱:</label>
+    <input type="email" id="email" name="email" placeholder="请输入邮箱">
+  </div>
+  <div>
+    <label for="city">城市:</label>
+    <select id="city" name="city">
+      <option value="">请选择</option>
+      <option value="beijing">北京</option>
+      <option value="shanghai">上海</option>
+      <option value="shenzhen">深圳</option>
+    </select>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" id="agree" name="agree"> 我同意使用协议
+    </label>
+  </div>
+  <button type="submit" id="submit-btn">提交</button>
+</form>
+<a href="/" id="back-home">返回首页</a>
+</body>
+</html>

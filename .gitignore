@@ -3,6 +3,8 @@
 
 # Ignore .git in subdirectories (they are separate repos)
 **/.git/
+# 临时移开的嵌套仓库元数据（推送子仓库内容时使用，推完恢复）
+**/.git.__hold/
 
 # Ignore temporary files
 *.log

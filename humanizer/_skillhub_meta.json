@@ -3,5 +3,7 @@
   "name": "Humanizer",
   "version": "1.0.0",
   "installedAt": 1778124006977,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779725,
+  "installedContentHash": "sha256:2f4f02a2bb123bb2367fe8d4474a1a2685249fcdd5414563875700935d4042f2"
 }

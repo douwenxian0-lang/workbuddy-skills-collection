@@ -1,7 +1,9 @@
 {
   "slug": "multi-search-engine",
-  "name": "Multi Search Engine",
-  "version": "2.1.3",
-  "installedAt": 1778124032638,
-  "source": "skillhub"
+  "name": "multi-search-engine",
+  "version": "2.1.5",
+  "installedAt": 1787152022334,
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779726,
+  "installedContentHash": "sha256:18f51fc7d5739699e0ad2ecd5e99e04808ead0432c8e8e46794ce4d619770113"
 }

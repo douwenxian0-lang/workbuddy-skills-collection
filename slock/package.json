@@ -1,0 +1,16 @@
+{
+  "name": "slack-skill",
+  "version": "1.0.0",
+  "description": "Slack integration for OpenClaw/Clawd agents",
+  "main": "slack.js",
+  "bin": {
+    "slack": "./slack.js"
+  },
+  "scripts": {
+    "test": "node slack.js --help"
+  },
+  "keywords": ["openclaw", "clawd", "slack", "agent-skill", "ai-tools"],
+  "author": "SecureSkills",
+  "license": "MIT",
+  "dependencies": {}
+}

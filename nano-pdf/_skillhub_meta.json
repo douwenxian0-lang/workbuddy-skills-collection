@@ -3,5 +3,7 @@
   "name": "Nano Pdf",
   "version": "1.0.0",
   "installedAt": 1778124041421,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779727,
+  "installedContentHash": "sha256:1ea6682cfa81946780b7f0c5f35cf9c401fea23969fa68a06de5788006db13d4"
 }

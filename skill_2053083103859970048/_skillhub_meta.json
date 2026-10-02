@@ -1,0 +1,9 @@
+{
+  "name": "NotebookLM Studio",
+  "installedAt": 1778133051239,
+  "source": "marketplace",
+  "iconSource": "notebooklm-studio",
+  "version": "2.1.3",
+  "skillId": "skill_2053083103859970048",
+  "installedContentHash": "sha256:437b592070d3270fd6113b5f31471914027fb4dfbe163d989a5301ff5e9736a1"
+}

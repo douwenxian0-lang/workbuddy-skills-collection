@@ -1,5 +1,7 @@
 # Quo Routing Reference
 
+> **Safety:** All write operations (POST, PUT, PATCH, DELETE) require explicit user confirmation before execution. Verify the target resource and intended effect with the user first. See the main [SKILL.md](../SKILL.md#security--permissions) for full security policy.
+
 **App name:** `quo`
 **Base URL proxied:** `api.openphone.com`
 
@@ -159,7 +161,7 @@ POST /quo/v1/webhooks
 Content-Type: application/json
 
 {
-  "url": "https://your-webhook-url.com/calls",
+  "url": "https://example.com/webhooks/calls",
   "resourceType": "call"
 }
 ```

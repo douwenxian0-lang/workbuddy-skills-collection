@@ -1,0 +1,9 @@
+{
+  "name": "ArXiv论文追踪",
+  "installedAt": 1778133109684,
+  "source": "marketplace",
+  "iconSource": "arxiv-watcher",
+  "version": "1.0.0",
+  "skillId": "skill_2053081360459321344",
+  "installedContentHash": "sha256:560c9cbabba94e88cdb4d677712cdcbbcb3c46e902b8156538410ef36fe6a3a6"
+}

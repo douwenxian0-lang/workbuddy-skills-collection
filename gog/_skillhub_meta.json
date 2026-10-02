@@ -3,5 +3,7 @@
   "name": "Gog",
   "version": "1.0.0",
   "installedAt": 1778124113758,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779724,
+  "installedContentHash": "sha256:e50588100d00beb91dd538120e7fecf09bf380982321b2f90037f5db4e403af7"
 }

@@ -20,7 +20,7 @@ function parseArgs(argv) {
   return args;
 }
 
-const REQUIRED = ['file', 'secret-id', 'secret-key', 'token', 'bucket', 'region', 'cos-key'];
+const REQUIRED = ['file', 'secret-id', 'secret-key', 'token', 'bucket', 'region', 'cos-key', 'content-type'];
 
 // Default socket timeout: 5 minutes. Override with --timeout <ms>.
 // This prevents the Bash tool's hard 120s timeout from silently killing a

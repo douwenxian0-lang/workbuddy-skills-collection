@@ -1,0 +1,689 @@
+{
+  "schema_version": 1,
+  "bundle": "oh-my-openagent-toolkit",
+  "bundle_root": "oh-my-openagent-toolkit",
+  "support_tiers": [
+    "validated",
+    "guided",
+    "planned"
+  ],
+  "support_tier_definitions": {
+    "validated": "Flagship workflow with proof expectations and the only tier eligible for README supported-now claims.",
+    "guided": "Current pack or overlay with routing and reference coverage, but without an end-to-end validated public claim.",
+    "planned": "Named expansion surface reserved for future implementation and not yet eligible for public support claims."
+  },
+  "public_claims": {
+    "readme_supported_now_requires": "validated"
+  },
+  "workflow_catalog_path": ".opencode/reference/workflow-catalog.md",
+  "workflow_reference_root": ".opencode/reference/workflows",
+  "workflow_doc_contract_fields": [
+    "Primary route",
+    "Adjacent pack rule",
+    "Built-in helper fit",
+    "Support-tier boundary",
+    "Evidence path contract"
+  ],
+  "flagship_workflows": [
+    "frontend-product-delivery",
+    "backend-service-delivery",
+    "cloud-release-readiness",
+    "ai-data-product-delivery"
+  ],
+  "capabilities": [
+    {
+      "id": "frontend-product-delivery",
+      "label": "Frontend product delivery",
+      "kind": "flagship_workflow",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "validated",
+      "path": ".opencode/reference/workflows/frontend-product-delivery.md"
+    },
+    {
+      "id": "backend-service-delivery",
+      "label": "Backend service delivery",
+      "kind": "flagship_workflow",
+      "routing_bucket": "backend/API",
+      "support_level": "validated",
+      "path": ".opencode/reference/workflows/backend-service-delivery.md"
+    },
+    {
+      "id": "cloud-release-readiness",
+      "label": "Cloud release readiness",
+      "kind": "flagship_workflow",
+      "routing_bucket": "QA/deployment",
+      "support_level": "validated",
+      "path": ".opencode/reference/workflows/cloud-release-readiness.md"
+    },
+    {
+      "id": "ai-data-product-delivery",
+      "label": "AI data product delivery",
+      "kind": "flagship_workflow",
+      "routing_bucket": "data/security",
+      "support_level": "validated",
+      "path": ".opencode/reference/workflows/ai-data-product-delivery.md"
+    },
+
+    {
+      "id": "architecture-integration",
+      "label": "Architecture integration",
+      "kind": "expert_pack",
+      "routing_bucket": "architecture/integration",
+      "support_level": "guided",
+      "path": ".opencode/skills/architecture-integration/SKILL.md"
+    },
+    {
+      "id": "frontend-web",
+      "label": "Frontend web",
+      "kind": "expert_pack",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/SKILL.md"
+    },
+    {
+      "id": "mobile-app",
+      "label": "Mobile app",
+      "kind": "expert_pack",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/mobile-app/SKILL.md"
+    },
+    {
+      "id": "backend-node",
+      "label": "Backend Node",
+      "kind": "expert_pack",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-node/SKILL.md"
+    },
+    {
+      "id": "backend-python",
+      "label": "Backend Python",
+      "kind": "expert_pack",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-python/SKILL.md"
+    },
+    {
+      "id": "backend-jvm",
+      "label": "Backend JVM",
+      "kind": "expert_pack",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-jvm/SKILL.md"
+    },
+    {
+      "id": "backend-dotnet",
+      "label": "Backend .NET",
+      "kind": "expert_pack",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-dotnet/SKILL.md"
+    },
+    {
+      "id": "backend-go",
+      "label": "Backend Go",
+      "kind": "expert_pack",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-go/SKILL.md"
+    },
+    {
+      "id": "systems-rust",
+      "label": "Systems Rust",
+      "kind": "expert_pack",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/systems-rust/SKILL.md"
+    },
+    {
+      "id": "systems-c-cpp",
+      "label": "Systems C/C++",
+      "kind": "expert_pack",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/systems-c-cpp/SKILL.md"
+    },
+    {
+      "id": "functional-platform",
+      "label": "Functional platform",
+      "kind": "expert_pack",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/functional-platform/SKILL.md"
+    },
+    {
+      "id": "php-ruby-platform",
+      "label": "PHP Ruby platform",
+      "kind": "expert_pack",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/php-ruby-platform/SKILL.md"
+    },
+    {
+      "id": "data-ml-platform",
+      "label": "Data ML platform",
+      "kind": "expert_pack",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/data-ml-platform/SKILL.md"
+    },
+    {
+      "id": "database-engineering",
+      "label": "Database engineering",
+      "kind": "expert_pack",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/database-engineering/SKILL.md"
+    },
+    {
+      "id": "security-engineering",
+      "label": "Security engineering",
+      "kind": "expert_pack",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/security-engineering/SKILL.md"
+    },
+    {
+      "id": "devops-platform",
+      "label": "DevOps platform",
+      "kind": "expert_pack",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/devops-platform/SKILL.md"
+    },
+    {
+      "id": "qa-validation",
+      "label": "QA validation",
+      "kind": "expert_pack",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/qa-validation/SKILL.md"
+    },
+
+    {
+      "id": "frontend-web/nextjs",
+      "label": "Frontend web - Next.js",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/nextjs.md"
+    },
+    {
+      "id": "frontend-web/react-web",
+      "label": "Frontend web - React web",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/react-web.md"
+    },
+    {
+      "id": "mobile-app/react-native",
+      "label": "Mobile app - React Native",
+      "kind": "overlay",
+      "owner": "mobile-app",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/mobile-app/reference/react-native.md"
+    },
+    {
+      "id": "mobile-app/flutter",
+      "label": "Mobile app - Flutter",
+      "kind": "overlay",
+      "owner": "mobile-app",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/mobile-app/reference/flutter.md"
+    },
+    {
+      "id": "mobile-app/swiftui",
+      "label": "Mobile app - SwiftUI",
+      "kind": "overlay",
+      "owner": "mobile-app",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/mobile-app/reference/swiftui.md"
+    },
+    {
+      "id": "mobile-app/jetpack-compose",
+      "label": "Mobile app - Jetpack Compose",
+      "kind": "overlay",
+      "owner": "mobile-app",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/mobile-app/reference/jetpack-compose.md"
+    },
+    {
+      "id": "backend-node/nestjs",
+      "label": "Backend Node - NestJS",
+      "kind": "overlay",
+      "owner": "backend-node",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-node/reference/nestjs.md"
+    },
+    {
+      "id": "backend-node/express-fastify-hono",
+      "label": "Backend Node - Express Fastify Hono",
+      "kind": "overlay",
+      "owner": "backend-node",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-node/reference/express-fastify-hono.md"
+    },
+    {
+      "id": "backend-python/fastapi",
+      "label": "Backend Python - FastAPI",
+      "kind": "overlay",
+      "owner": "backend-python",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-python/reference/fastapi.md"
+    },
+    {
+      "id": "backend-python/django-flask",
+      "label": "Backend Python - Django Flask",
+      "kind": "overlay",
+      "owner": "backend-python",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-python/reference/django-flask.md"
+    },
+    {
+      "id": "backend-jvm/spring-boot",
+      "label": "Backend JVM - Spring Boot",
+      "kind": "overlay",
+      "owner": "backend-jvm",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-jvm/reference/spring-boot.md"
+    },
+    {
+      "id": "backend-jvm/quarkus-ktor",
+      "label": "Backend JVM - Quarkus Ktor",
+      "kind": "overlay",
+      "owner": "backend-jvm",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-jvm/reference/quarkus-ktor.md"
+    },
+    {
+      "id": "backend-dotnet/aspnet-core",
+      "label": "Backend .NET - ASP.NET Core",
+      "kind": "overlay",
+      "owner": "backend-dotnet",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-dotnet/reference/aspnet-core.md"
+    },
+    {
+      "id": "backend-go/gin-echo-fiber",
+      "label": "Backend Go - Gin Echo Fiber",
+      "kind": "overlay",
+      "owner": "backend-go",
+      "routing_bucket": "backend/API",
+      "support_level": "guided",
+      "path": ".opencode/skills/backend-go/reference/gin-echo-fiber.md"
+    },
+    {
+      "id": "systems-rust/axum-actix-wasm",
+      "label": "Systems Rust - Axum Actix WASM",
+      "kind": "overlay",
+      "owner": "systems-rust",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/systems-rust/reference/axum-actix-wasm.md"
+    },
+    {
+      "id": "systems-rust/wasm-browser-3d-performance",
+      "label": "Systems Rust - WASM browser 3D performance",
+      "kind": "overlay",
+      "owner": "systems-rust",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/systems-rust/reference/wasm-browser-3d-performance.md"
+    },
+    {
+      "id": "systems-c-cpp/cmake-gtest-embedded",
+      "label": "Systems C/C++ - CMake GTest Embedded",
+      "kind": "overlay",
+      "owner": "systems-c-cpp",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/systems-c-cpp/reference/cmake-gtest-embedded.md"
+    },
+    {
+      "id": "functional-platform/elixir-phoenix-scala-clojure",
+      "label": "Functional platform - Elixir Phoenix Scala Clojure",
+      "kind": "overlay",
+      "owner": "functional-platform",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/functional-platform/reference/elixir-phoenix-scala-clojure.md"
+    },
+    {
+      "id": "php-ruby-platform/laravel-symfony-rails",
+      "label": "PHP Ruby platform - Laravel Symfony Rails",
+      "kind": "overlay",
+      "owner": "php-ruby-platform",
+      "routing_bucket": "systems/performance",
+      "support_level": "guided",
+      "path": ".opencode/skills/php-ruby-platform/reference/laravel-symfony-rails.md"
+    },
+    {
+      "id": "data-ml-platform/pytorch-tensorflow-sklearn-r",
+      "label": "Data ML platform - PyTorch TensorFlow scikit-learn R",
+      "kind": "overlay",
+      "owner": "data-ml-platform",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/data-ml-platform/reference/pytorch-tensorflow-sklearn-r.md"
+    },
+    {
+      "id": "database-engineering/postgres-mysql-mongodb-redis",
+      "label": "Database engineering - Postgres MySQL MongoDB Redis",
+      "kind": "overlay",
+      "owner": "database-engineering",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/database-engineering/reference/postgres-mysql-mongodb-redis.md"
+    },
+    {
+      "id": "security-engineering/auth-owasp-secrets",
+      "label": "Security engineering - Auth OWASP secrets",
+      "kind": "overlay",
+      "owner": "security-engineering",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/security-engineering/reference/auth-owasp-secrets.md"
+    },
+    {
+      "id": "devops-platform/docker-kubernetes-ci-cd",
+      "label": "DevOps platform - Docker Kubernetes CI/CD",
+      "kind": "overlay",
+      "owner": "devops-platform",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/devops-platform/reference/docker-kubernetes-ci-cd.md"
+    },
+
+    {
+      "id": "developer-experience",
+      "label": "Developer experience",
+      "kind": "adjacent_pack",
+      "routing_bucket": "architecture/integration",
+      "support_level": "planned",
+      "path": ".opencode/skills/developer-experience/SKILL.md"
+    },
+    {
+      "id": "documentation-sdk",
+      "label": "Documentation SDK",
+      "kind": "adjacent_pack",
+      "routing_bucket": "architecture/integration",
+      "support_level": "planned",
+      "path": ".opencode/skills/documentation-sdk/SKILL.md"
+    },
+    {
+      "id": "release-engineering",
+      "label": "Release engineering",
+      "kind": "adjacent_pack",
+      "routing_bucket": "QA/deployment",
+      "support_level": "planned",
+      "path": ".opencode/skills/release-engineering/SKILL.md"
+    },
+    {
+      "id": "developer-experience/package-managers-monorepos",
+      "label": "Developer experience - Package managers and monorepos",
+      "kind": "overlay",
+      "owner": "developer-experience",
+      "routing_bucket": "architecture/integration",
+      "support_level": "planned",
+      "path": ".opencode/skills/developer-experience/reference/package-managers-monorepos.md"
+    },
+    {
+      "id": "developer-experience/local-dev-environments",
+      "label": "Developer experience - Local dev environments",
+      "kind": "overlay",
+      "owner": "developer-experience",
+      "routing_bucket": "architecture/integration",
+      "support_level": "planned",
+      "path": ".opencode/skills/developer-experience/reference/local-dev-environments.md"
+    },
+    {
+      "id": "documentation-sdk/api-docs-openapi-sdk",
+      "label": "Documentation SDK - API docs, OpenAPI, and SDKs",
+      "kind": "overlay",
+      "owner": "documentation-sdk",
+      "routing_bucket": "architecture/integration",
+      "support_level": "planned",
+      "path": ".opencode/skills/documentation-sdk/reference/api-docs-openapi-sdk.md"
+    },
+    {
+      "id": "documentation-sdk/technical-writing-release-notes",
+      "label": "Documentation SDK - Technical writing and release notes",
+      "kind": "overlay",
+      "owner": "documentation-sdk",
+      "routing_bucket": "architecture/integration",
+      "support_level": "planned",
+      "path": ".opencode/skills/documentation-sdk/reference/technical-writing-release-notes.md"
+    },
+    {
+      "id": "release-engineering/versioning-changelog-publishing",
+      "label": "Release engineering - Versioning, changelog, and publishing",
+      "kind": "overlay",
+      "owner": "release-engineering",
+      "routing_bucket": "QA/deployment",
+      "support_level": "planned",
+      "path": ".opencode/skills/release-engineering/reference/versioning-changelog-publishing.md"
+    },
+    {
+      "id": "release-engineering/rollback-promotion-feature-flags",
+      "label": "Release engineering - Rollback, promotion, and feature flags",
+      "kind": "overlay",
+      "owner": "release-engineering",
+      "routing_bucket": "QA/deployment",
+      "support_level": "planned",
+      "path": ".opencode/skills/release-engineering/reference/rollback-promotion-feature-flags.md"
+    },
+    {
+      "id": "frontend-web/vue-nuxt",
+      "label": "Frontend web - Vue/Nuxt",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/vue-nuxt.md"
+    },
+    {
+      "id": "frontend-web/svelte-astro",
+      "label": "Frontend web - Svelte/Astro",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/svelte-astro.md"
+    },
+    {
+      "id": "frontend-web/angular",
+      "label": "Frontend web - Angular",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/angular.md"
+    },
+    {
+      "id": "frontend-web/browser-3d-platform",
+      "label": "Frontend web - Browser 3D platform",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/browser-3d-platform.md"
+    },
+    {
+      "id": "frontend-web/threejs-react-three-fiber",
+      "label": "Frontend web - Three.js and React Three Fiber",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/threejs-react-three-fiber.md"
+    },
+    {
+      "id": "frontend-web/babylon-playcanvas",
+      "label": "Frontend web - Babylon.js and PlayCanvas",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/babylon-playcanvas.md"
+    },
+    {
+      "id": "frontend-web/shader-material-workflows",
+      "label": "Frontend web - Shader and material workflows",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/shader-material-workflows.md"
+    },
+    {
+      "id": "frontend-web/gltf-asset-pipeline",
+      "label": "Frontend web - glTF asset pipeline",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "guided",
+      "path": ".opencode/skills/frontend-web/reference/gltf-asset-pipeline.md"
+    },
+    {
+      "id": "frontend-web/webxr",
+      "label": "Frontend web - WebXR",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "planned",
+      "path": ".opencode/reference/web-3d-support-model.md"
+    },
+    {
+      "id": "frontend-web/cad-industrial-visualization",
+      "label": "Frontend web - CAD and industrial visualization",
+      "kind": "overlay",
+      "owner": "frontend-web",
+      "routing_bucket": "web/mobile UI",
+      "support_level": "planned",
+      "path": ".opencode/reference/web-3d-support-model.md"
+    },
+    {
+      "id": "devops-platform/aws-azure-gcp",
+      "label": "DevOps platform - AWS Azure GCP",
+      "kind": "overlay",
+      "owner": "devops-platform",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/devops-platform/reference/aws-azure-gcp.md"
+    },
+    {
+      "id": "devops-platform/terraform-pulumi",
+      "label": "DevOps platform - Terraform Pulumi",
+      "kind": "overlay",
+      "owner": "devops-platform",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/devops-platform/reference/terraform-pulumi.md"
+    },
+    {
+      "id": "devops-platform/observability-sre",
+      "label": "DevOps platform - Observability SRE",
+      "kind": "overlay",
+      "owner": "devops-platform",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/devops-platform/reference/observability-sre.md"
+    },
+    {
+      "id": "devops-platform/github-actions-argo",
+      "label": "DevOps platform - GitHub Actions Argo",
+      "kind": "overlay",
+      "owner": "devops-platform",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/devops-platform/reference/github-actions-argo.md"
+    },
+    {
+      "id": "data-ml-platform/rag-vector-evals",
+      "label": "Data ML platform - RAG vector evals",
+      "kind": "overlay",
+      "owner": "data-ml-platform",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/data-ml-platform/reference/rag-vector-evals.md"
+    },
+    {
+      "id": "data-ml-platform/spark-dbt-airflow",
+      "label": "Data ML platform - Spark dbt Airflow",
+      "kind": "overlay",
+      "owner": "data-ml-platform",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/data-ml-platform/reference/spark-dbt-airflow.md"
+    },
+    {
+      "id": "data-ml-platform/model-serving-mlops",
+      "label": "Data ML platform - Model serving MLOps",
+      "kind": "overlay",
+      "owner": "data-ml-platform",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/data-ml-platform/reference/model-serving-mlops.md"
+    },
+    {
+      "id": "security-engineering/supply-chain-cloud-security",
+      "label": "Security engineering - Supply chain and cloud security",
+      "kind": "overlay",
+      "owner": "security-engineering",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/security-engineering/reference/supply-chain-cloud-security.md"
+    },
+    {
+      "id": "database-engineering/analytics-search-stores",
+      "label": "Database engineering - Analytics and search stores",
+      "kind": "overlay",
+      "owner": "database-engineering",
+      "routing_bucket": "data/security",
+      "support_level": "guided",
+      "path": ".opencode/skills/database-engineering/reference/analytics-search-stores.md"
+    },
+    {
+      "id": "qa-validation/api-contract-load-visual",
+      "label": "QA validation - API contract, load, and visual",
+      "kind": "overlay",
+      "owner": "qa-validation",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/qa-validation/reference/api-contract-load-visual.md"
+    },
+    {
+      "id": "qa-validation/mobile-test-matrix",
+      "label": "QA validation - Mobile test matrix",
+      "kind": "overlay",
+      "owner": "qa-validation",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/qa-validation/reference/mobile-test-matrix.md"
+    },
+    {
+      "id": "qa-validation/browser-3d-validation",
+      "label": "QA validation - Browser 3D validation",
+      "kind": "overlay",
+      "owner": "qa-validation",
+      "routing_bucket": "QA/deployment",
+      "support_level": "guided",
+      "path": ".opencode/skills/qa-validation/reference/browser-3d-validation.md"
+    }
+  ]
+}

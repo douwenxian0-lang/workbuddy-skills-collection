@@ -1,0 +1,5 @@
+{
+  "name": "weread-skills",
+  "version": "1.0.3",
+  "baseUrl": "https://i.weread.qq.com/api/agent/gateway"
+}

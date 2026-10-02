@@ -3,5 +3,7 @@
   "name": "Github",
   "version": "1.0.0",
   "installedAt": 1778123976591,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779723,
+  "installedContentHash": "sha256:3cf831fddbab97da544c2e76de1677dcda1354f5a8d77e9eb390d11c65357e66"
 }

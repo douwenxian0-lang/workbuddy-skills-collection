@@ -82,7 +82,7 @@ MEDIA_TYPE=$(echo "$PREFLIGHT" | node -e "const d=JSON.parse(require('fs').readF
 CONTENT_TYPE=$(echo "$PREFLIGHT" | node -e "const d=JSON.parse(require('fs').readFileSync(0,'utf8'));process.stdout.write(d.content_type)")
 
 # ── Step 3: check_repeated_names ← ⛔ GATE 3 ──
-# MANDATORY for ALL file uploads (media_type 1/3/4/5/7/9/13/14/15).
+# MANDATORY for ALL file uploads (media_type 1/3/4/5/7/9/13/14/15/20/21).
 # is_repeated=true → ask user: keep both (append _YYYYMMDDHHmmss) or cancel.
 ima_api "openapi/wiki/v1/check_repeated_names" "{
   \"params\": [{\"name\": \"$FILE_NAME\", \"media_type\": $MEDIA_TYPE}],

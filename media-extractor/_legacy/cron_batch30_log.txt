@@ -1,0 +1,329 @@
+[22:48:00] Cron任务启动，30篇文章开始提取...
+--- [1/29] article_01 ---
+  [12] SKIP: img_012.jpg (2KB)
+  [13] SKIP: img_013.jpg (2KB)
+  [14] SKIP: img_014.jpg (2KB)
+  [15] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [16] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [17] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [18] FAIL: img_018.jpg (Too small (46 bytes))
+  [19] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [20] SKIP: img_020.jpg (1KB)
+  Done: 12 saved, 4 skipped, 5 failed | E:\??????\article_01\????_0dae7cb8
+--- [2/29] article_02 ---
+  [26] SKIP (dup): img_026.jpg
+  [28] SKIP: img_028.jpg (2KB)
+  [29] SKIP: img_029.jpg (2KB)
+  [30] SKIP: img_030.jpg (2KB)
+  [31] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [32] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [33] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [34] FAIL: img_034.jpg (Too small (46 bytes))
+  [35] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [36] SKIP: img_036.jpg (1KB)
+  Done: 27 saved, 5 skipped, 5 failed | E:\??????\article_02\????? ??????????2_a0aa4e28
+--- [3/29] article_03 ---
+  [5] SKIP: img_005.jpg (2KB)
+  [6] SKIP: img_006.jpg (2KB)
+  [7] SKIP: img_007.jpg (2KB)
+  [8] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [9] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [10] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [11] FAIL: img_011.jpg (Too small (46 bytes))
+  [12] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [13] SKIP: img_013.jpg (1KB)
+  Done: 5 saved, 4 skipped, 5 failed | E:\??????\article_03\???????????_caee0c20
+--- [4/29] article_04 ---
+  [6] SKIP: img_006.jpg (2KB)
+  [7] SKIP: img_007.jpg (2KB)
+  [8] SKIP: img_008.jpg (2KB)
+  [9] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [10] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [11] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [12] FAIL: img_012.jpg (Too small (46 bytes))
+  [13] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [14] SKIP: img_014.jpg (1KB)
+  Done: 6 saved, 4 skipped, 5 failed | E:\??????\article_04\???????????_b7782ff7
+--- [5/29] article_05 ---
+  [10] SKIP (dup): img_010.jpg
+  [14] SKIP: img_014.jpg (2KB)
+  [15] SKIP: img_015.jpg (2KB)
+  [16] SKIP: img_016.jpg (2KB)
+  [17] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [18] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [19] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [20] FAIL: img_020.jpg (Too small (46 bytes))
+  [21] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [22] SKIP: img_022.jpg (1KB)
+  Done: 13 saved, 5 skipped, 5 failed | E:\??????\article_05\180??????_be871b68
+--- [6/29] article_06 ---
+  [8] SKIP: img_008.jpg (2KB)
+  [9] SKIP: img_009.jpg (2KB)
+  [10] SKIP: img_010.jpg (2KB)
+  [11] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [12] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [13] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [14] FAIL: img_014.jpg (Too small (46 bytes))
+  [15] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [16] SKIP: img_016.jpg (1KB)
+  Done: 8 saved, 4 skipped, 5 failed | E:\??????\article_06\????????????_c62eeb80
+--- [7/29] article_07 ---
+  [28] SKIP: img_028.jpg (2KB)
+  [29] SKIP: img_029.jpg (2KB)
+  [30] SKIP: img_030.jpg (2KB)
+  [31] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [32] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [33] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [34] FAIL: img_034.jpg (Too small (46 bytes))
+  [35] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [36] SKIP: img_036.jpg (1KB)
+  Done: 28 saved, 4 skipped, 5 failed | E:\??????\article_07\????????????_17e9f125
+--- [8/29] article_08 ---
+  [8] SKIP: img_008.jpg (2KB)
+  [9] SKIP: img_009.jpg (2KB)
+  [10] SKIP: img_010.jpg (2KB)
+  [11] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [12] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [13] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [14] FAIL: img_014.jpg (Too small (46 bytes))
+  [15] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [16] SKIP: img_016.jpg (1KB)
+  Done: 8 saved, 4 skipped, 5 failed | E:\??????\article_08\??????????????_dd6afd26
+--- [9/29] article_09 ---
+  [4] SKIP (dup): img_004.jpg
+  [13] SKIP: img_013.jpg (2KB)
+  [14] SKIP: img_014.jpg (2KB)
+  [15] SKIP: img_015.jpg (2KB)
+  [16] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [17] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [18] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [19] FAIL: img_019.jpg (Too small (46 bytes))
+  [20] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [21] SKIP: img_021.jpg (1KB)
+  Done: 12 saved, 5 skipped, 5 failed | E:\??????\article_09\?????????????????_3c05d09f
+--- [10/29] article_10 ---
+  [28] SKIP: img_028.jpg (2KB)
+  [29] SKIP: img_029.jpg (2KB)
+  [30] SKIP: img_030.jpg (2KB)
+  [31] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [32] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [33] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [34] FAIL: img_034.jpg (Too small (46 bytes))
+  [35] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [36] SKIP: img_036.jpg (1KB)
+  Done: 28 saved, 4 skipped, 5 failed | E:\??????\article_10\????????????????????_7bf2c784
+--- [11/29] article_11 ---
+  [30] SKIP: img_030.jpg (2KB)
+  [31] SKIP: img_031.jpg (2KB)
+  [32] SKIP: img_032.jpg (2KB)
+  [33] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [34] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [35] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [36] FAIL: img_036.jpg (Too small (46 bytes))
+  [37] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [38] SKIP: img_038.jpg (1KB)
+  Done: 30 saved, 4 skipped, 5 failed | E:\??????\article_11\???????????? ???_f166c032
+--- [12/29] article_12 ---
+  [4] SKIP (dup): img_004.jpg
+  [15] SKIP: img_015.jpg (2KB)
+  [16] SKIP: img_016.jpg (2KB)
+  [17] SKIP: img_017.jpg (2KB)
+  [18] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [19] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [20] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [21] FAIL: img_021.jpg (Too small (46 bytes))
+  [22] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [23] SKIP: img_023.jpg (1KB)
+  Done: 14 saved, 5 skipped, 5 failed | E:\??????\article_12\????????????????????_c1451020
+--- [13/29] article_13 ---
+  [26] SKIP: img_026.jpg (2KB)
+  [27] SKIP: img_027.jpg (2KB)
+  [28] SKIP: img_028.jpg (2KB)
+  [29] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [30] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [31] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [32] FAIL: img_032.jpg (Too small (46 bytes))
+  [33] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [34] SKIP: img_034.jpg (1KB)
+  Done: 26 saved, 4 skipped, 5 failed | E:\??????\article_13\?????????????????_3f605b66
+--- [14/29] article_14 ---
+  [43] SKIP: img_043.jpg (2KB)
+  [44] SKIP: img_044.jpg (2KB)
+  [45] SKIP: img_045.jpg (2KB)
+  [46] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [47] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [48] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [49] FAIL: img_049.jpg (Too small (46 bytes))
+  [50] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [51] SKIP: img_051.jpg (1KB)
+  Done: 43 saved, 4 skipped, 5 failed | E:\??????\article_14\GPT-image-2?100??????????3?_05a586a9
+--- [15/29] article_15 ---
+  [21] SKIP: img_021.jpg (7KB)
+  [22] SKIP: img_022.jpg (2KB)
+  [23] SKIP: img_023.jpg (2KB)
+  [24] SKIP: img_024.jpg (2KB)
+  [25] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [26] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [27] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [28] FAIL: img_028.jpg (Too small (46 bytes))
+  [29] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [30] SKIP: img_030.jpg (1KB)
+  Done: 21 saved, 5 skipped, 5 failed | E:\??????\article_15\Awesome DESIGN.md????????_2f01d2bc
+--- [16/29] article_16 ---
+  [20] SKIP: img_020.jpg (2KB)
+  [21] SKIP: img_021.jpg (2KB)
+  [22] SKIP: img_022.jpg (2KB)
+  [23] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [24] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [25] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [26] FAIL: img_026.jpg (Too small (46 bytes))
+  [27] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [28] SKIP: img_028.jpg (1KB)
+  Done: 20 saved, 4 skipped, 5 failed | E:\??????\article_16\??????????_50a6598b
+--- [17/29] article_17 ---
+  [8] SKIP: img_008.jpg (2KB)
+  [9] SKIP: img_009.jpg (2KB)
+  [10] SKIP: img_010.jpg (2KB)
+  [11] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [12] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [13] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [14] FAIL: img_014.jpg (Too small (46 bytes))
+  [15] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [16] SKIP: img_016.jpg (1KB)
+  Done: 8 saved, 4 skipped, 5 failed | E:\??????\article_17\??????????_38337df0
+--- [18/29] article_18 ---
+  [25] SKIP: img_025.jpg (2KB)
+  [26] SKIP: img_026.jpg (2KB)
+  [27] SKIP: img_027.jpg (2KB)
+  [28] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [29] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [30] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [31] FAIL: img_031.jpg (Too small (46 bytes))
+  [32] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [33] SKIP: img_033.jpg (1KB)
+  Done: 25 saved, 4 skipped, 5 failed | E:\??????\article_18\GPT Image 2 ????????_30bd89b0
+--- [19/29] article_19 ---
+  [41] SKIP: img_041.jpg (2KB)
+  [42] SKIP: img_042.jpg (2KB)
+  [43] SKIP: img_043.jpg (2KB)
+  [44] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [45] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [46] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [47] FAIL: img_047.jpg (Too small (46 bytes))
+  [48] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [49] SKIP: img_049.jpg (1KB)
+  Done: 41 saved, 4 skipped, 5 failed | E:\??????\article_19\???????????_38452993
+--- [20/29] article_20 ---
+  [18] SKIP: img_018.jpg (2KB)
+  [19] SKIP: img_019.jpg (2KB)
+  [20] SKIP: img_020.jpg (2KB)
+  [21] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [22] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [23] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [24] FAIL: img_024.jpg (Too small (46 bytes))
+  [25] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [26] SKIP: img_026.jpg (1KB)
+  Done: 18 saved, 4 skipped, 5 failed | E:\??????\article_20\?????????????_f3fe59a5
+--- [21/29] article_21 ---
+  [14] SKIP: img_014.jpg (2KB)
+  [15] SKIP: img_015.jpg (2KB)
+  [16] SKIP: img_016.jpg (2KB)
+  [17] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [18] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [19] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [20] FAIL: img_020.jpg (Too small (46 bytes))
+  [21] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [22] SKIP: img_022.jpg (1KB)
+  Done: 14 saved, 4 skipped, 5 failed | E:\??????\article_21\?????Nano?????????_73635319
+--- [22/29] article_22 ---
+  [35] SKIP: img_035.jpg (2KB)
+  [36] SKIP: img_036.jpg (2KB)
+  [37] SKIP: img_037.jpg (2KB)
+  [38] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [39] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [40] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [41] FAIL: img_041.jpg (Too small (46 bytes))
+  [42] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [43] SKIP: img_043.jpg (1KB)
+  Done: 35 saved, 4 skipped, 5 failed | E:\??????\article_22\???????_6329999e
+--- [23/29] article_23 ---
+  [19] SKIP: img_019.jpg (2KB)
+  [20] SKIP: img_020.jpg (2KB)
+  [21] SKIP: img_021.jpg (2KB)
+  [22] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [23] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [24] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [25] FAIL: img_025.jpg (Too small (46 bytes))
+  [26] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [27] SKIP: img_027.jpg (1KB)
+  Done: 19 saved, 4 skipped, 5 failed | E:\??????\article_23\????????_3f108900
+--- [24/29] article_24 ---
+  [6] SKIP: img_006.jpg (2KB)
+  [7] SKIP: img_007.jpg (2KB)
+  [8] SKIP: img_008.jpg (2KB)
+  [9] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [10] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [11] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [12] FAIL: img_012.jpg (Too small (46 bytes))
+  [13] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [14] SKIP: img_014.jpg (1KB)
+  Done: 6 saved, 4 skipped, 5 failed | E:\??????\article_24\??????AI??????5???_3f84c923
+--- [25/29] article_25 ---
+  [21] SKIP (dup): img_021.jpg
+  [22] SKIP (dup): img_022.jpg
+  [26] SKIP: img_026.jpg (2KB)
+  [27] SKIP: img_027.jpg (2KB)
+  [28] SKIP: img_028.jpg (2KB)
+  [29] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [30] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [31] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [32] FAIL: img_032.jpg (Too small (46 bytes))
+  [33] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [34] SKIP: img_034.jpg (1KB)
+  Done: 24 saved, 6 skipped, 5 failed | E:\??????\article_25\Gemini??????????????_0be9f6ee
+--- [26/29] article_26 ---
+  [25] SKIP: img_025.jpg (2KB)
+  [26] SKIP: img_026.jpg (2KB)
+  [27] SKIP: img_027.jpg (2KB)
+  [28] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [29] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [30] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [31] FAIL: img_031.jpg (Too small (46 bytes))
+  [32] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [33] SKIP: img_033.jpg (1KB)
+  Done: 25 saved, 4 skipped, 5 failed | E:\??????\article_26\??kimi????????????????_5ec1a32f
+--- [27/29] article_27 ---
+  [18] SKIP: img_018.jpg (2KB)
+  [19] SKIP: img_019.jpg (2KB)
+  [20] SKIP: img_020.jpg (2KB)
+  [21] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [22] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [23] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [24] FAIL: img_024.jpg (Too small (46 bytes))
+  [25] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [26] SKIP: img_026.jpg (1KB)
+  Done: 18 saved, 4 skipped, 5 failed | E:\??????\article_27\50???Gemini3.0????_bd4a4711
+--- [28/29] article_28 ---
+  [39] SKIP: img_039.jpg (2KB)
+  [40] SKIP: img_040.jpg (2KB)
+  [41] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [42] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [43] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [44] FAIL: img_044.jpg (Too small (46 bytes))
+  [45] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [46] SKIP: img_046.jpg (1KB)
+  Done: 38 saved, 3 skipped, 5 failed | E:\??????\article_28\??????????????????????????????_bc2a8d1f
+--- [29/29] article_29 ---
+  [16] SKIP: img_016.jpg (2KB)
+  [17] SKIP: img_017.jpg (2KB)
+  [18] FAIL: ad530d26-e227-4123-a070-cf5939d96d03.png__.wx_card_root (HTTP 404)
+  [19] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.wx_card_root_common_shopcollection (HTTP 404)
+  [20] FAIL: 8f4c69e9-a78b-4c26-a4ce-affa1c47366d.png__.common_buytogether_root (HTTP 404)
+  [21] FAIL: img_021.jpg (Too small (46 bytes))
+  [22] FAIL: jXYqVlv0Bp4U5kA7rRVadr_IVVcYZeY_bErEeSJQ0eAObBEiF9qnYrc_HLdsY8q6nQQ5T3WHhgVq1pF5.jpg (Too small (46 bytes))
+  [23] SKIP: img_023.jpg (1KB)
+  Done: 15 saved, 3 skipped, 5 failed | E:\??????\article_29\Pervert????,??????????_502bd289
+
+[OK] 全部完成！共提取约 587 张图片
+保存位置：E:\微信推文图片
+完成时间：2026-05-26 22:54:27

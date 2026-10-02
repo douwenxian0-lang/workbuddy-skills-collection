@@ -3,5 +3,7 @@
   "name": "Self-Improving + Proactive Agent",
   "version": "1.2.16",
   "installedAt": 1778123989403,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779730,
+  "installedContentHash": "sha256:363d14361e8800521652efab66ec608318f77996dfa97af55b7fa6f86958cc73"
 }

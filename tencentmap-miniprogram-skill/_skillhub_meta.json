@@ -3,5 +3,6 @@
   "installedAt": 1778132984903,
   "source": "marketplace",
   "iconSource": "tencentmap-miniprogram-skill",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "installedContentHash": "sha256:bc88c02f5ca064911b030deff9bc5c80f14d84e756faf107ca791dbe6ef4bc9e"
 }

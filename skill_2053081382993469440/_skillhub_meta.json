@@ -1,0 +1,11 @@
+{
+  "name": "百度网盘",
+  "installedAt": 1778132963552,
+  "source": "marketplace",
+  "iconSource": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/baidu-drive.png",
+  "version": "1.4.3",
+  "skillId": "skill_2053081382993469440",
+  "iconLocalPath": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053081382993469440\\_icon.png",
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/baidu-drive.png",
+  "installedContentHash": "sha256:9bdbf2554aebff01cd2301ba0a689f1fcd68d0ddb0d2fbe8f72199813cb2ef2b"
+}

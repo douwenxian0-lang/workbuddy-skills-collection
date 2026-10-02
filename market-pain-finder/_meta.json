@@ -1,0 +1,26 @@
+{
+  "name": "market-pain-finder",
+  "version": "3.0.0",
+  "scene": "市场调研：痛点自动挖掘分析",
+  "category": "办公提效",
+  "subtitle": "立项没方向？自动深挖市场痛点，一份报告帮你稳过评审",
+  "target_user": "产品经理、市场分析师、创业者",
+  "core_need": "快速了解目标市场的真实用户痛点",
+  "trigger_words": [
+    "市场调研",
+    "痛点分析",
+    "竞品调研"
+  ],
+  "output_format": "Markdown 调研报告 + 需求矩阵",
+  "priority": "P2",
+  "tools": [
+    "web_search",
+    "write_to_file"
+  ],
+  "dependencies": [
+    "market-researcher"
+  ],
+  "real_objects": "Markdown 报告（write_to_file）、社交媒体数据",
+  "deliverables": "市场调研报告、需求优先级矩阵",
+  "need_external_search": "是"
+}

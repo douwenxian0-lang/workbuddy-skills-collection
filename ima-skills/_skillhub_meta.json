@@ -1,7 +1,9 @@
 {
   "slug": "ima-skills",
   "name": "ima-skills",
-  "version": "1.1.7",
-  "installedAt": 1778124088900,
-  "source": "skillhub"
+  "version": "1.1.9",
+  "installedAt": 1786028856272,
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779725,
+  "installedContentHash": "sha256:fc5dc36765da5f292cfa83a26ff358b9bd4e2576c658af5ddffa871d41fd700c"
 }

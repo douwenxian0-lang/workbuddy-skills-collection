@@ -1,0 +1,52 @@
+node_modules/
+dist/
+.wanman/
+build/
+*.tsbuildinfo
+.turbo/
+
+# SQLite
+*.db
+*.db-journal
+*.db-wal
+
+# Environment
+.env
+.env.local
+.dev.vars
+
+# Credentials
+keys/
+shipkey.json
+.cache/wanman-e2e/
+
+# E2E test history (local deliverables)
+.e2e-history/
+.experiments/
+deliverables/
+
+# E2E test fixtures (synced from external projects)
+**/__fixtures__/
+
+# Worktrees
+.worktrees/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Logs
+*.log
+
+# Generated standalone assets
+embedded-assets.ts
+embedded-assets.js
+apps/api/.wrangler/
+.sqlite

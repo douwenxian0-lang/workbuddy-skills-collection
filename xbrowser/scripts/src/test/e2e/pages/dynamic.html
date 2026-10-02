@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>XB Test Dynamic</title>
+</head>
+<body>
+<h1>动态内容测试</h1>
+<p id="status">等待操作...</p>
+<button id="generate-btn" onclick="generateContent()">生成内容</button>
+<div id="dynamic-area"></div>
+
+<script>
+var clickCount = 0;
+function generateContent() {
+  clickCount++;
+  var area = document.getElementById('dynamic-area');
+  var div = document.createElement('div');
+  div.id = 'generated-' + clickCount;
+  div.className = 'generated-item';
+  div.textContent = '动态生成的内容 #' + clickCount;
+  area.appendChild(div);
+  document.getElementById('status').textContent = '已生成 ' + clickCount + ' 个元素';
+}
+</script>
+<a href="/" id="back-home">返回首页</a>
+</body>
+</html>

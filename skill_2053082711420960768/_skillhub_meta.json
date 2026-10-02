@@ -1,0 +1,11 @@
+{
+  "name": "Skill安全审计（云鼎实验室）",
+  "installedAt": 1778132917431,
+  "source": "marketplace",
+  "iconSource": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/skills-security-check.svg",
+  "version": "1.0.0",
+  "skillId": "skill_2053082711420960768",
+  "iconLocalPath": "C:\\Users\\Administrator\\.workbuddy\\skills\\skill_2053082711420960768\\_icon.svg",
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/skills-security-check.svg",
+  "installedContentHash": "sha256:f4ca5ed044c4b32ceceaae3b526106383b598e3c8e0fe7d3433e137c5e1a2f5d"
+}

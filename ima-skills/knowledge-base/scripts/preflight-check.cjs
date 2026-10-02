@@ -29,6 +29,8 @@
  *   15         SoundRecording   file upload                 ← this script
  *   16         WebVideo         add via URL (not a file; Bilibili/YouTube unsupported)
  *   19         Podcast          add via URL (not a file)
+ *   20         HTML             file upload                 ← this script
+ *   21         EPUB             file upload                 ← this script
  *   98         Code             created inside IMA
  *   99         Folder           organizational only
  *
@@ -107,6 +109,8 @@ const EXT_MAP = {
   m4a: { media_type: 15, content_type: 'audio/x-m4a' },
   wav: { media_type: 15, content_type: 'audio/wav' },
   aac: { media_type: 15, content_type: 'audio/aac' },
+  html: { media_type: 20, content_type: 'text/html' },
+  epub: { media_type: 21, content_type: 'application/epub+zip' },
 };
 
 // ─── Content-Type → media_type (reverse lookup) ─────────────────────────────
@@ -135,7 +139,9 @@ const SIZE_LIMITS = {
   7: 10 * MB, // Markdown
   13: 10 * MB, // TXT
   14: 10 * MB, // Xmind
+  20: 10 * MB, // HTML
   9: 30 * MB, // Image
+  21: 50 * MB, // EPUB
 };
 const DEFAULT_SIZE_LIMIT = 200 * MB; // PDF, Word, PPT, Audio, etc.
 
@@ -157,13 +163,10 @@ const UNSUPPORTED_VIDEO_CT = new Set([
 // reject with a hint pointing to the correct channel.
 // Maps extension → { media_type, hint }
 const NON_FILE_EXT = {
-  html: { media_type: 2, hint: 'Web pages must be added via URL (add_url_knowledge), not as a file upload.' },
-  htm: { media_type: 2, hint: 'Web pages must be added via URL (add_url_knowledge), not as a file upload.' },
   mhtml: { media_type: 2, hint: 'Web pages must be added via URL (add_url_knowledge), not as a file upload.' },
 };
 
 const NON_FILE_CT = {
-  'text/html': { media_type: 2, hint: 'Web pages must be added via URL (add_url_knowledge), not as a file upload.' },
   'application/xhtml+xml': {
     media_type: 2,
     hint: 'Web pages must be added via URL (add_url_knowledge), not as a file upload.',

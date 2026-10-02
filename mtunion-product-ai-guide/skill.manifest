@@ -1,0 +1,19 @@
+skill-manifest-version: 1
+skill-id: 2cad768f8c72217ea3a26ae4d2b8208bacc46c016781a1b3fdaa7b30ec34566f
+
+files:
+  653227af89b45cdac0406c0a46a946bf2219f894961dd118d9e0fac1a36aad9c  .catpaw-install-meta.json
+  0c40ec381215dcd0366be8383919fcab3471663ccb765bed0d2401177169a544  SKILL.md
+  e1cdf7bd27637f3f650410861c41722485aaf7a0c9f2fa1d9a1f3c7bd06be2b3  references/terms-of-service.md
+  34b38399843706a86ea8b576f240695226421d36ba6579f6e644e94e390d31e3  scripts/auth.py
+  1d9a30a527cb3fb6b4ff768f4ddd806921332408384410756d96af2763b9c95d  scripts/config.json
+  c0cea4b26a58891659b20e395b303215fbe4f3baa688365da5c314537428c4bb  scripts/get_location_by_address.py
+  ed77450b08087cab82d5a57033f515f76c65ce1fa04e61cb071e21268ab68195  scripts/get_user_recent_location.py
+  c094fb28f11751172a00cfced695e4a6904c97b5e2201c352c74b758133f7dc4  scripts/hotword.py
+  e405f9f7ff234c7d09f111a53fd5cb6a369ba402e5d0d338fd4fdd93dfd5cf48  scripts/mtuser-pt-passport-0.1.4.tgz
+  36c46c14718f7182e71de0411b703bd72d93f29f33efe800d5b44af784cca7c8  scripts/order.py
+  e5e674d7c3f20f468d6eb9e9c69847c7d110adb592578178be7a3cddc4104c6a  scripts/product_search.py
+  46033fd30bc4ea6bba01071ca9dcf81384f8b37ebfeda5c479b2c1f6b46bfd4b  scripts/run.js
+  6927755fec5db17f4dfc29a970058b57c0a250054e85d83a7e16f056ede38c35  scripts/vendor/cliguard/__init__.py
+  2d4fc15a3360a8d7271e303f18bf92febd3f4e7bd8cdfb60d3fe876887a10be0  scripts/vendor/cliguard/js/cliguard-wrapper.js
+  eff1a324fdec2201ef021da00d02e64324cbf59e1328966718e4a43c6b6626cf  scripts/vendor/cliguard/js/cliguard.js

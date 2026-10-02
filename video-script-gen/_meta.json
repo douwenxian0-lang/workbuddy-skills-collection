@@ -1,0 +1,27 @@
+{
+  "name": "video-script-gen",
+  "version": "3.0.0",
+  "scene": "视频脚本一键生成",
+  "category": "自媒体营销",
+  "subtitle": "播放量总低迷？直接帮你拉高完播率",
+  "target_user": "短视频创作者、UP主、Vlogger",
+  "core_need": "快速获得可拍摄的结构化视频脚本",
+  "trigger_words": [
+    "写脚本",
+    "视频脚本",
+    "分镜"
+  ],
+  "output_format": "Markdown 脚本 + 分镜表",
+  "priority": "P2",
+  "tools": [
+    "web_search",
+    "write_to_file",
+    "execute_command"
+  ],
+  "dependencies": [
+    "video-script"
+  ],
+  "real_objects": "Markdown 脚本文件（write_to_file）",
+  "deliverables": "视频脚本文档、分镜表",
+  "need_external_search": "是"
+}

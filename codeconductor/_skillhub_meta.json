@@ -3,5 +3,7 @@
   "name": "CodeConductor.ai",
   "version": "1.0.1",
   "installedAt": 1778124016484,
-  "source": "skillhub"
+  "source": "skillhub",
+  "iconDownloadFailedAt": 1790850779722,
+  "installedContentHash": "sha256:3fff7cf3cbb74ec21b6dd00e3287ea233ffb8a1396ee9559c41bd1f9fd3553ee"
 }

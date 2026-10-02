@@ -1,0 +1,9 @@
+{
+  // Phase 1 keeps the project-local bundle wiring narrow and structural.
+  // Canonical pluralized bundle roots live under this repo-local .opencode directory.
+  "paths": {
+    "skills": ["./skills"],
+    "commands": ["./commands"],
+    "reference": ["./reference"]
+  }
+}
