@@ -1,7 +1,7 @@
 # 技能索引（自动生成）
 
-> 由 gen-skills-index.ps1 从各 SKILL.md 的 frontmatter 生成，共 **303 个技能**、6804 个文件、约 154 MB。
-> 描述取自 frontmatter 的 `description` 首句；空描述表示该 SKILL.md 未提供可解析的 description。
+> 由 scripts/gen-skills-index.ps1 从各 SKILL.md 的 frontmatter 生成，共 **301 个技能**、6786 个文件、约 153.8 MB。
+> 描述取自 `description` 首句；缺失时回退 `summary` / `title` / 正文首段。
 
 ## 01 · HTML PPT 模板族（51 个）
 
@@ -85,7 +85,7 @@
 | `tencentmap-miniprogram-skill` | 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能… | 91 | 262.6 KB |
 | `tencentmap-webservice-skill` | tencentmap-webservice-skill… | 10 | 54.7 KB |
 
-## 04 · 平台/工具技能族（27 个）
+## 04 · 平台/工具技能族（25 个）
 
 | 技能目录 | 描述 | 文件 | 大小 |
 |---|---|---:|---:|
@@ -96,8 +96,6 @@
 | `design-text-outline` | 建筑师求真务实设计文本纲要… | 1 | 4.6 KB |
 | `github-dashboard` | GitHub repository analytics dashboard — stars, forks, contributors, issues, pull requests, recent activity, an… | 8 | 68 KB |
 | `github-direct-push` | 代理/网络受限环境下把大型本地仓库推送到 GitHub 的完整排查与推送流程… | 3 | 16.7 KB |
-| `ima-skill` | 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作… | 7 | 98.1 KB |
-| `ima-skills` | 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作… | 11 | 110.1 KB |
 | `image-poster` | Single-image generation skill for posters, key art, and editorial illustrations… | 3 | 7.1 KB |
 | `image-prompt-engineer` | 精通摄影美学和 AI 图像生成的提示词专家，擅长把视觉概念转化为精准的文字描述，生成专业级摄影作品… | 1 | 8.6 KB |
 | `image-prompt-gen` | 室内设计效果图/彩平图/概念图 AI 提示词生成器… | 1 | 5 KB |
