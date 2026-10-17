@@ -91,7 +91,7 @@
 |---|---|---:|---:|
 | `agent-browser` | Browser automation CLI for AI agents… | 4 | 4.8 KB |
 | `agent-email` | 通过 QQ Agent 邮箱（OAuth 2… | 5 | 25.7 KB |
-| `agent-memory` | Persistent memory system for AI agents… | 12 | 46.2 KB |
+| `agent-memory` | Persistent memory system for AI agents… | 12 | 46.4 KB |
 | `design-brief` | Parse a structured design brief written in I-Lang protocol format into a concrete design spec… | 2 | 13.2 KB |
 | `design-text-outline` | 建筑师求真务实设计文本纲要… | 1 | 4.6 KB |
 | `github-dashboard` | GitHub repository analytics dashboard — stars, forks, contributors, issues, pull requests, recent activity, an… | 8 | 68 KB |
@@ -148,7 +148,7 @@
 | `automation-workflows` | Design and implement automation workflows to save time and scale operations as a solopreneur… | 2 | 10.3 KB |
 | `backend-architect` | 资深后端架构师，专精可扩展系统设计、数据库架构、API 开发和云基础设施… | 1 | 7.8 KB |
 | `baidu-ai-map` | 百度地图 Agent Plan ，无需成为百度地图开发者，立即接入百度地图为 Agent 场景原生设计的地图能力，例如 AI 地点检索、AI 路线规划、地理编码与逆地理编码、天气查询、地图展示等开箱即用的工具… | 4 | 18.3 KB |
-| `bdpan-storage` | - | 12 | 100.1 KB |
+| `bdpan-storage` | 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹… | 12 | 100.1 KB |
 | `bilibili-yt-dlp` | 使用 yt-dlp 和 ffmpeg 下载哔哩哔哩视频… | 2 | 3 KB |
 | `blog-post` | A long-form article / blog post — masthead, hero image placeholder, article body with figures and pull quotes,… | 3 | 9.5 KB |
 | `canva-connect` | Manage Canva designs, assets, and folders via the Connect API… | 4 | 26 KB |
@@ -192,8 +192,8 @@
 | `imap-smtp-email` | 【内部执行层 Skill — 禁止直接调用】个人邮箱 IMAP/SMTP 执行通道… | 12 | 159.7 KB |
 | `interior-design` | 全屋+工装室内设计AI助手… | 7 | 57.5 KB |
 | `invoice` | A printable invoice page — sender + recipient block, line items table, tax breakdown, totals, and payment inst… | 3 | 12.1 KB |
-| `kami-deck` | Build me a 9-slide kami-style internal deck for "Hokuto Research" — a Q1 portfolio review… | 4 | 42.5 KB |
-| `kami-landing` | Build me a kami-style one-pager for "Lumen Field", an indie studio shipping a soundscape app for focus… | 4 | 31.9 KB |
+| `kami-deck` | Produce a print-grade slide deck in the kami (紙 / 纸) design system — warm parchment background (or ink-blue fo… | 4 | 42.5 KB |
+| `kami-landing` | Produce a print-grade single-page kami (紙 / 纸) document — warm parchment canvas, ink-blue accent, serif at one… | 4 | 31.9 KB |
 | `kanban-board` | Kanban / task board with columns (To do / In progress / In review / Done), draggable-looking cards, assignee a… | 3 | 17.8 KB |
 | `karpathy-guidelines` | Behavioral guidelines to reduce common LLM coding mistakes… | 1 | 2.5 KB |
 | `kdocs` | 操作金山文档（WPS 云文档 / Kdocs / 365… | 90 | 550.3 KB |
@@ -204,7 +204,7 @@
 | `live-artifact` | Create refreshable, auditable Open Design artifacts backed by connector or local data… | 18 | 557.5 KB |
 | `live-dashboard` | Notion-style team dashboard rendered as a Live Artifact… | 8 | 95.4 KB |
 | `llm-wiki` | Use this skill when the user wants to build, maintain, or query a personal knowledge base using LLM-assisted w… | 5 | 28.2 KB |
-| `llm-wiki-obsidian-blink` | 基于 Andrej Karpathy 的 LLM Wiki 模式实现的 Obsidian 知识库，利用 LLM 维护可复利的知识层 | 35 | 17895.4 KB |
+| `llm-wiki-obsidian-blink` | 基于 Andrej Karpathy 的 LLM Wiki 模式实现的 Obsidian 知识库，利用 LLM 维护可复利的知识层 | 35 | 17895.5 KB |
 | `magazine-poster` | An editorial-style poster — newsprint paper, dateline, oversized serif headline with a struck-through word and… | 3 | 11.9 KB |
 | `market-pain-finder` | 市场调研：痛点自动挖掘分析… | 4 | 7.6 KB |
 | `mcd-mcp` | 麦当劳 MCP Server — 优惠券自动领取、积分商城兑换、门店查询、菜单查询、营养数据、下单购买、活动日历的一站式 AI 助手 | 4 | 11.2 KB |
@@ -219,7 +219,7 @@
 | `motion-frames` | A single-frame motion-design composition with looping CSS animations — rotating type ring, animated globe, tic… | 3 | 11.9 KB |
 | `motionsites-prompt` | Generate structured prompts for AI web design tools (Bolt, Lovable, Claude Code, Cursor) following the MotionS… | 1 | 3.9 KB |
 | `mtunion-product-ai-guide` | 美团优惠下单助手… | 17 | 267.2 KB |
-| `multi-search-engine` | \\|- | 3 | 13.1 KB |
+| `multi-search-engine` | Multi search engine integration with 16 engines (7 CN + 9 Global)… | 3 | 13.1 KB |
 | `multica` | Managed agents platform for turning coding agents into teammates… | 1544 | 21435.6 KB |
 | `my-first-skill` | 通过删除多余空格、修正大小写和纠正标点符号来格式化和清理文本内容 | 3 | 1 KB |
 | `nano-banana-pro` | Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image)… | 4 | 11.5 KB |
@@ -231,8 +231,8 @@
 | `obsidian` | Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli… | 3 | 2.7 KB |
 | `omo` | Distinctive anti-slop UI and UX umbrella skill for web and mobile work… | 132 | 352.4 KB |
 | `ontology` | Typed knowledge graph for structured agent memory and composable skills… | 6 | 39.9 KB |
-| `open-design-landing` | Build me an editorial landing page for "Lumen Field", an indie studio shipping a soundscape app for focus… | 28 | 22559.6 KB |
-| `open-design-landing-deck` | Build me an 11-slide pitch deck for "Lumen Field", a focus-soundscape studio… | 7 | 138.1 KB |
+| `open-design-landing` | Produce a world-class single-page editorial landing site in the Atelier Zero visual language (Monocle / Aparta… | 28 | 22559.6 KB |
+| `open-design-landing-deck` | Produce a single-file slide deck in the Atelier Zero visual language (warm-paper background, italic-serif emph… | 7 | 138.1 KB |
 | `openai-whisper` | Local speech-to-text with the Whisper CLI (no API key)… | 5 | 2.6 KB |
 | `pdf` | Use this skill whenever the user wants to do anything with PDF files… | 13 | 78.2 KB |
 | `persona-switch` | 切换或恢复 agent 人设（soul… | 6 | 12.8 KB |
@@ -249,7 +249,7 @@
 | `qibook-mcp` | 企百科 DataMCP 企业数据查询助手… | 3 | 10.2 KB |
 | `qqmusic` | QQ Music — search songs, albums, playlists, music videos, artists… | 10 | 42.7 KB |
 | `ralph-loop` | 通过bash循环实现自主AI编码，每轮迭代获取新鲜上下文，基于The Ralph Playbook | 13 | 51.2 KB |
-| `redbox-xiaohongshu-creator` | 一个专为小红书创作者设计的本地化桌面端 AI 创作工作台，打通「插件采集 → 知识库 → AI 创作 → 自动化发布」全链路… | 1 | 11.1 KB |
+| `redbox-xiaohongshu-creator` | 一个专为小红书创作者设计的本地化桌面端 AI 创作工作台，打通「插件采集 → 知识库 → AI 创作 → 自动化发布」全链路… | 1 | 11.4 KB |
 | `release-notes-one-pager` | Release notes one-page HTML with highlights, Added, Fixed, Breaking changes, Known issues, and Upgrade note… | 6 | 41.4 KB |
 | `remind-me` | 创建提醒事项，两种模式，中断型允许后台定时提醒任务，在指定时间通过系统通知打断用户… | 28 | 75.4 KB |
 | `repair-mangled-filenames` | 修复 Windows 上文件名乱码/截断/非法字符的问题… | 2 | 9.8 KB |
@@ -263,7 +263,7 @@
 | `skill-dispatcher` | Skill 调度器… | 4 | 237.5 KB |
 | `skill-install-and-publish` | 技能安装与发布完整工作流… | 1 | 5.4 KB |
 | `skill-vetter` | Security-first skill vetting for AI agents… | 3 | 4.8 KB |
-| `slock` | Send messages, manage channels, and interact with your Slack workspace from OpenClaw/Clawd… | 5 | 22.6 KB |
+| `slock` | Send messages, manage channels, and interact with your Slack workspace from OpenClaw/Clawd… | 5 | 22.7 KB |
 | `sprite-animation` | A pixel / sprite-style animated explainer slide — full-bleed cream stage, bold display year, animated pixel-ar… | 3 | 17.5 KB |
 | `summarize` | Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)… | 3 | 1.8 KB |
 | `summarize-1-0-0` | Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)… | 2 | 1.5 KB |
@@ -275,7 +275,7 @@
 | `tavily-skills` | Tavily驱动的Web搜索、内容提取、站点爬取、URL发现和深度研究技能集合 | 39 | 198.2 KB |
 | `team-okrs` | OKR tracker page — quarter banner, three objectives with their key results as progress bars, owner avatars, st… | 3 | 13.2 KB |
 | `tiktok-growth` | TikTok content strategy and video script generator for any niche… | 2 | 6.1 KB |
-| `tiktok-trend-radar` | This skill builds a **fully automated trend monitoring pipeline** that: 1… | 2 | 16.8 KB |
+| `tiktok-trend-radar` | This skill builds a **fully automated trend monitoring pipeline** that: 1… | 2 | 17.2 KB |
 | `tongdaxin-mcp` | 通达信连接器，查询全球股票行情数据、研究报告、公告资讯和宏观信息… | 3 | 19.4 KB |
 | `trace2skill` | Trace2Skill - 从真实轨迹中演化 Agent 技能… | 1 | 5.7 KB |
 | `tweaks` | Wrap any HTML artifact with a side panel of live, parameterized controls — accent color, type scale, density, … | 4 | 47.1 KB |
