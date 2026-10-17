@@ -1,6 +1,8 @@
 ---
 title: "BMAD Developer - BMAD开发角色"
-summary: "BMAD方法论的Developer角色 - 实现用户故事、编写代码、执行代码审查"
+name: bmad-developer
+description: |
+  BMAD方法论的Developer角色 - 实现用户故事、编写代码、执行代码审查
 ---
 
 # BMAD Developer
