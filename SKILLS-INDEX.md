@@ -1,6 +1,6 @@
 # 技能索引（自动生成）
 
-> 由 scripts/gen-skills-index.ps1 从各 SKILL.md 的 frontmatter 生成，共 **301 个技能**、6786 个文件、约 153.8 MB。
+> 由 scripts/gen-skills-index.ps1 从各 SKILL.md 的 frontmatter 生成，共 **301 个技能**、6799 个文件、约 126.5 MB。
 > 描述取自 `description` 首句；缺失时回退 `summary` / `title` / 正文首段。
 
 ## 01 · HTML PPT 模板族（51 个）
@@ -180,7 +180,7 @@
 | `gamified-app` | A multi-frame gamified mobile-app prototype — three phone frames on a dark showcase stage… | 3 | 20.6 KB |
 | `github` | Interact with GitHub using the `gh` CLI… | 3 | 1.5 KB |
 | `gog` | Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs… | 3 | 2.1 KB |
-| `gstack` | Fast headless browser for QA testing and site dogfooding… | 760 | 39887.2 KB |
+| `gstack` | Fast headless browser for QA testing and site dogfooding… | 759 | 11737.1 KB |
 | `guizang-ppt` | 生成"电子杂志 × 电子墨水"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板… | 13 | 134.2 KB |
 | `hatch-pet` | Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, … | 23 | 154 KB |
 | `hithink-mcp` | Use when 用户在 QClaw 中通过 OAuth 配置、迁移或调用同花顺金融数据 MCP，或查询 A 股行情、历史 K 线、财务报表、指数板块、基金净值与持仓、涨停、热榜、龙虎榜、异动原因… | 4 | 26.1 KB |
@@ -188,7 +188,7 @@
 | `humanizer` | Remove signs of AI-generated writing from text… | 4 | 20.6 KB |
 | `hyperframes` | Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, an… | 42 | 179.1 KB |
 | `ib-pitch-book` | Investment-banking pitch book for strategic alternatives — trading comps, precedent transactions, valuation fo… | 8 | 95.6 KB |
-| `ima` | 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作… | 10 | 110.6 KB |
+| `ima` | 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作… | 24 | 271.1 KB |
 | `imap-smtp-email` | 【内部执行层 Skill — 禁止直接调用】个人邮箱 IMAP/SMTP 执行通道… | 12 | 159.7 KB |
 | `interior-design` | 全屋+工装室内设计AI助手… | 7 | 57.5 KB |
 | `invoice` | A printable invoice page — sender + recipient block, line items table, tax breakdown, totals, and payment inst… | 3 | 12.1 KB |
