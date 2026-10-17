@@ -1,6 +1,8 @@
 ---
 title: "Ralph Loop - 自主AI编码循环"
-summary: "通过bash循环实现自主AI编码，每轮迭代获取新鲜上下文，基于The Ralph Playbook"
+name: ralph-loop
+description: |
+  通过bash循环实现自主AI编码，每轮迭代获取新鲜上下文，基于The Ralph Playbook
 ---
 
 # Ralph Loop
