@@ -16,11 +16,10 @@
 |---|---:|---|
 | 01 · HTML PPT 模板族 | 51 | [查看](SKILLS-INDEX.md) |
 | 02 · BMAD 角色族 | 6 | [查看](SKILLS-INDEX.md) |
-| 03 · 腾讯产品技能 | 10 | [查看](SKILLS-INDEX.md) |
-| 04 · 平台/工具技能族 | 25 | [查看](SKILLS-INDEX.md) |
+| 03 · 腾讯产品技能 | 11 | [查看](SKILLS-INDEX.md) |
+| 04 · 平台/工具技能族 | 26 | [查看](SKILLS-INDEX.md) |
 | 05 · 设计模板族 | 9 | [查看](SKILLS-INDEX.md) |
-| 06 · 独立技能 | 168 | [查看](SKILLS-INDEX.md) |
-| 09 · 数字 ID 技能（迁移产物） | 32 | [查看](SKILLS-INDEX.md) |
+| 06 · 独立技能 | 198 | [查看](SKILLS-INDEX.md) |
 
 ## 怎么用
 
