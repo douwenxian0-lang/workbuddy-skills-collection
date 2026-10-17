@@ -1,6 +1,8 @@
 ---
 title: "CodeConductor - 代码创建与AI开发"
-summary: "全面的代码创建和AI开发技能包，涵盖软件架构、全栈开发、AI系统设计、自动化集成"
+name: codeconductor
+description: |
+  全面的代码创建和AI开发技能包，涵盖软件架构、全栈开发、AI系统设计、自动化集成
 ---
 
 # CodeConductor

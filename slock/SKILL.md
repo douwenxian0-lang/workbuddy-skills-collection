@@ -1,3 +1,9 @@
+---
+name: slock
+description: |
+  Send messages, manage channels, and interact with your Slack workspace from OpenClaw/Clawd.
+---
+
 # slack 💬
 
 Send messages, manage channels, and interact with your Slack workspace from OpenClaw/Clawd.

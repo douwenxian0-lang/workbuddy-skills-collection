@@ -1,6 +1,8 @@
 ---
 title: "BMAD Product Manager - BMAD产品经理角色"
-summary: "BMAD方法论的Product Manager角色 - 产品需求规划、用户故事编写、优先级管理"
+name: bmad-product-manager
+description: |
+  BMAD方法论的Product Manager角色 - 产品需求规划、用户故事编写、优先级管理
 ---
 
 # BMAD Product Manager

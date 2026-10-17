@@ -1,3 +1,9 @@
+---
+name: tiktok-trend-radar
+description: |
+  This skill builds a **fully automated trend monitoring pipeline** that: 1. Scrapes TikTok and Instagram in real-time using **Apify** 2. Sends trend data into **Claude (via OpenClaw)** for AI analysis 3. Automatically generates **content ideas**, **video scripts**, and **hashtag explosion alerts** 4. Produces ready-to-publish **short videos** via **InVideo AI**
+---
+
 # Automated TikTok & Instagram Trend Radar Skill
 
 ## Overview

@@ -1,6 +1,8 @@
 ---
 title: "LLM Wiki - Obsidian 知识管理系统"
-summary: "基于 Andrej Karpathy 的 LLM Wiki 模式实现的 Obsidian 知识库，利用 LLM 维护可复利的知识层"
+name: llm-wiki-obsidian-blink
+description: |
+  基于 Andrej Karpathy 的 LLM Wiki 模式实现的 Obsidian 知识库，利用 LLM 维护可复利的知识层
 ---
 
 # LLM Wiki - Obsidian 知识管理系统
