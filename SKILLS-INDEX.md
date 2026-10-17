@@ -70,7 +70,7 @@
 | `bmad-scrum-master` | Sprint planning and agile workflow specialist… | 11 | 99.3 KB |
 | `bmad-ux-designer` | Designs user experiences, creates wireframes, defines user flows, ensures accessibility… | 11 | 168.4 KB |
 
-## 03 · 腾讯产品技能（10 个）
+## 03 · 腾讯产品技能（11 个）
 
 | 技能目录 | 描述 | 文件 | 大小 |
 |---|---|---:|---:|
@@ -80,12 +80,13 @@
 | `tencent-musician-skills` | 腾讯音乐人智能分析助手（数据分析 + 宣推）… | 19 | 204.5 KB |
 | `tencent-news` | 7×24 新闻资讯搜索工具，聚焦中国国内信息和国际热点… | 12 | 40.6 KB |
 | `tencent-survey` | 腾讯问卷（wj… | 9 | 96.8 KB |
+| `tencent-yuanbao-standard-search` | Search the web using TencentCloud Web Search API (WSA)… | 5 | 17.5 KB |
 | `tencentads` | 腾讯营销（原腾讯广告）统一入口… | 148 | 2949.3 KB |
 | `tencentmap-jsapi-gl-skill` | 腾讯地图 JavaScript GL（JSAPI GL）开发与地图页面生成技能… | 186 | 939.1 KB |
 | `tencentmap-miniprogram-skill` | 此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能… | 91 | 262.6 KB |
 | `tencentmap-webservice-skill` | tencentmap-webservice-skill… | 10 | 54.7 KB |
 
-## 04 · 平台/工具技能族（25 个）
+## 04 · 平台/工具技能族（26 个）
 
 | 技能目录 | 描述 | 文件 | 大小 |
 |---|---|---:|---:|
@@ -96,6 +97,7 @@
 | `design-text-outline` | 建筑师求真务实设计文本纲要… | 1 | 4.6 KB |
 | `github-dashboard` | GitHub repository analytics dashboard — stars, forks, contributors, issues, pull requests, recent activity, an… | 8 | 68 KB |
 | `github-direct-push` | 代理/网络受限环境下把大型本地仓库推送到 GitHub 的完整排查与推送流程… | 3 | 16.7 KB |
+| `github-trending-cn` | GitHub Trending Monitor… | 4 | 9.3 KB |
 | `image-poster` | Single-image generation skill for posters, key art, and editorial illustrations… | 3 | 7.1 KB |
 | `image-prompt-engineer` | 精通摄影美学和 AI 图像生成的提示词专家，擅长把视觉概念转化为精准的文字描述，生成专业级摄影作品… | 1 | 8.6 KB |
 | `image-prompt-gen` | 室内设计效果图/彩平图/概念图 AI 提示词生成器… | 1 | 5 KB |
@@ -129,11 +131,12 @@
 | `swiss-user-research-video-template` | Swiss-style user-research narrative template in warm-paper editorial aesthetics… | 5 | 23.5 KB |
 | `trading-analysis-dashboard-template` | Professional trading analysis dashboard template (single-file HTML) with light/dark theme switch, dense market… | 5 | 26.7 KB |
 
-## 06 · 独立技能（168 个）
+## 06 · 独立技能（198 个）
 
 | 技能目录 | 描述 | 文件 | 大小 |
 |---|---|---:|---:|
 | `adaptlypost` | Schedule and manage social media posts across Instagram, X (Twitter), Bluesky, TikTok, Threads, LinkedIn, Face… | 4 | 31.1 KB |
+| `admapix` | AdMapix raw data layer for ad creatives, apps, rankings, downloads/revenue, and market metadata… | 11 | 70.8 KB |
 | `advertising-creative-strategist` | 专注广告文案、RSA 优化、素材组设计和创意测试的付费媒体创意专家，横跨 Google、Meta、Microsoft 和程序化平台，用数据驱动说服力… | 1 | 5.4 KB |
 | `agency` | Build and operate a service agency with client management, project tracking, pricing, and team coordination… | 10 | 22.2 KB |
 | `agency-agents-zh` | AI 专家角色库框架 - 提供加载专家角色的能力… | 2 | 3.4 KB |
@@ -143,24 +146,35 @@
 | `andrej-karpathy` | Andrej Karpathy 的 AI 思想和方法论参考库… | 4 | 9.4 KB |
 | `another_them` | 另一个TA：输入人名/主题/模糊需求/网络链接/已有Skill，自动深度调研→框架提炼→生成完整 Agent 人设文件包，直接覆盖当前 Agent workspace 的人设文件… | 13 | 88.5 KB |
 | `api-gateway` | Connect to external services through Maton-managed API routes… | 226 | 852.8 KB |
+| `arxiv-reader` | 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记 | 41 | 68.2 KB |
+| `arxiv-watcher` | Search and summarize papers from ArXiv… | 4 | 2.2 KB |
 | `audio-jingle` | Audio generation skill — jingles, beds, voiceover, and sound effects… | 3 | 9.1 KB |
 | `auto-updater` | Automatically update Clawdbot and all installed skills once daily… | 5 | 9.8 KB |
 | `automation-workflows` | Design and implement automation workflows to save time and scale operations as a solopreneur… | 2 | 10.3 KB |
 | `backend-architect` | 资深后端架构师，专精可扩展系统设计、数据库架构、API 开发和云基础设施… | 1 | 7.8 KB |
 | `baidu-ai-map` | 百度地图 Agent Plan ，无需成为百度地图开发者，立即接入百度地图为 Agent 场景原生设计的地图能力，例如 AI 地点检索、AI 路线规划、地理编码与逆地理编码、天气查询、地图展示等开箱即用的工具… | 4 | 18.3 KB |
-| `bdpan-storage` | 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹… | 12 | 100.1 KB |
+| `baidu-drive` | 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹… | 13 | 130.4 KB |
+| `bdpan-storage` | - | 12 | 100.1 KB |
 | `bilibili-yt-dlp` | 使用 yt-dlp 和 ffmpeg 下载哔哩哔哩视频… | 2 | 3 KB |
 | `blog-post` | A long-form article / blog post — masthead, hero image placeholder, article body with figures and pull quotes,… | 3 | 9.5 KB |
+| `brand-guidelines` | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having … | 3 | 3 KB |
+| `cangjie-skill` | Distill a book into a coherent set of executable skills… | 20 | 49.7 KB |
 | `canva-connect` | Manage Canva designs, assets, and folders via the Connect API… | 4 | 26 KB |
+| `canvas-design` | Create beautiful visual art in … | 84 | 5416.2 KB |
 | `caveman` | Ultra-compressed communication mode… | 2 | 3.9 KB |
 | `chengxin` | 同程程心 Skill - 基于同程旅行大模型（程心）的在线旅游搜索能力… | 26 | 333.1 KB |
+| `citation-manager` | Add real references and standardize citations for research papers and theses… | 11 | 220.7 KB |
 | `clinical-case-report` | Structured medical case presentation for clinical rounds, conferences, and documentation… | 6 | 68.7 KB |
+| `cnb-skill` | Interact with CNB (Cloud Native Build) platform via OpenAPI… | 241 | 1785.9 KB |
 | `codeconductor` | 全面的代码创建和AI开发技能包，涵盖软件架构、全栈开发、AI系统设计、自动化集成 | 4 | 4.2 KB |
+| `colleague-skill` | Distill a colleague into an AI Skill… | 23 | 211.3 KB |
 | `critique` | Run a 5-dimension expert design review on any HTML artifact in the project — Philosophy / Visual hierarchy / D… | 3 | 35.9 KB |
 | `darcygb` | Claude Code Agents 集合 - 6个专业代理（Jenny验证器、合规检查器、代码质量专家、现实检查、任务完成验证器、UI测试器） | 10 | 47.3 KB |
+| `darwin-skill` | Darwin Skill (达尔文… | 21 | 199.2 KB |
 | `dashboard` | Admin / analytics dashboard in a single HTML file… | 3 | 9.3 KB |
 | `dating-web` | A consumer-feeling dating / matchmaking dashboard — left rail navigation, ticker bar of community signals, hea… | 3 | 16 KB |
 | `dcf-valuation` | Discounted cash flow valuation and intrinsic value analysis for public companies… | 3 | 6.2 KB |
+| `deep-research` | Structured deep research workflow with human-in-the-loop control… | 22 | 61.1 KB |
 | `design` | Auto-learns your visual preferences… | 4 | 4.7 KB |
 | `digital-eguide` | A two-spread digital e-guide preview — page 1 is a cover (display title, author, "What's inside" stats, table … | 3 | 15.1 KB |
 | `docs-page` | A documentation page — inline-start nav, scrollable article body, inline-end table of contents… | 3 | 9.8 KB |
@@ -179,6 +193,7 @@
 | `frontend-developer` | 精通现代 Web 技术、React/Vue/Angular 框架、UI 实现和性能优化的前端开发专家 | 1 | 7.4 KB |
 | `gamified-app` | A multi-frame gamified mobile-app prototype — three phone frames on a dark showcase stage… | 3 | 20.6 KB |
 | `github` | Interact with GitHub using the `gh` CLI… | 3 | 1.5 KB |
+| `goal-tracker` | Track long-term goals with milestones, daily logging, and accountability… | 4 | 2.8 KB |
 | `gog` | Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs… | 3 | 2.1 KB |
 | `gstack` | Fast headless browser for QA testing and site dogfooding… | 759 | 11737.1 KB |
 | `guizang-ppt` | 生成"电子杂志 × 电子墨水"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板… | 13 | 134.2 KB |
@@ -188,12 +203,13 @@
 | `humanizer` | Remove signs of AI-generated writing from text… | 4 | 20.6 KB |
 | `hyperframes` | Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, an… | 42 | 179.1 KB |
 | `ib-pitch-book` | Investment-banking pitch book for strategic alternatives — trading comps, precedent transactions, valuation fo… | 8 | 95.6 KB |
+| `idea-validator` | Validate startup ideas using Hexa's Opportunity Memo framework and Perceived Created Value (PCV) methodology… | 3 | 11.7 KB |
 | `ima` | 统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作… | 24 | 271.1 KB |
 | `imap-smtp-email` | 【内部执行层 Skill — 禁止直接调用】个人邮箱 IMAP/SMTP 执行通道… | 12 | 159.7 KB |
 | `interior-design` | 全屋+工装室内设计AI助手… | 7 | 57.5 KB |
 | `invoice` | A printable invoice page — sender + recipient block, line items table, tax breakdown, totals, and payment inst… | 3 | 12.1 KB |
-| `kami-deck` | Produce a print-grade slide deck in the kami (紙 / 纸) design system — warm parchment background (or ink-blue fo… | 4 | 42.5 KB |
-| `kami-landing` | Produce a print-grade single-page kami (紙 / 纸) document — warm parchment canvas, ink-blue accent, serif at one… | 4 | 31.9 KB |
+| `kami-deck` | Build me a 9-slide kami-style internal deck for "Hokuto Research" — a Q1 portfolio review… | 4 | 42.5 KB |
+| `kami-landing` | Build me a kami-style one-pager for "Lumen Field", an indie studio shipping a soundscape app for focus… | 4 | 31.9 KB |
 | `kanban-board` | Kanban / task board with columns (To do / In progress / In review / Done), draggable-looking cards, assignee a… | 3 | 17.8 KB |
 | `karpathy-guidelines` | Behavioral guidelines to reduce common LLM coding mistakes… | 1 | 2.5 KB |
 | `kdocs` | 操作金山文档（WPS 云文档 / Kdocs / 365… | 90 | 550.3 KB |
@@ -207,7 +223,11 @@
 | `llm-wiki-obsidian-blink` | 基于 Andrej Karpathy 的 LLM Wiki 模式实现的 Obsidian 知识库，利用 LLM 维护可复利的知识层 | 35 | 17895.5 KB |
 | `magazine-poster` | An editorial-style poster — newsprint paper, dateline, oversized serif headline with a struck-through word and… | 3 | 11.9 KB |
 | `market-pain-finder` | 市场调研：痛点自动挖掘分析… | 4 | 7.6 KB |
+| `market-researcher` | Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market op… | 2 | 23.9 KB |
+| `marketing-skills` | TL… | 25 | 336.8 KB |
+| `markitdown-skill` | Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`)… | 6 | 20.6 KB |
 | `mcd-mcp` | 麦当劳 MCP Server — 优惠券自动领取、积分商城兑换、门店查询、菜单查询、营养数据、下单购买、活动日历的一站式 AI 助手 | 4 | 11.2 KB |
+| `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with externa… | 11 | 111.4 KB |
 | `mcporter` | Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including … | 1 | 1.6 KB |
 | `media-extractor` | 翠鸟 · 全平台素材提取器（历史 GUI 工具集）… | 29 | 251.1 KB |
 | `meeting-notes` | Meeting notes page — title bar with attendees, agenda checklist, decisions block, action items table with owne… | 3 | 13.1 KB |
@@ -216,24 +236,28 @@
 | `memory` | Infinite organized memory that complements your agent's built-in memory with unlimited categorized storage… | 6 | 23.5 KB |
 | `mobile-app` | A mobile-app screen rendered inside a pixel-accurate iPhone 15 Pro frame on the page… | 6 | 42.7 KB |
 | `mobile-onboarding` | A multi-screen mobile onboarding flow rendered as three phone frames side by side — splash, value-prop, sign-i… | 3 | 10.4 KB |
+| `model-usage` | Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (mos… | 6 | 13.9 KB |
 | `motion-frames` | A single-frame motion-design composition with looping CSS animations — rotating type ring, animated globe, tic… | 3 | 11.9 KB |
 | `motionsites-prompt` | Generate structured prompts for AI web design tools (Bolt, Lovable, Claude Code, Cursor) following the MotionS… | 1 | 3.9 KB |
 | `mtunion-product-ai-guide` | 美团优惠下单助手… | 17 | 267.2 KB |
-| `multi-search-engine` | Multi search engine integration with 16 engines (7 CN + 9 Global)… | 3 | 13.1 KB |
+| `multi-search-engine` | \\|- | 3 | 13.1 KB |
 | `multica` | Managed agents platform for turning coding agents into teammates… | 1544 | 21435.6 KB |
 | `my-first-skill` | 通过删除多余空格、修正大小写和纠正标点符号来格式化和清理文本内容 | 3 | 1 KB |
 | `nano-banana-pro` | Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image)… | 4 | 11.5 KB |
 | `nano-pdf` | Edit PDFs with natural-language instructions using the nano-pdf CLI… | 3 | 1.1 KB |
+| `news-summary` | This skill should be used when the user asks for news updates, daily briefings, or what's happening in the wor… | 3 | 2.6 KB |
 | `nidhov01-github` | Interact with GitHub using the `gh` CLI… | 2 | 1.2 KB |
+| `notebooklm-studio` | Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, r… | 3 | 4 KB |
 | `notion` | Notion API for creating and managing pages, databases, and blocks… | 3 | 5.3 KB |
 | `nuwa-skill` | 女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill… | 12 | 178.6 KB |
 | `nvwa-skill` | 女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill… | 107 | 1927.2 KB |
 | `obsidian` | Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli… | 3 | 2.7 KB |
 | `omo` | Distinctive anti-slop UI and UX umbrella skill for web and mobile work… | 132 | 352.4 KB |
 | `ontology` | Typed knowledge graph for structured agent memory and composable skills… | 6 | 39.9 KB |
-| `open-design-landing` | Produce a world-class single-page editorial landing site in the Atelier Zero visual language (Monocle / Aparta… | 28 | 22559.6 KB |
-| `open-design-landing-deck` | Produce a single-file slide deck in the Atelier Zero visual language (warm-paper background, italic-serif emph… | 7 | 138.1 KB |
+| `open-design-landing` | Build me an editorial landing page for "Lumen Field", an indie studio shipping a soundscape app for focus… | 28 | 22559.6 KB |
+| `open-design-landing-deck` | Build me an 11-slide pitch deck for "Lumen Field", a focus-soundscape studio… | 7 | 138.1 KB |
 | `openai-whisper` | Local speech-to-text with the Whisper CLI (no API key)… | 5 | 2.6 KB |
+| `openclaw-assets-to-workbuddy` | 将 OpenClaw 用户的个人资产迁移到 WorkBuddy 对应位置，重点覆盖 SOUL… | 3 | 21.9 KB |
 | `pdf` | Use this skill whenever the user wants to do anything with PDF files… | 13 | 78.2 KB |
 | `persona-switch` | 切换或恢复 agent 人设（soul… | 6 | 12.8 KB |
 | `personal-mail-skill` | 个人邮箱二级路由层… | 3 | 18 KB |
@@ -263,6 +287,8 @@
 | `skill-dispatcher` | Skill 调度器… | 4 | 237.5 KB |
 | `skill-install-and-publish` | 技能安装与发布完整工作流… | 1 | 5.4 KB |
 | `skill-vetter` | Security-first skill vetting for AI agents… | 3 | 4.8 KB |
+| `skills-security-check` | 腾讯云鼎实验室出品，Skill安全审查工具… | 4 | 27.4 KB |
+| `skyline` | WeChat Mini Program Skyline rendering engine… | 62 | 305 KB |
 | `slock` | Send messages, manage channels, and interact with your Slack workspace from OpenClaw/Clawd… | 5 | 22.7 KB |
 | `sprite-animation` | A pixel / sprite-style animated explainer slide — full-bleed cream stage, bold display year, animated pixel-ar… | 3 | 17.5 KB |
 | `summarize` | Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)… | 3 | 1.8 KB |
@@ -273,18 +299,22 @@
 | `supplier-evaluation-expert` | 专注供应商全生命周期管理的采购策略专家，擅长供应商筛选与评分、验厂审核、质量管理体系搭建、账期与成本谈判，帮助企业在1688等采购平台上建立稳定可靠的供应商体系… | 1 | 10.2 KB |
 | `tavily-search` | Search the web with LLM-optimized results via the Tavily CLI… | 2 | 3.6 KB |
 | `tavily-skills` | Tavily驱动的Web搜索、内容提取、站点爬取、URL发现和深度研究技能集合 | 39 | 198.2 KB |
+| `tdesign-miniprogram` | TDesign WeChat Mini Program UI component library by Tencent… | 79 | 739.2 KB |
 | `team-okrs` | OKR tracker page — quarter banner, three objectives with their key results as progress bars, owner avatars, st… | 3 | 13.2 KB |
 | `tiktok-growth` | TikTok content strategy and video script generator for any niche… | 2 | 6.1 KB |
 | `tiktok-trend-radar` | This skill builds a **fully automated trend monitoring pipeline** that: 1… | 2 | 17.2 KB |
 | `tongdaxin-mcp` | 通达信连接器，查询全球股票行情数据、研究报告、公告资讯和宏观信息… | 3 | 19.4 KB |
 | `trace2skill` | Trace2Skill - 从真实轨迹中演化 Agent 技能… | 1 | 5.7 KB |
+| `tutor-skills` | Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concep… | 3 | 3.7 KB |
 | `tweaks` | Wrap any HTML artifact with a side panel of live, parameterized controls — accent color, type scale, density, … | 4 | 47.1 KB |
 | `visionos-spatial-engineer` | 原生 visionOS 空间计算、SwiftUI 体积式界面和 Liquid Glass 设计实现 | 1 | 9.2 KB |
 | `waitlist-page` | Minimal pre-launch landing with email capture, brand logo, and optional decorative layer… | 5 | 41.7 KB |
 | `wanman` | Agent matrix framework for running supervised networks of Claude Code/Codex agents… | 212 | 1477.1 KB |
 | `weather` | Get current weather and forecasts (no API key required)… | 2 | 1.3 KB |
 | `web-prototype` | General-purpose desktop web prototype… | 6 | 38.3 KB |
+| `wechat-article-search` | 搜索微信公众号文章技能… | 3 | 31.2 KB |
 | `wechat-download` | 微信公众号推文图片一键下载器（wxdl）… | 2 | 14.7 KB |
+| `wechat-miniprogram` | WeChat Mini Program (微信小程序) development framework… | 13 | 278.7 KB |
 | `wechat-miniprogram-dev` | 专注微信小程序全栈开发的工程专家，精通 WXML/WXSS/WXS、微信原生API、微信支付集成、订阅消息、云开发，擅长在微信生态内构建高性能、体验流畅的小程序应用… | 1 | 8.4 KB |
 | `wecom-weisheng-scrm` | 当用户需要查询或管理微盛企微管家（企业微信） SCRM 中的客户信息、客户标签、客户群、营销素材、活码、群发、跟进记录、聊天记录、联系人、商机、汇报、抽奖、客户日程等相关业务能力时触发… | 17 | 93 KB |
 | `wecomcli-setup` | 企业微信 CLI 安装引导与自然语言翻译技能… | 1 | 19.9 KB |
@@ -295,47 +325,12 @@
 | `wendao-partner-qclaw-skill` | 当用户发起任意旅行相关问询时，包含但不限于：预订酒店、机票查询、火车票查询、景点推荐、寻找当地特色玩乐、目的地查询、行程规划、美食住宿攻略、签证、查询旅游攻略、获取旅行建议等场景，自动触发此技能… | 5 | 15.5 KB |
 | `weread-skills` | 微信读书智能助手，支持搜索书籍、管理书架、查看笔记划线、浏览书评、阅读统计、发现推荐好书… | 13 | 65.8 KB |
 | `wireframe-sketch` | A hand-drawn wireframe exploration — graph-paper background, marker / pencil tone, multiple tab labels for var… | 3 | 19.2 KB |
+| `x-longform-post` | Write long-form X (Twitter) posts and threads in a founder/CEO voice… | 6 | 13.8 KB |
 | `x-research` | X/Twitter public sentiment research for recent market, company, product, or community discourse… | 2 | 3.9 KB |
 | `xbrowser` | EXCLUSIVE browser automation — REPLACES built-in Browser Automation and playwright-cli… | 97 | 551.9 KB |
 | `xlsx` | Use this skill any time a spreadsheet file is the primary input or output… | 54 | 1070.6 KB |
 | `youdaonote` | 有道云笔记全能工具：笔记管理（创建、搜索、浏览、读取）、待办管理（创建、完成、分组）、网页剪藏（服务端抓取）… | 4 | 19 KB |
+| `yourself-skill` | Distill yourself into an AI Skill… | 21 | 82.7 KB |
 | `youtube-transcript` | Use when the spoken content of a YouTube video is needed — even if not explicitly requested: pasted video link… | 58 | 361.1 KB |
 | `yuandian` | 元典智库 — 企业尽调与法律合规一体化 Skill… | 4 | 16.3 KB |
-
-## 09 · 数字 ID 技能（迁移产物）（32 个）
-
-| 技能目录 | 描述 | 文件 | 大小 |
-|---|---|---:|---:|
-| `skill_2053078982015520769` | AdMapix raw data layer for ad creatives, apps, rankings, downloads/revenue, and market metadata… | 11 | 70.8 KB |
-| `skill_2053081352472563712` | 利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记 | 41 | 68.2 KB |
-| `skill_2053081360459321344` | Search and summarize papers from ArXiv… | 4 | 2.2 KB |
-| `skill_2053081382993469440` | 百度网盘(Baidu Drive)文件管理 — 上传、下载、转存、分享、搜索、移动、复制、重命名、创建文件夹… | 13 | 130.4 KB |
-| `skill_2053081407153020928` | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having … | 3 | 3 KB |
-| `skill_2053081431465295872` | Distill a book into a coherent set of executable skills… | 20 | 49.7 KB |
-| `skill_2053081456646492160` | Add real references and standardize citations for research papers and theses… | 11 | 220.7 KB |
-| `skill_2053081490252660736` | Distill a colleague into an AI Skill… | 23 | 211.3 KB |
-| `skill_2053081519859650560` | Darwin Skill (达尔文… | 21 | 199.2 KB |
-| `skill_2053081551970693120` | Interact with CNB (Cloud Native Build) platform via OpenAPI… | 241 | 1785.9 KB |
-| `skill_2053081626394972160` | Create beautiful visual art in … | 84 | 5416.2 KB |
-| `skill_2053082035554123776` | GitHub Trending Monitor… | 4 | 9.3 KB |
-| `skill_2053082035566706688` | Structured deep research workflow with human-in-the-loop control… | 22 | 61.1 KB |
-| `skill_2053082046839844864` | Track long-term goals with milestones, daily logging, and accountability… | 4 | 2.8 KB |
-| `skill_2053082102874447872` | Validate startup ideas using Hexa's Opportunity Memo framework and Perceived Created Value (PCV) methodology… | 3 | 11.7 KB |
-| `skill_2053082339107885056` | Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market op… | 2 | 23.9 KB |
-| `skill_2053082438073974784` | This skill should be used when the user asks for news updates, daily briefings, or what's happening in the wor… | 3 | 2.6 KB |
-| `skill_2053082530668290048` | 将 OpenClaw 用户的个人资产迁移到 WorkBuddy 对应位置，重点覆盖 SOUL… | 3 | 21.9 KB |
-| `skill_2053082590929702912` | Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (mos… | 6 | 13.9 KB |
-| `skill_2053082707118465024` | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with externa… | 11 | 111.4 KB |
-| `skill_2053082711420960768` | 腾讯云鼎实验室出品，Skill安全审查工具… | 4 | 27.4 KB |
-| `skill_2053083103859970048` | Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, r… | 3 | 4 KB |
-| `skill_2053083513698443264` | TDesign WeChat Mini Program UI component library by Tencent… | 79 | 739.2 KB |
-| `skill_2053083553754644480` | Convert documents to Markdown using Microsoft's MarkItDown CLI (`markitdown`)… | 6 | 20.6 KB |
-| `skill_2053083605843107840` | Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concep… | 3 | 3.7 KB |
-| `skill_2053083649073352704` | WeChat Mini Program (微信小程序) development framework… | 13 | 278.7 KB |
-| `skill_2053083654722506752` | Write long-form X (Twitter) posts and threads in a founder/CEO voice… | 6 | 13.8 KB |
-| `skill_2053083681353162752` | Distill yourself into an AI Skill… | 21 | 82.7 KB |
-| `skill_2053083784548929536` | 搜索微信公众号文章技能… | 3 | 31.2 KB |
-| `skill_2053083877422833664` | WeChat Mini Program Skyline rendering engine… | 62 | 305 KB |
-| `skill_2053084540171059200` | TL… | 25 | 336.8 KB |
-| `skill_2053085047000309760` | Search the web using TencentCloud Web Search API (WSA)… | 5 | 17.5 KB |
 
