@@ -6,15 +6,15 @@
 
 | 指标 | 数值 |
 |---|---|
-| 技能数 | **301** |
+| 技能数 | **251** |
 | 文件数 / 体积 | 6799 / 约 126.5 MB |
-| 缺少可解析 description | 0 |
+| 缺少可解析 description | 32 |
 
 ## 分类概览
 
 | 分类 | 数量 | 索引 |
 |---|---:|---|
-| 01 · HTML PPT 模板族 | 51 | [查看](SKILLS-INDEX.md) |
+| 01 · HTML PPT 模板族 | 1 | [查看](SKILLS-INDEX.md) |
 | 02 · BMAD 角色族 | 6 | [查看](SKILLS-INDEX.md) |
 | 03 · 腾讯产品技能 | 11 | [查看](SKILLS-INDEX.md) |
 | 04 · 平台/工具技能族 | 26 | [查看](SKILLS-INDEX.md) |
