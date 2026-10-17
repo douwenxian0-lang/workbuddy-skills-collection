@@ -1,6 +1,6 @@
 # 技能索引（自动生成）
 
-> 由 scripts/gen-skills-index.ps1 从各 SKILL.md 的 frontmatter 生成，共 **251 个技能**、6799 个文件、约 126.5 MB。
+> 由 scripts/gen-skills-index.ps1 从各 SKILL.md 的 frontmatter 生成，共 **250 个技能**、6798 个文件、约 126.5 MB。
 > 描述取自 `description` 首句；缺失时回退 `summary` / `title` / 正文首段。
 
 ## 01 · HTML PPT 模板族（1 个）
@@ -81,7 +81,7 @@
 | `swiss-user-research-video-template` | Swiss-style user-research narrative template in warm-paper editorial aesthetics… | 5 | 23.5 KB |
 | `trading-analysis-dashboard-template` | Professional trading analysis dashboard template (single-file HTML) with light/dark theme switch, dense market… | 5 | 26.7 KB |
 
-## 06 · 独立技能（198 个）
+## 06 · 独立技能（197 个）
 
 | 技能目录 | 描述 | 文件 | 大小 |
 |---|---|---:|---:|
@@ -241,8 +241,7 @@
 | `skyline` | WeChat Mini Program Skyline rendering engine… | 62 | 305 KB |
 | `slock` | Send messages, manage channels, and interact with your Slack workspace from OpenClaw/Clawd… | 5 | 22.7 KB |
 | `sprite-animation` | A pixel / sprite-style animated explainer slide — full-bleed cream stage, bold display year, animated pixel-ar… | 3 | 17.5 KB |
-| `summarize` | Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)… | 3 | 1.8 KB |
-| `summarize-1-0-0` | Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)… | 2 | 1.5 KB |
+| `summarize` | Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)… | 4 | 1.9 KB |
 | `super-human` | 全能超人 v2… | 11 | 67.3 KB |
 | `superpowers` | Spec-first, TDD, subagent-driven software development workflow… | 8 | 18.7 KB |
 | `superpowers-cn` | 中文AI工作流框架 - 先理解需求再执行，让AI做事更有逻辑 | 8 | 13.4 KB |
