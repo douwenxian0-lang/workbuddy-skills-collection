@@ -1,6 +1,8 @@
 ---
 title: "Tavily Skills - Web搜索与内容提取技能集"
-summary: "Tavily驱动的Web搜索、内容提取、站点爬取、URL发现和深度研究技能集合"
+name: tavily-skills
+description: |
+  Tavily驱动的Web搜索、内容提取、站点爬取、URL发现和深度研究技能集合
 ---
 
 # Tavily Skills
