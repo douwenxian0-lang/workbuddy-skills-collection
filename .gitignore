@@ -17,6 +17,3 @@ Thumbs.db
 
 # 生成的基准夹具（27 MB，可用 GSTACK_BENCH_ENSEMBLE=1 bun test browse/test/security-bench-ensemble-live.test.ts 重新生成）
 gstack/browse/test/fixtures/security-bench-haiku-responses.json
-
-# 生成的基准夹具（27 MB；可用 GSTACK_BENCH_ENSEMBLE=1 bun test browse/test/security-bench-ensemble-live.test.ts 重新生成）
-gstack/browse/test/fixtures/security-bench-haiku-responses.json
