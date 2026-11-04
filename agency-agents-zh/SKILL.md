@@ -1,6 +1,6 @@
 ---
 name: agency-agents-zh
-description: "AI 专家角色库框架 - 提供加载专家角色的能力。实际角色文件需单独安装。"
+description: "AI 专家角色库框架 - 提供328个中文专家角色的按需加载能力（营销/工程/设计/法务/供应链等22个部门）。实际角色文件需单独安装。"
 user-invocable: true
 ---
 
@@ -8,13 +8,25 @@ user-invocable: true
 
 ## 概述
 
-这是 agency-agents-zh 项目的 OpenClaw 集成技能框架。可用于加载专业 AI 专家角色。
+328 个中文 AI 专家角色（22 个部门，营销 44 个、工程 75 个等），MIT，21.8k⭐。
+**本机采用按需拉取模式**：不占技能位，用到哪个拉哪个。
 
 **注意**: 实际角色文件需要单独安装。安装后，角色定义将存储在相应的子目录中。
 
-## 安装位置
+## 本机用法（Windows，2026-11-05 更新）
 
-项目已克隆到：`/root/.openclaw/agency-agents-zh/`
+1. 完整名单：本技能目录下的 `AGENT-LIST.md`（68KB，搜部门/角色名，如「小红书」「品牌」「供应链」）
+2. 按需拉取单个角色：
+   ```bash
+   PY="C:/Users/Administrator/.workbuddy/binaries/python/versions/3.13.12/python.exe"
+   "$PY" "<本技能目录>/scripts/fetch_agent.py" "<部门>/<角色>.md"
+   ```
+   拉下来的文件存到本技能 `agents/` 子目录，读取后以其人设执行任务
+3. 直连失败自动走 gh api 兜底
+
+## 与现有体系的分工
+
+本机已有 300+ 技能和 WorkBuddy 专家中心覆盖大部分场景；本库是**补充池**——现有技能没命中、或用户点名要「某个岗位专家」时才来查名单并拉取。单角色是提示词文档（人设+工作流+交付物标准），不注册为独立技能。
 
 ## 主要目录结构
 
@@ -92,11 +104,12 @@ agency-agents-zh/
 ## 快速开始
 
 ```bash
-# 查看所有可用的专家角色
-cat /root/.openclaw/agency-agents-zh/AGENT-LIST.md
+# 查看所有可用的专家角色（本机副本，68KB）
+cat ~/.workbuddy/skills/agency-agents-zh/AGENT-LIST.md
 
-# 查看特定角色定义
-cat /root/.openclaw/agency-agents-zh/engineering/engineering-security-engineer.md
+# 按需拉取某个角色（例：小红书运营专家）
+PY="C:/Users/Administrator/.workbuddy/binaries/python/versions/3.13.12/python.exe"
+"$PY" ~/.workbuddy/skills/agency-agents-zh/scripts/fetch_agent.py "marketing/小红书运营专家.md"
 ```
 
-现在你可以说："作为安全工程师，请审查这段代码" 或 "我需要后端架构师帮助设计系统"。
+现在你可以说："作为安全工程师，请审查这段代码" 或 "我需要后端架构师帮助设计系统"——我会先查 AGENT-LIST.md 找到对应角色，拉取后按其人设执行。
